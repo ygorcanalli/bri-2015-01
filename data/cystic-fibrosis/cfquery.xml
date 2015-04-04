@@ -1,0 +1,5689 @@
+<?xml version="1.0"?>
+<!DOCTYPE FILEQUERY SYSTEM "cfcquery-2.dtd">
+<FILEQUERY>
+	<QUERY>
+		<QueryNumber>00001</QueryNumber>
+		<QueryText>What are the effects of calcium on the physical properties of mucus
+   from CF patients? 
+</QueryText>
+		<Results>00034</Results>
+		<Records>
+			<Item score="1222">139</Item>
+			<Item score="2211">151</Item>
+			<Item score="0001">166</Item>
+			<Item score="0001">311</Item>
+			<Item score="1010">370</Item>
+			<Item score="0001">392</Item>
+			<Item score="0001">439</Item>
+			<Item score="0011">440</Item>
+			<Item score="2122">441</Item>
+			<Item score="0100">454</Item>
+			<Item score="1121">461</Item>
+			<Item score="0002">502</Item>
+			<Item score="1000">503</Item>
+			<Item score="0001">505</Item>
+			<Item score="1010">520</Item>
+			<Item score="0001">522</Item>
+			<Item score="1011">526</Item>
+			<Item score="1001">527</Item>
+			<Item score="2222">533</Item>
+			<Item score="1000">593</Item>
+			<Item score="0001">619</Item>
+			<Item score="0100">737</Item>
+			<Item score="0100">742</Item>
+			<Item score="0001">789</Item>
+			<Item score="0010">827</Item>
+			<Item score="0001">835</Item>
+			<Item score="0001">861</Item>
+			<Item score="1121">875</Item>
+			<Item score="0001">891</Item>
+			<Item score="1010">921</Item>
+			<Item score="1010">922</Item>
+			<Item score="0100">1175</Item>
+			<Item score="0001">1185</Item>
+			<Item score="0001">1222</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00002</QueryNumber>
+		<QueryText>Can one distinguish between the effects of mucus hypersecretion and
+   infection on the submucosal glands of the respiratory tract in CF?
+</QueryText>
+		<Results>00007</Results>
+		<Records>
+			<Item score="1000">169</Item>
+			<Item score="1001">434</Item>
+			<Item score="0100">454</Item>
+			<Item score="1000">498</Item>
+			<Item score="1000">499</Item>
+			<Item score="0002">592</Item>
+			<Item score="1011">875</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00003</QueryNumber>
+		<QueryText>How are salivary glycoproteins from CF patients different from those of
+   normal subjects?
+</QueryText>
+		<Results>00043</Results>
+		<Records>
+			<Item score="1000">23</Item>
+			<Item score="0010">40</Item>
+			<Item score="2122">139</Item>
+			<Item score="0001">190</Item>
+			<Item score="0001">221</Item>
+			<Item score="0001">246</Item>
+			<Item score="1000">309</Item>
+			<Item score="0011">311</Item>
+			<Item score="0001">325</Item>
+			<Item score="0010">345</Item>
+			<Item score="0010">347</Item>
+			<Item score="0010">356</Item>
+			<Item score="1001">370</Item>
+			<Item score="0001">374</Item>
+			<Item score="2221">375</Item>
+			<Item score="0001">439</Item>
+			<Item score="1120">440</Item>
+			<Item score="1220">454</Item>
+			<Item score="1000">515</Item>
+			<Item score="0010">520</Item>
+			<Item score="0010">524</Item>
+			<Item score="1010">526</Item>
+			<Item score="1220">527</Item>
+			<Item score="0001">533</Item>
+			<Item score="0010">535</Item>
+			<Item score="0010">560</Item>
+			<Item score="0001">561</Item>
+			<Item score="0010">571</Item>
+			<Item score="0010">584</Item>
+			<Item score="0002">604</Item>
+			<Item score="0010">623</Item>
+			<Item score="2222">633</Item>
+			<Item score="1000">733</Item>
+			<Item score="1010">742</Item>
+			<Item score="0100">854</Item>
+			<Item score="2112">856</Item>
+			<Item score="0010">950</Item>
+			<Item score="0001">967</Item>
+			<Item score="1111">1144</Item>
+			<Item score="0001">1161</Item>
+			<Item score="1000">1172</Item>
+			<Item score="0001">1175</Item>
+			<Item score="0002">1196</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00004</QueryNumber>
+		<QueryText>What is the lipid composition of CF respiratory secretions?
+</QueryText>
+		<Results>00009</Results>
+		<Records>
+			<Item score="0001">503</Item>
+			<Item score="0100">538</Item>
+			<Item score="0100">539</Item>
+			<Item score="0100">540</Item>
+			<Item score="0001">553</Item>
+			<Item score="2222">604</Item>
+			<Item score="1010">669</Item>
+			<Item score="2122">711</Item>
+			<Item score="2222">876</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00005</QueryNumber>
+		<QueryText>Is CF mucus abnormal?
+</QueryText>
+		<Results>00131</Results>
+		<Records>
+			<Item score="2220">23</Item>
+			<Item score="2221">47</Item>
+			<Item score="0001">50</Item>
+			<Item score="0001">60</Item>
+			<Item score="0011">114</Item>
+			<Item score="0001">132</Item>
+			<Item score="0001">135</Item>
+			<Item score="0010">139</Item>
+			<Item score="2222">151</Item>
+			<Item score="0001">169</Item>
+			<Item score="0001">189</Item>
+			<Item score="0001">190</Item>
+			<Item score="0001">197</Item>
+			<Item score="0001">200</Item>
+			<Item score="0001">226</Item>
+			<Item score="2211">256</Item>
+			<Item score="0010">265</Item>
+			<Item score="0001">297</Item>
+			<Item score="0001">298</Item>
+			<Item score="0001">299</Item>
+			<Item score="0001">311</Item>
+			<Item score="0001">312</Item>
+			<Item score="1011">325</Item>
+			<Item score="0001">333</Item>
+			<Item score="0002">343</Item>
+			<Item score="0012">347</Item>
+			<Item score="0001">349</Item>
+			<Item score="0001">369</Item>
+			<Item score="1211">370</Item>
+			<Item score="0001">371</Item>
+			<Item score="2222">374</Item>
+			<Item score="1001">386</Item>
+			<Item score="0001">392</Item>
+			<Item score="0001">410</Item>
+			<Item score="0001">420</Item>
+			<Item score="0001">427</Item>
+			<Item score="0001">428</Item>
+			<Item score="1001">430</Item>
+			<Item score="0001">434</Item>
+			<Item score="0001">437</Item>
+			<Item score="2222">439</Item>
+			<Item score="0010">440</Item>
+			<Item score="0001">441</Item>
+			<Item score="0001">450</Item>
+			<Item score="2120">461</Item>
+			<Item score="1002">465</Item>
+			<Item score="0001">478</Item>
+			<Item score="2120">496</Item>
+			<Item score="2121">497</Item>
+			<Item score="1122">498</Item>
+			<Item score="2122">499</Item>
+			<Item score="1012">500</Item>
+			<Item score="0100">501</Item>
+			<Item score="0100">502</Item>
+			<Item score="2221">503</Item>
+			<Item score="0001">505</Item>
+			<Item score="1101">511</Item>
+			<Item score="0010">513</Item>
+			<Item score="1010">516</Item>
+			<Item score="1000">520</Item>
+			<Item score="1010">524</Item>
+			<Item score="0001">531</Item>
+			<Item score="2211">533</Item>
+			<Item score="0001">549</Item>
+			<Item score="1001">553</Item>
+			<Item score="0001">559</Item>
+			<Item score="0010">561</Item>
+			<Item score="0001">568</Item>
+			<Item score="0001">590</Item>
+			<Item score="1001">592</Item>
+			<Item score="2222">593</Item>
+			<Item score="0002">604</Item>
+			<Item score="0100">605</Item>
+			<Item score="2122">633</Item>
+			<Item score="0010">669</Item>
+			<Item score="0001">701</Item>
+			<Item score="1000">702</Item>
+			<Item score="2212">710</Item>
+			<Item score="0002">711</Item>
+			<Item score="0001">722</Item>
+			<Item score="0002">724</Item>
+			<Item score="0001">729</Item>
+			<Item score="0002">731</Item>
+			<Item score="0002">733</Item>
+			<Item score="0100">750</Item>
+			<Item score="0001">761</Item>
+			<Item score="0001">763</Item>
+			<Item score="0100">772</Item>
+			<Item score="0001">779</Item>
+			<Item score="0001">788</Item>
+			<Item score="2211">805</Item>
+			<Item score="0002">843</Item>
+			<Item score="0001">845</Item>
+			<Item score="2121">856</Item>
+			<Item score="1000">857</Item>
+			<Item score="1212">861</Item>
+			<Item score="0001">864</Item>
+			<Item score="0101">867</Item>
+			<Item score="2222">875</Item>
+			<Item score="0002">876</Item>
+			<Item score="0002">888</Item>
+			<Item score="0002">889</Item>
+			<Item score="2210">895</Item>
+			<Item score="0001">925</Item>
+			<Item score="0001">935</Item>
+			<Item score="0001">943</Item>
+			<Item score="0001">944</Item>
+			<Item score="2112">975</Item>
+			<Item score="2120">980</Item>
+			<Item score="0002">982</Item>
+			<Item score="0002">990</Item>
+			<Item score="0002">1000</Item>
+			<Item score="0001">1019</Item>
+			<Item score="0001">1038</Item>
+			<Item score="0001">1040</Item>
+			<Item score="2220">1064</Item>
+			<Item score="0001">1076</Item>
+			<Item score="0001">1080</Item>
+			<Item score="0001">1088</Item>
+			<Item score="0001">1091</Item>
+			<Item score="0002">1092</Item>
+			<Item score="0002">1093</Item>
+			<Item score="0001">1098</Item>
+			<Item score="2111">1144</Item>
+			<Item score="0001">1156</Item>
+			<Item score="1120">1175</Item>
+			<Item score="0001">1185</Item>
+			<Item score="0001">1188</Item>
+			<Item score="1000">1196</Item>
+			<Item score="0001">1223</Item>
+			<Item score="0001">1226</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00006</QueryNumber>
+		<QueryText>What is the effect of water or other therapeutic agents on the physical
+   properties (viscosity, elasticity) of sputum or bronchial secretions
+   from CF patients?
+</QueryText>
+		<Results>00024</Results>
+		<Records>
+			<Item score="0010">25</Item>
+			<Item score="2222">31</Item>
+			<Item score="1000">90</Item>
+			<Item score="0100">195</Item>
+			<Item score="0001">326</Item>
+			<Item score="0110">370</Item>
+			<Item score="0001">438</Item>
+			<Item score="0010">440</Item>
+			<Item score="1000">441</Item>
+			<Item score="1220">503</Item>
+			<Item score="0010">511</Item>
+			<Item score="0001">586</Item>
+			<Item score="1010">592</Item>
+			<Item score="1000">593</Item>
+			<Item score="0001">722</Item>
+			<Item score="0001">731</Item>
+			<Item score="0002">734</Item>
+			<Item score="1000">805</Item>
+			<Item score="1120">875</Item>
+			<Item score="0010">922</Item>
+			<Item score="1000">963</Item>
+			<Item score="1010">975</Item>
+			<Item score="0001">1092</Item>
+			<Item score="0002">1093</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00007</QueryNumber>
+		<QueryText>Are mucus glycoproteins degraded differently in CF patients as compared
+   to those from normal subjects?
+</QueryText>
+		<Results>00028</Results>
+		<Records>
+			<Item score="0100">45</Item>
+			<Item score="0001">53</Item>
+			<Item score="0002">166</Item>
+			<Item score="0001">171</Item>
+			<Item score="0101">256</Item>
+			<Item score="0001">370</Item>
+			<Item score="2122">371</Item>
+			<Item score="0001">386</Item>
+			<Item score="0100">410</Item>
+			<Item score="0101">439</Item>
+			<Item score="0001">535</Item>
+			<Item score="2121">623</Item>
+			<Item score="0100">633</Item>
+			<Item score="0100">634</Item>
+			<Item score="0010">640</Item>
+			<Item score="0010">669</Item>
+			<Item score="0100">831</Item>
+			<Item score="0100">853</Item>
+			<Item score="2111">856</Item>
+			<Item score="0100">857</Item>
+			<Item score="0010">921</Item>
+			<Item score="0100">1027</Item>
+			<Item score="1100">1054</Item>
+			<Item score="0100">1056</Item>
+			<Item score="0100">1057</Item>
+			<Item score="0100">1059</Item>
+			<Item score="1120">1064</Item>
+			<Item score="0001">1161</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00008</QueryNumber>
+		<QueryText>What histochemical differences have been described between normal and
+   CF respiratory epithelia?
+</QueryText>
+		<Results>00022</Results>
+		<Records>
+			<Item score="2112">23</Item>
+			<Item score="1000">169</Item>
+			<Item score="0100">322</Item>
+			<Item score="1000">370</Item>
+			<Item score="1000">386</Item>
+			<Item score="0001">435</Item>
+			<Item score="1100">439</Item>
+			<Item score="0001">463</Item>
+			<Item score="1000">496</Item>
+			<Item score="0001">497</Item>
+			<Item score="1000">498</Item>
+			<Item score="1122">499</Item>
+			<Item score="0001">503</Item>
+			<Item score="0001">605</Item>
+			<Item score="2220">683</Item>
+			<Item score="1000">710</Item>
+			<Item score="0010">750</Item>
+			<Item score="1000">771</Item>
+			<Item score="1000">867</Item>
+			<Item score="0001">875</Item>
+			<Item score="0001">944</Item>
+			<Item score="2220">1125</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00009</QueryNumber>
+		<QueryText>What is the association between liver disease (cirrhosis) and vitamin A
+   metabolism in CF?
+</QueryText>
+		<Results>00010</Results>
+		<Records>
+			<Item score="1122">165</Item>
+			<Item score="0001">174</Item>
+			<Item score="0001">362</Item>
+			<Item score="0001">370</Item>
+			<Item score="2222">414</Item>
+			<Item score="0100">443</Item>
+			<Item score="2110">794</Item>
+			<Item score="1010">992</Item>
+			<Item score="0001">1040</Item>
+			<Item score="0102">1115</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00010</QueryNumber>
+		<QueryText>What is the role of Vitamin E in the therapy of patients with CF?
+</QueryText>
+		<Results>00025</Results>
+		<Records>
+			<Item score="2112">30</Item>
+			<Item score="1001">126</Item>
+			<Item score="2222">157</Item>
+			<Item score="1112">170</Item>
+			<Item score="1212">296</Item>
+			<Item score="0001">301</Item>
+			<Item score="0001">322</Item>
+			<Item score="1100">370</Item>
+			<Item score="2222">413</Item>
+			<Item score="1120">443</Item>
+			<Item score="2222">581</Item>
+			<Item score="2122">676</Item>
+			<Item score="0010">715</Item>
+			<Item score="0001">722</Item>
+			<Item score="1101">728</Item>
+			<Item score="1000">758</Item>
+			<Item score="1010">782</Item>
+			<Item score="0010">835</Item>
+			<Item score="2122">878</Item>
+			<Item score="1000">941</Item>
+			<Item score="1222">1115</Item>
+			<Item score="0010">1215</Item>
+			<Item score="2122">1218</Item>
+			<Item score="0001">1234</Item>
+			<Item score="1101">1239</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00011</QueryNumber>
+		<QueryText>What is the difference between meconium ileus and meconium plug
+   syndrome?
+</QueryText>
+		<Results>00022</Results>
+		<Records>
+			<Item score="0001">36</Item>
+			<Item score="0001">46</Item>
+			<Item score="2210">96</Item>
+			<Item score="1000">186</Item>
+			<Item score="1000">301</Item>
+			<Item score="1002">428</Item>
+			<Item score="2110">518</Item>
+			<Item score="0010">649</Item>
+			<Item score="0001">652</Item>
+			<Item score="0010">659</Item>
+			<Item score="1010">772</Item>
+			<Item score="2222">796</Item>
+			<Item score="2212">798</Item>
+			<Item score="0010">799</Item>
+			<Item score="1000">835</Item>
+			<Item score="0001">837</Item>
+			<Item score="1000">908</Item>
+			<Item score="2222">909</Item>
+			<Item score="2222">991</Item>
+			<Item score="0100">1119</Item>
+			<Item score="1000">1178</Item>
+			<Item score="0002">1226</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00012</QueryNumber>
+		<QueryText>What abnormalities of amino acid transport have been described in the
+   small bowel of CF patients?
+</QueryText>
+		<Results>00007</Results>
+		<Records>
+			<Item score="2212">70</Item>
+			<Item score="0001">181</Item>
+			<Item score="2120">443</Item>
+			<Item score="2220">466</Item>
+			<Item score="0010">755</Item>
+			<Item score="1000">918</Item>
+			<Item score="0001">1115</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00013</QueryNumber>
+		<QueryText>What are the clinical or biochemical features of pancreatitis in CF
+   patients?
+</QueryText>
+		<Results>00024</Results>
+		<Records>
+			<Item score="2112">156</Item>
+			<Item score="1112">301</Item>
+			<Item score="2222">314</Item>
+			<Item score="1220">322</Item>
+			<Item score="0100">370</Item>
+			<Item score="1120">443</Item>
+			<Item score="1010">462</Item>
+			<Item score="0100">522</Item>
+			<Item score="1000">643</Item>
+			<Item score="1220">695</Item>
+			<Item score="0010">715</Item>
+			<Item score="0010">719</Item>
+			<Item score="0001">722</Item>
+			<Item score="0101">763</Item>
+			<Item score="0001">764</Item>
+			<Item score="2211">791</Item>
+			<Item score="0001">822</Item>
+			<Item score="0100">900</Item>
+			<Item score="1101">902</Item>
+			<Item score="1000">978</Item>
+			<Item score="0010">1017</Item>
+			<Item score="0001">1033</Item>
+			<Item score="0001">1097</Item>
+			<Item score="0002">1124</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00014</QueryNumber>
+		<QueryText>What non-invasive tests can be performed for the evaluation of exocrine
+   pancreatic function in patients with CF?
+</QueryText>
+		<Results>00055</Results>
+		<Records>
+			<Item score="1100">5</Item>
+			<Item score="0100">89</Item>
+			<Item score="0001">92</Item>
+			<Item score="2212">131</Item>
+			<Item score="0001">135</Item>
+			<Item score="2222">150</Item>
+			<Item score="1000">156</Item>
+			<Item score="0010">203</Item>
+			<Item score="0010">232</Item>
+			<Item score="1122">233</Item>
+			<Item score="1121">234</Item>
+			<Item score="0001">291</Item>
+			<Item score="0001">297</Item>
+			<Item score="1000">314</Item>
+			<Item score="0010">319</Item>
+			<Item score="2112">344</Item>
+			<Item score="2210">345</Item>
+			<Item score="0001">356</Item>
+			<Item score="2210">367</Item>
+			<Item score="1110">370</Item>
+			<Item score="0001">379</Item>
+			<Item score="2112">405</Item>
+			<Item score="0001">413</Item>
+			<Item score="1211">417</Item>
+			<Item score="0002">419</Item>
+			<Item score="0001">421</Item>
+			<Item score="0001">424</Item>
+			<Item score="2212">462</Item>
+			<Item score="1102">465</Item>
+			<Item score="1000">492</Item>
+			<Item score="1001">584</Item>
+			<Item score="1011">602</Item>
+			<Item score="2120">616</Item>
+			<Item score="2122">635</Item>
+			<Item score="0100">662</Item>
+			<Item score="0010">695</Item>
+			<Item score="0011">719</Item>
+			<Item score="1012">777</Item>
+			<Item score="2122">791</Item>
+			<Item score="0010">809</Item>
+			<Item score="2222">815</Item>
+			<Item score="2222">852</Item>
+			<Item score="0001">889</Item>
+			<Item score="2222">899</Item>
+			<Item score="0002">930</Item>
+			<Item score="1011">941</Item>
+			<Item score="0001">1000</Item>
+			<Item score="2220">1008</Item>
+			<Item score="0011">1013</Item>
+			<Item score="2222">1100</Item>
+			<Item score="2220">1117</Item>
+			<Item score="2122">1124</Item>
+			<Item score="1002">1135</Item>
+			<Item score="1000">1206</Item>
+			<Item score="1001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00015</QueryNumber>
+		<QueryText>What are the hepatic complications or manifestations of CF?
+</QueryText>
+		<Results>00104</Results>
+		<Records>
+			<Item score="0001">17</Item>
+			<Item score="2122">59</Item>
+			<Item score="1000">63</Item>
+			<Item score="0001">72</Item>
+			<Item score="0001">91</Item>
+			<Item score="0001">95</Item>
+			<Item score="0001">97</Item>
+			<Item score="0001">98</Item>
+			<Item score="2112">99</Item>
+			<Item score="0001">135</Item>
+			<Item score="1011">149</Item>
+			<Item score="2220">174</Item>
+			<Item score="1001">197</Item>
+			<Item score="2222">204</Item>
+			<Item score="2212">205</Item>
+			<Item score="0002">226</Item>
+			<Item score="0100">232</Item>
+			<Item score="0001">238</Item>
+			<Item score="2222">266</Item>
+			<Item score="0001">297</Item>
+			<Item score="2122">301</Item>
+			<Item score="2122">322</Item>
+			<Item score="2212">339</Item>
+			<Item score="0001">350</Item>
+			<Item score="0001">354</Item>
+			<Item score="2112">355</Item>
+			<Item score="1112">364</Item>
+			<Item score="2111">370</Item>
+			<Item score="2222">385</Item>
+			<Item score="0011">398</Item>
+			<Item score="0100">408</Item>
+			<Item score="1102">410</Item>
+			<Item score="0100">413</Item>
+			<Item score="0100">414</Item>
+			<Item score="0001">420</Item>
+			<Item score="2222">422</Item>
+			<Item score="2221">423</Item>
+			<Item score="0010">424</Item>
+			<Item score="0001">426</Item>
+			<Item score="0001">434</Item>
+			<Item score="2222">443</Item>
+			<Item score="1120">474</Item>
+			<Item score="1212">545</Item>
+			<Item score="2112">549</Item>
+			<Item score="0001">550</Item>
+			<Item score="2122">601</Item>
+			<Item score="0011">603</Item>
+			<Item score="0001">611</Item>
+			<Item score="1010">642</Item>
+			<Item score="0001">643</Item>
+			<Item score="0001">657</Item>
+			<Item score="0001">673</Item>
+			<Item score="2121">690</Item>
+			<Item score="2212">700</Item>
+			<Item score="2222">720</Item>
+			<Item score="1122">722</Item>
+			<Item score="0001">724</Item>
+			<Item score="1010">725</Item>
+			<Item score="0001">729</Item>
+			<Item score="0001">731</Item>
+			<Item score="0001">735</Item>
+			<Item score="1010">747</Item>
+			<Item score="2212">752</Item>
+			<Item score="1102">763</Item>
+			<Item score="1001">764</Item>
+			<Item score="0001">767</Item>
+			<Item score="0010">792</Item>
+			<Item score="1000">794</Item>
+			<Item score="0001">816</Item>
+			<Item score="0002">822</Item>
+			<Item score="0001">833</Item>
+			<Item score="0001">837</Item>
+			<Item score="0002">844</Item>
+			<Item score="1000">853</Item>
+			<Item score="1101">854</Item>
+			<Item score="1000">857</Item>
+			<Item score="1001">863</Item>
+			<Item score="2222">870</Item>
+			<Item score="0001">875</Item>
+			<Item score="0001">888</Item>
+			<Item score="0001">889</Item>
+			<Item score="1001">900</Item>
+			<Item score="1002">944</Item>
+			<Item score="0002">990</Item>
+			<Item score="1000">993</Item>
+			<Item score="1221">994</Item>
+			<Item score="1002">1000</Item>
+			<Item score="1001">1013</Item>
+			<Item score="1001">1016</Item>
+			<Item score="0010">1027</Item>
+			<Item score="0001">1033</Item>
+			<Item score="0002">1040</Item>
+			<Item score="0001">1093</Item>
+			<Item score="0002">1098</Item>
+			<Item score="0002">1115</Item>
+			<Item score="0012">1162</Item>
+			<Item score="2222">1184</Item>
+			<Item score="0001">1187</Item>
+			<Item score="2222">1192</Item>
+			<Item score="0001">1195</Item>
+			<Item score="0002">1226</Item>
+			<Item score="0001">1232</Item>
+			<Item score="0001">1234</Item>
+			<Item score="2220">1235</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00016</QueryNumber>
+		<QueryText>What are the gastrointestinal complications of CF after the neonatal
+   period (exclude liver disease and meconium ileus)?
+</QueryText>
+		<Results>00180</Results>
+		<Records>
+			<Item score="0001">5</Item>
+			<Item score="0001">10</Item>
+			<Item score="0001">17</Item>
+			<Item score="0010">36</Item>
+			<Item score="0110">41</Item>
+			<Item score="1111">46</Item>
+			<Item score="0002">69</Item>
+			<Item score="0001">72</Item>
+			<Item score="2222">89</Item>
+			<Item score="0010">92</Item>
+			<Item score="2222">95</Item>
+			<Item score="1000">97</Item>
+			<Item score="1000">98</Item>
+			<Item score="0001">126</Item>
+			<Item score="2120">129</Item>
+			<Item score="0001">130</Item>
+			<Item score="0001">132</Item>
+			<Item score="1000">134</Item>
+			<Item score="0012">135</Item>
+			<Item score="0001">148</Item>
+			<Item score="1000">150</Item>
+			<Item score="0001">168</Item>
+			<Item score="1011">181</Item>
+			<Item score="2222">182</Item>
+			<Item score="2122">186</Item>
+			<Item score="0001">189</Item>
+			<Item score="1000">197</Item>
+			<Item score="1000">202</Item>
+			<Item score="0001">205</Item>
+			<Item score="0001">212</Item>
+			<Item score="0001">225</Item>
+			<Item score="0002">226</Item>
+			<Item score="0011">238</Item>
+			<Item score="2210">240</Item>
+			<Item score="0001">255</Item>
+			<Item score="0001">288</Item>
+			<Item score="0001">290</Item>
+			<Item score="0001">292</Item>
+			<Item score="0001">297</Item>
+			<Item score="1001">298</Item>
+			<Item score="2222">301</Item>
+			<Item score="2120">314</Item>
+			<Item score="0001">320</Item>
+			<Item score="1122">322</Item>
+			<Item score="0001">330</Item>
+			<Item score="0001">331</Item>
+			<Item score="1001">333</Item>
+			<Item score="0011">350</Item>
+			<Item score="0001">357</Item>
+			<Item score="0012">359</Item>
+			<Item score="2112">364</Item>
+			<Item score="2112">370</Item>
+			<Item score="2220">376</Item>
+			<Item score="0001">386</Item>
+			<Item score="2222">396</Item>
+			<Item score="1010">398</Item>
+			<Item score="0001">413</Item>
+			<Item score="1000">421</Item>
+			<Item score="1012">424</Item>
+			<Item score="1002">428</Item>
+			<Item score="0010">434</Item>
+			<Item score="2222">443</Item>
+			<Item score="0010">462</Item>
+			<Item score="1222">466</Item>
+			<Item score="2121">468</Item>
+			<Item score="0010">472</Item>
+			<Item score="0001">473</Item>
+			<Item score="2122">475</Item>
+			<Item score="0011">478</Item>
+			<Item score="0001">489</Item>
+			<Item score="0001">490</Item>
+			<Item score="0001">510</Item>
+			<Item score="0010">512</Item>
+			<Item score="1011">518</Item>
+			<Item score="2110">522</Item>
+			<Item score="0012">550</Item>
+			<Item score="0001">553</Item>
+			<Item score="0001">559</Item>
+			<Item score="0001">581</Item>
+			<Item score="1010">582</Item>
+			<Item score="0001">586</Item>
+			<Item score="2220">594</Item>
+			<Item score="0001">615</Item>
+			<Item score="0001">616</Item>
+			<Item score="1012">641</Item>
+			<Item score="1102">642</Item>
+			<Item score="0011">643</Item>
+			<Item score="2122">649</Item>
+			<Item score="0001">656</Item>
+			<Item score="1001">657</Item>
+			<Item score="1001">658</Item>
+			<Item score="2122">659</Item>
+			<Item score="1001">660</Item>
+			<Item score="1001">662</Item>
+			<Item score="0001">673</Item>
+			<Item score="0002">676</Item>
+			<Item score="1000">708</Item>
+			<Item score="1000">709</Item>
+			<Item score="0001">711</Item>
+			<Item score="0001">715</Item>
+			<Item score="1001">719</Item>
+			<Item score="1122">722</Item>
+			<Item score="0001">723</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">725</Item>
+			<Item score="1222">727</Item>
+			<Item score="0001">729</Item>
+			<Item score="0001">730</Item>
+			<Item score="0002">731</Item>
+			<Item score="0001">735</Item>
+			<Item score="1011">755</Item>
+			<Item score="1111">756</Item>
+			<Item score="0001">758</Item>
+			<Item score="0010">762</Item>
+			<Item score="1102">763</Item>
+			<Item score="0002">764</Item>
+			<Item score="0001">767</Item>
+			<Item score="1100">770</Item>
+			<Item score="2122">772</Item>
+			<Item score="1000">783</Item>
+			<Item score="1001">791</Item>
+			<Item score="0001">797</Item>
+			<Item score="2222">799</Item>
+			<Item score="1000">809</Item>
+			<Item score="0001">810</Item>
+			<Item score="0011">816</Item>
+			<Item score="0002">822</Item>
+			<Item score="2222">834</Item>
+			<Item score="0001">835</Item>
+			<Item score="0001">837</Item>
+			<Item score="0002">844</Item>
+			<Item score="0010">867</Item>
+			<Item score="0001">870</Item>
+			<Item score="2210">872</Item>
+			<Item score="0001">875</Item>
+			<Item score="0002">882</Item>
+			<Item score="0002">888</Item>
+			<Item score="0002">889</Item>
+			<Item score="0001">893</Item>
+			<Item score="1000">896</Item>
+			<Item score="2210">901</Item>
+			<Item score="1010">902</Item>
+			<Item score="0001">919</Item>
+			<Item score="1000">928</Item>
+			<Item score="0001">932</Item>
+			<Item score="1111">935</Item>
+			<Item score="1001">937</Item>
+			<Item score="0001">938</Item>
+			<Item score="0001">941</Item>
+			<Item score="0011">943</Item>
+			<Item score="1001">944</Item>
+			<Item score="0010">970</Item>
+			<Item score="0010">974</Item>
+			<Item score="1010">984</Item>
+			<Item score="0001">990</Item>
+			<Item score="1000">991</Item>
+			<Item score="1122">993</Item>
+			<Item score="0010">994</Item>
+			<Item score="1002">1000</Item>
+			<Item score="1010">1002</Item>
+			<Item score="1011">1016</Item>
+			<Item score="2211">1017</Item>
+			<Item score="0002">1023</Item>
+			<Item score="0001">1033</Item>
+			<Item score="0001">1037</Item>
+			<Item score="1000">1051</Item>
+			<Item score="0001">1066</Item>
+			<Item score="0001">1076</Item>
+			<Item score="0002">1080</Item>
+			<Item score="0002">1098</Item>
+			<Item score="0002">1101</Item>
+			<Item score="0002">1115</Item>
+			<Item score="0001">1135</Item>
+			<Item score="1012">1154</Item>
+			<Item score="0001">1158</Item>
+			<Item score="0001">1189</Item>
+			<Item score="1111">1192</Item>
+			<Item score="1220">1226</Item>
+			<Item score="0001">1232</Item>
+			<Item score="1001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00017</QueryNumber>
+		<QueryText>What is the most effective regimen for the use of pancreatic enzyme
+   supplements in the treatment of CF patients?
+</QueryText>
+		<Results>00055</Results>
+		<Records>
+			<Item score="2122">49</Item>
+			<Item score="2120">89</Item>
+			<Item score="0010">101</Item>
+			<Item score="0001">128</Item>
+			<Item score="0001">132</Item>
+			<Item score="0001">135</Item>
+			<Item score="0002">153</Item>
+			<Item score="0001">189</Item>
+			<Item score="0010">233</Item>
+			<Item score="0001">238</Item>
+			<Item score="0001">297</Item>
+			<Item score="0001">298</Item>
+			<Item score="0002">301</Item>
+			<Item score="0001">330</Item>
+			<Item score="0001">333</Item>
+			<Item score="1111">357</Item>
+			<Item score="1102">359</Item>
+			<Item score="0111">370</Item>
+			<Item score="1002">428</Item>
+			<Item score="1100">443</Item>
+			<Item score="0010">450</Item>
+			<Item score="0010">506</Item>
+			<Item score="0011">643</Item>
+			<Item score="0010">660</Item>
+			<Item score="2120">662</Item>
+			<Item score="2221">688</Item>
+			<Item score="0001">722</Item>
+			<Item score="0001">729</Item>
+			<Item score="0011">730</Item>
+			<Item score="0002">731</Item>
+			<Item score="0002">735</Item>
+			<Item score="1122">791</Item>
+			<Item score="2112">810</Item>
+			<Item score="0012">816</Item>
+			<Item score="0001">837</Item>
+			<Item score="0001">839</Item>
+			<Item score="0001">845</Item>
+			<Item score="0002">882</Item>
+			<Item score="0002">889</Item>
+			<Item score="1000">897</Item>
+			<Item score="0001">937</Item>
+			<Item score="0001">938</Item>
+			<Item score="1001">941</Item>
+			<Item score="1001">944</Item>
+			<Item score="0001">1000</Item>
+			<Item score="0001">1023</Item>
+			<Item score="0001">1040</Item>
+			<Item score="0001">1069</Item>
+			<Item score="0001">1080</Item>
+			<Item score="0002">1088</Item>
+			<Item score="2221">1101</Item>
+			<Item score="1120">1103</Item>
+			<Item score="0001">1115</Item>
+			<Item score="0001">1187</Item>
+			<Item score="0001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00018</QueryNumber>
+		<QueryText>Is dietary supplementation with bile salts of therapeutic benefit to CF
+   patients?
+</QueryText>
+		<Results>00021</Results>
+		<Records>
+			<Item score="2122">129</Item>
+			<Item score="0001">153</Item>
+			<Item score="2120">205</Item>
+			<Item score="0002">226</Item>
+			<Item score="0100">364</Item>
+			<Item score="1010">370</Item>
+			<Item score="0002">414</Item>
+			<Item score="1110">424</Item>
+			<Item score="0010">443</Item>
+			<Item score="1000">642</Item>
+			<Item score="1001">656</Item>
+			<Item score="1010">657</Item>
+			<Item score="1010">658</Item>
+			<Item score="1010">660</Item>
+			<Item score="1110">725</Item>
+			<Item score="1000">816</Item>
+			<Item score="1010">935</Item>
+			<Item score="1110">993</Item>
+			<Item score="1000">994</Item>
+			<Item score="2110">1016</Item>
+			<Item score="1100">1162</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00019</QueryNumber>
+		<QueryText>What complications of pancreatic enzyme therapy have been reported in
+   CF patients?
+</QueryText>
+		<Results>00022</Results>
+		<Records>
+			<Item score="2220">21</Item>
+			<Item score="0001">49</Item>
+			<Item score="1011">359</Item>
+			<Item score="1100">370</Item>
+			<Item score="0001">398</Item>
+			<Item score="2121">432</Item>
+			<Item score="0010">455</Item>
+			<Item score="2222">487</Item>
+			<Item score="2222">506</Item>
+			<Item score="2222">618</Item>
+			<Item score="2222">626</Item>
+			<Item score="2212">672</Item>
+			<Item score="2222">688</Item>
+			<Item score="2222">693</Item>
+			<Item score="2222">897</Item>
+			<Item score="0010">936</Item>
+			<Item score="0001">944</Item>
+			<Item score="0001">1000</Item>
+			<Item score="2221">1049</Item>
+			<Item score="2222">1103</Item>
+			<Item score="0001">1129</Item>
+			<Item score="0001">1205</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00020</QueryNumber>
+		<QueryText>What is the effect of treatment of CF patients with essential fatty
+   acid supplements?
+</QueryText>
+		<Results>00046</Results>
+		<Records>
+			<Item score="2112">126</Item>
+			<Item score="0002">133</Item>
+			<Item score="0002">153</Item>
+			<Item score="0010">181</Item>
+			<Item score="2122">207</Item>
+			<Item score="2122">208</Item>
+			<Item score="2221">220</Item>
+			<Item score="2111">278</Item>
+			<Item score="1100">283</Item>
+			<Item score="2111">286</Item>
+			<Item score="2111">287</Item>
+			<Item score="1100">288</Item>
+			<Item score="2111">290</Item>
+			<Item score="2111">292</Item>
+			<Item score="0110">370</Item>
+			<Item score="0010">443</Item>
+			<Item score="2122">538</Item>
+			<Item score="2111">539</Item>
+			<Item score="2222">540</Item>
+			<Item score="2111">544</Item>
+			<Item score="0100">604</Item>
+			<Item score="0001">643</Item>
+			<Item score="1210">711</Item>
+			<Item score="1011">715</Item>
+			<Item score="0001">731</Item>
+			<Item score="2222">758</Item>
+			<Item score="0100">767</Item>
+			<Item score="0001">791</Item>
+			<Item score="2222">823</Item>
+			<Item score="1001">824</Item>
+			<Item score="0002">882</Item>
+			<Item score="1000">919</Item>
+			<Item score="2222">924</Item>
+			<Item score="1000">928</Item>
+			<Item score="0001">944</Item>
+			<Item score="2222">962</Item>
+			<Item score="1001">970</Item>
+			<Item score="2222">1066</Item>
+			<Item score="0010">1080</Item>
+			<Item score="2222">1115</Item>
+			<Item score="2222">1168</Item>
+			<Item score="0001">1189</Item>
+			<Item score="2222">1213</Item>
+			<Item score="2222">1215</Item>
+			<Item score="1001">1234</Item>
+			<Item score="1120">1239</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00021</QueryNumber>
+		<QueryText>Does pancreatic insufficiency in CF patients affect their ability to
+   absorb or metabolize iron?
+</QueryText>
+		<Results>00025</Results>
+		<Records>
+			<Item score="2112">68</Item>
+			<Item score="0002">97</Item>
+			<Item score="0012">98</Item>
+			<Item score="0001">181</Item>
+			<Item score="2112">251</Item>
+			<Item score="0001">413</Item>
+			<Item score="0001">416</Item>
+			<Item score="0001">434</Item>
+			<Item score="0002">443</Item>
+			<Item score="0100">551</Item>
+			<Item score="0001">615</Item>
+			<Item score="0001">676</Item>
+			<Item score="2122">708</Item>
+			<Item score="2222">709</Item>
+			<Item score="1100">719</Item>
+			<Item score="0001">722</Item>
+			<Item score="0001">751</Item>
+			<Item score="0010">756</Item>
+			<Item score="0100">757</Item>
+			<Item score="0001">932</Item>
+			<Item score="1101">941</Item>
+			<Item score="0002">1098</Item>
+			<Item score="1122">1115</Item>
+			<Item score="2221">1158</Item>
+			<Item score="0001">1189</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00022</QueryNumber>
+		<QueryText>What is the frequency of CF in non-Caucasian populations?
+</QueryText>
+		<Results>00070</Results>
+		<Records>
+			<Item score="2222">13</Item>
+			<Item score="0012">39</Item>
+			<Item score="0001">67</Item>
+			<Item score="0001">69</Item>
+			<Item score="0001">104</Item>
+			<Item score="2222">130</Item>
+			<Item score="0001">189</Item>
+			<Item score="0001">197</Item>
+			<Item score="0001">221</Item>
+			<Item score="0001">226</Item>
+			<Item score="0101">237</Item>
+			<Item score="0010">247</Item>
+			<Item score="2221">258</Item>
+			<Item score="2112">262</Item>
+			<Item score="2222">276</Item>
+			<Item score="0001">322</Item>
+			<Item score="0001">325</Item>
+			<Item score="0001">333</Item>
+			<Item score="0110">342</Item>
+			<Item score="0101">343</Item>
+			<Item score="0100">350</Item>
+			<Item score="0001">365</Item>
+			<Item score="1012">370</Item>
+			<Item score="0001">392</Item>
+			<Item score="1121">431</Item>
+			<Item score="0001">464</Item>
+			<Item score="0001">465</Item>
+			<Item score="1121">473</Item>
+			<Item score="1121">478</Item>
+			<Item score="1101">503</Item>
+			<Item score="0101">510</Item>
+			<Item score="0110">512</Item>
+			<Item score="1001">514</Item>
+			<Item score="0001">586</Item>
+			<Item score="0011">590</Item>
+			<Item score="0101">654</Item>
+			<Item score="1101">671</Item>
+			<Item score="0001">682</Item>
+			<Item score="2222">692</Item>
+			<Item score="2111">704</Item>
+			<Item score="0001">713</Item>
+			<Item score="0001">729</Item>
+			<Item score="0002">731</Item>
+			<Item score="0001">735</Item>
+			<Item score="1212">764</Item>
+			<Item score="0101">774</Item>
+			<Item score="1011">788</Item>
+			<Item score="0102">843</Item>
+			<Item score="0002">845</Item>
+			<Item score="1001">871</Item>
+			<Item score="1012">880</Item>
+			<Item score="0102">881</Item>
+			<Item score="0002">882</Item>
+			<Item score="0002">888</Item>
+			<Item score="2212">898</Item>
+			<Item score="1111">908</Item>
+			<Item score="0001">942</Item>
+			<Item score="0001">946</Item>
+			<Item score="0100">968</Item>
+			<Item score="0002">1000</Item>
+			<Item score="0001">1033</Item>
+			<Item score="0001">1040</Item>
+			<Item score="1122">1083</Item>
+			<Item score="0001">1093</Item>
+			<Item score="1002">1114</Item>
+			<Item score="0100">1144</Item>
+			<Item score="1111">1156</Item>
+			<Item score="0110">1166</Item>
+			<Item score="1121">1194</Item>
+			<Item score="0001">1195</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00023</QueryNumber>
+		<QueryText>What congenital or hereditary diseases or conditions have been found in
+   association with CF?
+</QueryText>
+		<Results>00035</Results>
+		<Records>
+			<Item score="2221">9</Item>
+			<Item score="2122">10</Item>
+			<Item score="1100">11</Item>
+			<Item score="2212">12</Item>
+			<Item score="2222">34</Item>
+			<Item score="2222">42</Item>
+			<Item score="1112">99</Item>
+			<Item score="1000">162</Item>
+			<Item score="0001">163</Item>
+			<Item score="1000">167</Item>
+			<Item score="1000">198</Item>
+			<Item score="1000">248</Item>
+			<Item score="0010">285</Item>
+			<Item score="0101">322</Item>
+			<Item score="1001">350</Item>
+			<Item score="1002">370</Item>
+			<Item score="2122">426</Item>
+			<Item score="1212">434</Item>
+			<Item score="1000">464</Item>
+			<Item score="2222">509</Item>
+			<Item score="2222">541</Item>
+			<Item score="0002">582</Item>
+			<Item score="1000">583</Item>
+			<Item score="0002">598</Item>
+			<Item score="1002">716</Item>
+			<Item score="1000">780</Item>
+			<Item score="2120">859</Item>
+			<Item score="0001">883</Item>
+			<Item score="1002">888</Item>
+			<Item score="2222">979</Item>
+			<Item score="0002">984</Item>
+			<Item score="0011">1096</Item>
+			<Item score="2222">1114</Item>
+			<Item score="0010">1156</Item>
+			<Item score="1000">1163</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00024</QueryNumber>
+		<QueryText>What are the characteristics of patients in whom CF is incompletely
+   manifested?
+</QueryText>
+		<Results>00031</Results>
+		<Records>
+			<Item score="1100">32</Item>
+			<Item score="0001">72</Item>
+			<Item score="0001">199</Item>
+			<Item score="0001">207</Item>
+			<Item score="2220">210</Item>
+			<Item score="0001">240</Item>
+			<Item score="2111">254</Item>
+			<Item score="0001">331</Item>
+			<Item score="1000">370</Item>
+			<Item score="0001">377</Item>
+			<Item score="0001">411</Item>
+			<Item score="0001">477</Item>
+			<Item score="0001">492</Item>
+			<Item score="0001">522</Item>
+			<Item score="0002">552</Item>
+			<Item score="0010">559</Item>
+			<Item score="1001">611</Item>
+			<Item score="2222">647</Item>
+			<Item score="0001">677</Item>
+			<Item score="0002">724</Item>
+			<Item score="0001">763</Item>
+			<Item score="0001">858</Item>
+			<Item score="2222">913</Item>
+			<Item score="2211">915</Item>
+			<Item score="2121">926</Item>
+			<Item score="0001">934</Item>
+			<Item score="0001">1000</Item>
+			<Item score="1011">1031</Item>
+			<Item score="2222">1109</Item>
+			<Item score="1121">1195</Item>
+			<Item score="0001">1232</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00025</QueryNumber>
+		<QueryText>What evidence is there that the genetic basis for CF involves more than
+   one gene?
+</QueryText>
+		<Results>00051</Results>
+		<Records>
+			<Item score="2112">72</Item>
+			<Item score="2110">74</Item>
+			<Item score="0111">83</Item>
+			<Item score="0011">84</Item>
+			<Item score="1012">106</Item>
+			<Item score="0001">112</Item>
+			<Item score="0102">120</Item>
+			<Item score="0001">141</Item>
+			<Item score="1001">162</Item>
+			<Item score="0001">172</Item>
+			<Item score="1012">198</Item>
+			<Item score="0001">221</Item>
+			<Item score="0001">276</Item>
+			<Item score="1010">370</Item>
+			<Item score="0010">390</Item>
+			<Item score="0001">392</Item>
+			<Item score="2111">411</Item>
+			<Item score="1000">415</Item>
+			<Item score="0001">425</Item>
+			<Item score="2222">431</Item>
+			<Item score="0002">432</Item>
+			<Item score="0010">464</Item>
+			<Item score="1102">465</Item>
+			<Item score="1121">503</Item>
+			<Item score="0001">505</Item>
+			<Item score="0001">530</Item>
+			<Item score="0001">550</Item>
+			<Item score="0001">559</Item>
+			<Item score="1000">566</Item>
+			<Item score="1000">568</Item>
+			<Item score="1011">569</Item>
+			<Item score="0001">622</Item>
+			<Item score="2122">647</Item>
+			<Item score="0001">855</Item>
+			<Item score="2111">858</Item>
+			<Item score="0001">875</Item>
+			<Item score="0002">880</Item>
+			<Item score="1002">881</Item>
+			<Item score="0001">891</Item>
+			<Item score="2222">913</Item>
+			<Item score="0001">915</Item>
+			<Item score="2121">926</Item>
+			<Item score="0001">949</Item>
+			<Item score="1000">977</Item>
+			<Item score="0001">1027</Item>
+			<Item score="1000">1031</Item>
+			<Item score="0001">1083</Item>
+			<Item score="0110">1156</Item>
+			<Item score="1121">1194</Item>
+			<Item score="1112">1195</Item>
+			<Item score="0001">1210</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00026</QueryNumber>
+		<QueryText>What is the heterozygote advantage in CF?
+</QueryText>
+		<Results>00033</Results>
+		<Records>
+			<Item score="0110">74</Item>
+			<Item score="2212">104</Item>
+			<Item score="2222">199</Item>
+			<Item score="0001">221</Item>
+			<Item score="2222">281</Item>
+			<Item score="2112">285</Item>
+			<Item score="2111">328</Item>
+			<Item score="0001">333</Item>
+			<Item score="2110">342</Item>
+			<Item score="1100">343</Item>
+			<Item score="0010">370</Item>
+			<Item score="0001">392</Item>
+			<Item score="2222">431</Item>
+			<Item score="0001">434</Item>
+			<Item score="0002">442</Item>
+			<Item score="0001">465</Item>
+			<Item score="0010">485</Item>
+			<Item score="0010">488</Item>
+			<Item score="0001">490</Item>
+			<Item score="2122">610</Item>
+			<Item score="2222">617</Item>
+			<Item score="1112">665</Item>
+			<Item score="0010">713</Item>
+			<Item score="0101">774</Item>
+			<Item score="1122">807</Item>
+			<Item score="0010">855</Item>
+			<Item score="0102">881</Item>
+			<Item score="1101">942</Item>
+			<Item score="2222">1061</Item>
+			<Item score="2222">1144</Item>
+			<Item score="2211">1166</Item>
+			<Item score="1121">1194</Item>
+			<Item score="0001">1195</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00027</QueryNumber>
+		<QueryText>What is the concordance of clinical or biochemical manifestations of CF
+   in sibling pairs (both of whom have CF)?
+</QueryText>
+		<Results>00011</Results>
+		<Records>
+			<Item score="1102">98</Item>
+			<Item score="0001">179</Item>
+			<Item score="2222">599</Item>
+			<Item score="0002">756</Item>
+			<Item score="0001">858</Item>
+			<Item score="2122">905</Item>
+			<Item score="0001">912</Item>
+			<Item score="1001">913</Item>
+			<Item score="0100">1000</Item>
+			<Item score="0100">1083</Item>
+			<Item score="0002">1096</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00028</QueryNumber>
+		<QueryText>What is the incidence of male fertility in CF?
+</QueryText>
+		<Results>00051</Results>
+		<Records>
+			<Item score="0001">134</Item>
+			<Item score="0102">135</Item>
+			<Item score="0001">136</Item>
+			<Item score="1112">215</Item>
+			<Item score="1000">274</Item>
+			<Item score="0002">300</Item>
+			<Item score="0002">322</Item>
+			<Item score="0001">331</Item>
+			<Item score="0001">333</Item>
+			<Item score="0001">343</Item>
+			<Item score="2112">351</Item>
+			<Item score="2112">352</Item>
+			<Item score="1112">370</Item>
+			<Item score="0001">392</Item>
+			<Item score="0001">398</Item>
+			<Item score="0001">465</Item>
+			<Item score="0001">467</Item>
+			<Item score="2121">477</Item>
+			<Item score="0001">510</Item>
+			<Item score="0001">550</Item>
+			<Item score="0001">559</Item>
+			<Item score="0001">586</Item>
+			<Item score="0001">611</Item>
+			<Item score="0001">665</Item>
+			<Item score="1012">722</Item>
+			<Item score="0102">724</Item>
+			<Item score="0001">729</Item>
+			<Item score="0001">735</Item>
+			<Item score="2111">759</Item>
+			<Item score="0102">763</Item>
+			<Item score="1212">822</Item>
+			<Item score="0001">832</Item>
+			<Item score="0001">837</Item>
+			<Item score="0001">875</Item>
+			<Item score="0002">882</Item>
+			<Item score="0001">913</Item>
+			<Item score="0001">937</Item>
+			<Item score="0101">942</Item>
+			<Item score="0001">944</Item>
+			<Item score="0001">969</Item>
+			<Item score="0002">990</Item>
+			<Item score="1102">1000</Item>
+			<Item score="0102">1033</Item>
+			<Item score="0102">1040</Item>
+			<Item score="1112">1083</Item>
+			<Item score="0102">1093</Item>
+			<Item score="0001">1187</Item>
+			<Item score="0102">1192</Item>
+			<Item score="0001">1222</Item>
+			<Item score="0001">1226</Item>
+			<Item score="0102">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00029</QueryNumber>
+		<QueryText>What is the pathology of the reproductive system (male or female) in
+   CF?
+</QueryText>
+		<Results>00044</Results>
+		<Records>
+			<Item score="1012">15</Item>
+			<Item score="0001">100</Item>
+			<Item score="2122">215</Item>
+			<Item score="2222">274</Item>
+			<Item score="2212">300</Item>
+			<Item score="2222">322</Item>
+			<Item score="0101">333</Item>
+			<Item score="0001">343</Item>
+			<Item score="0110">350</Item>
+			<Item score="2122">351</Item>
+			<Item score="2122">352</Item>
+			<Item score="2220">353</Item>
+			<Item score="1112">370</Item>
+			<Item score="0001">385</Item>
+			<Item score="0001">392</Item>
+			<Item score="0001">434</Item>
+			<Item score="0001">442</Item>
+			<Item score="1120">477</Item>
+			<Item score="0001">510</Item>
+			<Item score="0001">553</Item>
+			<Item score="0010">687</Item>
+			<Item score="1002">714</Item>
+			<Item score="1012">722</Item>
+			<Item score="0102">724</Item>
+			<Item score="0001">729</Item>
+			<Item score="2212">759</Item>
+			<Item score="1102">763</Item>
+			<Item score="1000">764</Item>
+			<Item score="1000">788</Item>
+			<Item score="0102">822</Item>
+			<Item score="1222">832</Item>
+			<Item score="0001">837</Item>
+			<Item score="0001">875</Item>
+			<Item score="0001">937</Item>
+			<Item score="0101">942</Item>
+			<Item score="1102">944</Item>
+			<Item score="0001">1000</Item>
+			<Item score="0100">1033</Item>
+			<Item score="0101">1040</Item>
+			<Item score="0002">1083</Item>
+			<Item score="0100">1093</Item>
+			<Item score="0100">1184</Item>
+			<Item score="1122">1192</Item>
+			<Item score="0102">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00030</QueryNumber>
+		<QueryText>What are the results of genetic counseling of families of children with
+   CF?
+</QueryText>
+		<Results>00017</Results>
+		<Records>
+			<Item score="0002">117</Item>
+			<Item score="0101">328</Item>
+			<Item score="0001">332</Item>
+			<Item score="2122">433</Item>
+			<Item score="0001">492</Item>
+			<Item score="0002">557</Item>
+			<Item score="2112">586</Item>
+			<Item score="0010">687</Item>
+			<Item score="0001">775</Item>
+			<Item score="2112">880</Item>
+			<Item score="0001">881</Item>
+			<Item score="2212">911</Item>
+			<Item score="1010">942</Item>
+			<Item score="0011">1001</Item>
+			<Item score="0100">1084</Item>
+			<Item score="1212">1224</Item>
+			<Item score="0001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00031</QueryNumber>
+		<QueryText>What are the major psychological or social effects of CF on patients
+   and their families?
+</QueryText>
+		<Results>00058</Results>
+		<Records>
+			<Item score="2222">43</Item>
+			<Item score="0001">69</Item>
+			<Item score="1112">127</Item>
+			<Item score="1000">128</Item>
+			<Item score="1101">136</Item>
+			<Item score="0002">145</Item>
+			<Item score="0101">168</Item>
+			<Item score="1112">189</Item>
+			<Item score="0001">213</Item>
+			<Item score="1122">226</Item>
+			<Item score="2222">239</Item>
+			<Item score="0100">272</Item>
+			<Item score="1111">330</Item>
+			<Item score="1001">331</Item>
+			<Item score="2222">332</Item>
+			<Item score="0100">359</Item>
+			<Item score="1111">370</Item>
+			<Item score="1000">389</Item>
+			<Item score="2222">433</Item>
+			<Item score="2122">448</Item>
+			<Item score="2222">467</Item>
+			<Item score="0100">512</Item>
+			<Item score="0001">550</Item>
+			<Item score="0101">551</Item>
+			<Item score="2222">557</Item>
+			<Item score="2222">586</Item>
+			<Item score="1001">620</Item>
+			<Item score="0111">628</Item>
+			<Item score="2221">651</Item>
+			<Item score="1100">701</Item>
+			<Item score="1001">722</Item>
+			<Item score="1000">724</Item>
+			<Item score="0101">729</Item>
+			<Item score="0100">735</Item>
+			<Item score="2222">760</Item>
+			<Item score="1000">762</Item>
+			<Item score="1000">764</Item>
+			<Item score="1212">839</Item>
+			<Item score="2222">845</Item>
+			<Item score="1112">882</Item>
+			<Item score="0101">937</Item>
+			<Item score="1212">938</Item>
+			<Item score="0101">940</Item>
+			<Item score="1012">942</Item>
+			<Item score="0001">944</Item>
+			<Item score="2222">999</Item>
+			<Item score="0101">1000</Item>
+			<Item score="2122">1020</Item>
+			<Item score="1222">1022</Item>
+			<Item score="2112">1036</Item>
+			<Item score="1102">1040</Item>
+			<Item score="2222">1084</Item>
+			<Item score="0002">1093</Item>
+			<Item score="0101">1187</Item>
+			<Item score="1120">1224</Item>
+			<Item score="0001">1232</Item>
+			<Item score="2222">1233</Item>
+			<Item score="0102">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00032</QueryNumber>
+		<QueryText>What factors influence compliance with prescribed therapy in CF
+   patients?
+</QueryText>
+		<Results>00030</Results>
+		<Records>
+			<Item score="1000">43</Item>
+			<Item score="0001">127</Item>
+			<Item score="1000">128</Item>
+			<Item score="0001">181</Item>
+			<Item score="2222">184</Item>
+			<Item score="0002">189</Item>
+			<Item score="0011">212</Item>
+			<Item score="0001">226</Item>
+			<Item score="0011">239</Item>
+			<Item score="1000">315</Item>
+			<Item score="0001">330</Item>
+			<Item score="0001">331</Item>
+			<Item score="1000">370</Item>
+			<Item score="1112">389</Item>
+			<Item score="1121">433</Item>
+			<Item score="1000">467</Item>
+			<Item score="0001">473</Item>
+			<Item score="1000">489</Item>
+			<Item score="0010">506</Item>
+			<Item score="1011">586</Item>
+			<Item score="1122">722</Item>
+			<Item score="0001">735</Item>
+			<Item score="0001">764</Item>
+			<Item score="0001">882</Item>
+			<Item score="0001">937</Item>
+			<Item score="1000">999</Item>
+			<Item score="0101">1040</Item>
+			<Item score="0001">1093</Item>
+			<Item score="0001">1220</Item>
+			<Item score="1100">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00033</QueryNumber>
+		<QueryText>What conditions or factors lead to erroneous sweat tests?
+</QueryText>
+		<Results>00057</Results>
+		<Records>
+			<Item score="0101">37</Item>
+			<Item score="0001">65</Item>
+			<Item score="2222">91</Item>
+			<Item score="2220">94</Item>
+			<Item score="0001">96</Item>
+			<Item score="2220">210</Item>
+			<Item score="0012">225</Item>
+			<Item score="0001">297</Item>
+			<Item score="1011">359</Item>
+			<Item score="1212">370</Item>
+			<Item score="2212">403</Item>
+			<Item score="0002">404</Item>
+			<Item score="0002">413</Item>
+			<Item score="2222">465</Item>
+			<Item score="0001">515</Item>
+			<Item score="2222">612</Item>
+			<Item score="2220">637</Item>
+			<Item score="2220">638</Item>
+			<Item score="0001">663</Item>
+			<Item score="0001">719</Item>
+			<Item score="2222">721</Item>
+			<Item score="0001">731</Item>
+			<Item score="1001">763</Item>
+			<Item score="0002">764</Item>
+			<Item score="0001">773</Item>
+			<Item score="0010">793</Item>
+			<Item score="1000">795</Item>
+			<Item score="2210">797</Item>
+			<Item score="2222">811</Item>
+			<Item score="2220">818</Item>
+			<Item score="0001">822</Item>
+			<Item score="2222">825</Item>
+			<Item score="0001">846</Item>
+			<Item score="0001">882</Item>
+			<Item score="1002">888</Item>
+			<Item score="0002">889</Item>
+			<Item score="2222">916</Item>
+			<Item score="2212">920</Item>
+			<Item score="2121">927</Item>
+			<Item score="2110">978</Item>
+			<Item score="1000">981</Item>
+			<Item score="1121">995</Item>
+			<Item score="2222">996</Item>
+			<Item score="0100">1000</Item>
+			<Item score="0001">1023</Item>
+			<Item score="2222">1052</Item>
+			<Item score="0001">1072</Item>
+			<Item score="0001">1098</Item>
+			<Item score="2222">1105</Item>
+			<Item score="2222">1113</Item>
+			<Item score="1112">1122</Item>
+			<Item score="0112">1123</Item>
+			<Item score="1122">1183</Item>
+			<Item score="1222">1186</Item>
+			<Item score="0011">1189</Item>
+			<Item score="0010">1215</Item>
+			<Item score="1222">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00034</QueryNumber>
+		<QueryText>What alternative techniques other than the classical Gibson-Cooke
+   quantitative pilocarpine iontophoresis test (with titrimetric analysis
+   of chloride) are available for sweat testing; what are their relative
+   advantages and disadvantages?
+</QueryText>
+		<Results>00039</Results>
+		<Records>
+			<Item score="2222">37</Item>
+			<Item score="2212">65</Item>
+			<Item score="0011">76</Item>
+			<Item score="0100">77</Item>
+			<Item score="0002">94</Item>
+			<Item score="0001">135</Item>
+			<Item score="0002">225</Item>
+			<Item score="0010">235</Item>
+			<Item score="0010">236</Item>
+			<Item score="0010">247</Item>
+			<Item score="2122">261</Item>
+			<Item score="0010">277</Item>
+			<Item score="0001">297</Item>
+			<Item score="0010">359</Item>
+			<Item score="2221">403</Item>
+			<Item score="2222">404</Item>
+			<Item score="2222">465</Item>
+			<Item score="2221">471</Item>
+			<Item score="0001">552</Item>
+			<Item score="0001">627</Item>
+			<Item score="2222">637</Item>
+			<Item score="2222">638</Item>
+			<Item score="2222">721</Item>
+			<Item score="2211">773</Item>
+			<Item score="2222">795</Item>
+			<Item score="2222">817</Item>
+			<Item score="0001">818</Item>
+			<Item score="0100">825</Item>
+			<Item score="2222">846</Item>
+			<Item score="2221">916</Item>
+			<Item score="0001">933</Item>
+			<Item score="0100">941</Item>
+			<Item score="0001">944</Item>
+			<Item score="2222">995</Item>
+			<Item score="0100">1000</Item>
+			<Item score="0001">1023</Item>
+			<Item score="0101">1052</Item>
+			<Item score="0001">1186</Item>
+			<Item score="0001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00035</QueryNumber>
+		<QueryText>Has any CF patient been found to have consistently normal sweat tests? 
+</QueryText>
+		<Results>00014</Results>
+		<Records>
+			<Item score="1000">32</Item>
+			<Item score="0100">120</Item>
+			<Item score="2222">210</Item>
+			<Item score="1120">811</Item>
+			<Item score="0100">825</Item>
+			<Item score="0001">888</Item>
+			<Item score="2110">913</Item>
+			<Item score="2120">915</Item>
+			<Item score="0100">920</Item>
+			<Item score="0010">926</Item>
+			<Item score="0010">948</Item>
+			<Item score="0001">1105</Item>
+			<Item score="2222">1109</Item>
+			<Item score="0001">1119</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00036</QueryNumber>
+		<QueryText>What is the concentration of potassium in sweat from CF patients?
+</QueryText>
+		<Results>00009</Results>
+		<Records>
+			<Item score="1000">66</Item>
+			<Item score="0001">325</Item>
+			<Item score="0002">370</Item>
+			<Item score="1100">403</Item>
+			<Item score="2120">612</Item>
+			<Item score="1000">721</Item>
+			<Item score="2220">722</Item>
+			<Item score="0001">724</Item>
+			<Item score="2220">1052</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00037</QueryNumber>
+		<QueryText>What techniques are available for screening of newborn infants for CF,
+   and what factors contribute to erroneous results of these tests?
+</QueryText>
+		<Results>00098</Results>
+		<Records>
+			<Item score="2112">3</Item>
+			<Item score="1000">4</Item>
+			<Item score="2120">28</Item>
+			<Item score="2222">33</Item>
+			<Item score="2122">35</Item>
+			<Item score="2222">38</Item>
+			<Item score="1001">65</Item>
+			<Item score="1111">71</Item>
+			<Item score="1002">76</Item>
+			<Item score="0001">116</Item>
+			<Item score="0001">119</Item>
+			<Item score="1222">120</Item>
+			<Item score="2222">131</Item>
+			<Item score="0001">148</Item>
+			<Item score="0001">150</Item>
+			<Item score="2222">158</Item>
+			<Item score="2222">175</Item>
+			<Item score="2122">203</Item>
+			<Item score="0001">220</Item>
+			<Item score="2222">225</Item>
+			<Item score="0012">231</Item>
+			<Item score="0010">233</Item>
+			<Item score="2222">234</Item>
+			<Item score="0011">238</Item>
+			<Item score="2112">247</Item>
+			<Item score="1212">280</Item>
+			<Item score="0001">291</Item>
+			<Item score="1000">294</Item>
+			<Item score="2222">318</Item>
+			<Item score="2111">319</Item>
+			<Item score="1012">333</Item>
+			<Item score="1001">334</Item>
+			<Item score="0001">342</Item>
+			<Item score="0001">345</Item>
+			<Item score="0012">370</Item>
+			<Item score="2122">378</Item>
+			<Item score="2222">379</Item>
+			<Item score="2222">380</Item>
+			<Item score="0001">392</Item>
+			<Item score="0001">403</Item>
+			<Item score="1001">428</Item>
+			<Item score="1000">433</Item>
+			<Item score="0001">443</Item>
+			<Item score="2222">465</Item>
+			<Item score="2121">470</Item>
+			<Item score="1122">476</Item>
+			<Item score="2222">482</Item>
+			<Item score="2222">483</Item>
+			<Item score="2222">491</Item>
+			<Item score="2222">492</Item>
+			<Item score="0001">510</Item>
+			<Item score="0001">512</Item>
+			<Item score="0001">514</Item>
+			<Item score="0001">596</Item>
+			<Item score="2222">600</Item>
+			<Item score="1112">627</Item>
+			<Item score="0001">671</Item>
+			<Item score="2222">697</Item>
+			<Item score="0010">711</Item>
+			<Item score="2122">712</Item>
+			<Item score="2222">717</Item>
+			<Item score="1000">721</Item>
+			<Item score="0002">731</Item>
+			<Item score="1011">774</Item>
+			<Item score="0001">776</Item>
+			<Item score="2222">815</Item>
+			<Item score="2122">817</Item>
+			<Item score="0001">818</Item>
+			<Item score="2221">831</Item>
+			<Item score="2122">835</Item>
+			<Item score="2222">849</Item>
+			<Item score="1012">866</Item>
+			<Item score="0012">871</Item>
+			<Item score="2222">877</Item>
+			<Item score="0001">888</Item>
+			<Item score="2122">930</Item>
+			<Item score="1111">933</Item>
+			<Item score="1000">941</Item>
+			<Item score="1211">942</Item>
+			<Item score="0100">944</Item>
+			<Item score="2222">946</Item>
+			<Item score="2212">991</Item>
+			<Item score="2222">1008</Item>
+			<Item score="1011">1011</Item>
+			<Item score="2222">1014</Item>
+			<Item score="2222">1028</Item>
+			<Item score="0001">1080</Item>
+			<Item score="2222">1126</Item>
+			<Item score="1222">1128</Item>
+			<Item score="0001">1130</Item>
+			<Item score="1122">1131</Item>
+			<Item score="2222">1133</Item>
+			<Item score="0111">1135</Item>
+			<Item score="1222">1174</Item>
+			<Item score="2222">1176</Item>
+			<Item score="2122">1178</Item>
+			<Item score="1222">1182</Item>
+			<Item score="1212">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00038</QueryNumber>
+		<QueryText>Can CF be diagnosed prenatally?
+</QueryText>
+		<Results>00053</Results>
+		<Records>
+			<Item score="2122">14</Item>
+			<Item score="0001">76</Item>
+			<Item score="1010">117</Item>
+			<Item score="0001">142</Item>
+			<Item score="0100">252</Item>
+			<Item score="2212">360</Item>
+			<Item score="0001">370</Item>
+			<Item score="2222">390</Item>
+			<Item score="0001">392</Item>
+			<Item score="0001">444</Item>
+			<Item score="1212">465</Item>
+			<Item score="0001">503</Item>
+			<Item score="0010">505</Item>
+			<Item score="0001">510</Item>
+			<Item score="0010">572</Item>
+			<Item score="0010">573</Item>
+			<Item score="0001">621</Item>
+			<Item score="0002">622</Item>
+			<Item score="0001">627</Item>
+			<Item score="2112">634</Item>
+			<Item score="1121">644</Item>
+			<Item score="1001">646</Item>
+			<Item score="1010">666</Item>
+			<Item score="0002">702</Item>
+			<Item score="0001">729</Item>
+			<Item score="0001">776</Item>
+			<Item score="1000">786</Item>
+			<Item score="0001">856</Item>
+			<Item score="0001">862</Item>
+			<Item score="0100">866</Item>
+			<Item score="1002">873</Item>
+			<Item score="1000">881</Item>
+			<Item score="0002">882</Item>
+			<Item score="0001">888</Item>
+			<Item score="1122">971</Item>
+			<Item score="0002">990</Item>
+			<Item score="1000">1001</Item>
+			<Item score="1001">1024</Item>
+			<Item score="1000">1027</Item>
+			<Item score="1000">1029</Item>
+			<Item score="1000">1059</Item>
+			<Item score="0001">1066</Item>
+			<Item score="1222">1068</Item>
+			<Item score="0001">1072</Item>
+			<Item score="1000">1075</Item>
+			<Item score="1222">1130</Item>
+			<Item score="1222">1136</Item>
+			<Item score="1122">1140</Item>
+			<Item score="0011">1146</Item>
+			<Item score="0011">1148</Item>
+			<Item score="0011">1160</Item>
+			<Item score="1000">1230</Item>
+			<Item score="1210">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00039</QueryNumber>
+		<QueryText>How may heterozygotes for CF be identified?
+</QueryText>
+		<Results>00162</Results>
+		<Records>
+			<Item score="1000">3</Item>
+			<Item score="0001">67</Item>
+			<Item score="0001">74</Item>
+			<Item score="0001">76</Item>
+			<Item score="2121">83</Item>
+			<Item score="0001">84</Item>
+			<Item score="2122">85</Item>
+			<Item score="1000">102</Item>
+			<Item score="0001">107</Item>
+			<Item score="0002">108</Item>
+			<Item score="0011">112</Item>
+			<Item score="0001">135</Item>
+			<Item score="1000">143</Item>
+			<Item score="2122">216</Item>
+			<Item score="2122">217</Item>
+			<Item score="2122">218</Item>
+			<Item score="2122">219</Item>
+			<Item score="2122">221</Item>
+			<Item score="2121">222</Item>
+			<Item score="2222">225</Item>
+			<Item score="0001">226</Item>
+			<Item score="1002">230</Item>
+			<Item score="0010">233</Item>
+			<Item score="2122">235</Item>
+			<Item score="2122">236</Item>
+			<Item score="0010">244</Item>
+			<Item score="0010">248</Item>
+			<Item score="2112">249</Item>
+			<Item score="1011">252</Item>
+			<Item score="1010">254</Item>
+			<Item score="1011">263</Item>
+			<Item score="0001">276</Item>
+			<Item score="2122">277</Item>
+			<Item score="2112">289</Item>
+			<Item score="2112">293</Item>
+			<Item score="0001">297</Item>
+			<Item score="0001">301</Item>
+			<Item score="1122">304</Item>
+			<Item score="0001">306</Item>
+			<Item score="1001">307</Item>
+			<Item score="0002">308</Item>
+			<Item score="2122">338</Item>
+			<Item score="0002">342</Item>
+			<Item score="0002">343</Item>
+			<Item score="1101">356</Item>
+			<Item score="0010">360</Item>
+			<Item score="0001">365</Item>
+			<Item score="1000">366</Item>
+			<Item score="0001">370</Item>
+			<Item score="0001">392</Item>
+			<Item score="0002">404</Item>
+			<Item score="2122">407</Item>
+			<Item score="2110">412</Item>
+			<Item score="2112">420</Item>
+			<Item score="1002">433</Item>
+			<Item score="1000">453</Item>
+			<Item score="0002">465</Item>
+			<Item score="2121">470</Item>
+			<Item score="0011">488</Item>
+			<Item score="0001">490</Item>
+			<Item score="0002">494</Item>
+			<Item score="0001">503</Item>
+			<Item score="0012">505</Item>
+			<Item score="0101">508</Item>
+			<Item score="1001">510</Item>
+			<Item score="0012">529</Item>
+			<Item score="0001">530</Item>
+			<Item score="0001">532</Item>
+			<Item score="0011">534</Item>
+			<Item score="0001">535</Item>
+			<Item score="1012">553</Item>
+			<Item score="2122">560</Item>
+			<Item score="0002">563</Item>
+			<Item score="1001">564</Item>
+			<Item score="0001">565</Item>
+			<Item score="0001">566</Item>
+			<Item score="1001">567</Item>
+			<Item score="0001">568</Item>
+			<Item score="0001">569</Item>
+			<Item score="0011">570</Item>
+			<Item score="0011">571</Item>
+			<Item score="0001">572</Item>
+			<Item score="1011">573</Item>
+			<Item score="1000">576</Item>
+			<Item score="1122">584</Item>
+			<Item score="0001">586</Item>
+			<Item score="0011">608</Item>
+			<Item score="0001">610</Item>
+			<Item score="2121">619</Item>
+			<Item score="0001">621</Item>
+			<Item score="0002">622</Item>
+			<Item score="0001">627</Item>
+			<Item score="2221">639</Item>
+			<Item score="2111">645</Item>
+			<Item score="1001">646</Item>
+			<Item score="0010">647</Item>
+			<Item score="0001">652</Item>
+			<Item score="2121">654</Item>
+			<Item score="0002">702</Item>
+			<Item score="0111">716</Item>
+			<Item score="0001">729</Item>
+			<Item score="0002">738</Item>
+			<Item score="0002">739</Item>
+			<Item score="0002">740</Item>
+			<Item score="0001">744</Item>
+			<Item score="0002">746</Item>
+			<Item score="0001">749</Item>
+			<Item score="0001">776</Item>
+			<Item score="0011">777</Item>
+			<Item score="0011">786</Item>
+			<Item score="0001">845</Item>
+			<Item score="0001">849</Item>
+			<Item score="2121">851</Item>
+			<Item score="0001">862</Item>
+			<Item score="1002">869</Item>
+			<Item score="1122">873</Item>
+			<Item score="1001">881</Item>
+			<Item score="0002">882</Item>
+			<Item score="0001">888</Item>
+			<Item score="0001">889</Item>
+			<Item score="0001">892</Item>
+			<Item score="0001">902</Item>
+			<Item score="0002">918</Item>
+			<Item score="0001">942</Item>
+			<Item score="0001">944</Item>
+			<Item score="1002">949</Item>
+			<Item score="0012">966</Item>
+			<Item score="2122">971</Item>
+			<Item score="0002">990</Item>
+			<Item score="1001">1001</Item>
+			<Item score="0001">1026</Item>
+			<Item score="1001">1027</Item>
+			<Item score="1001">1029</Item>
+			<Item score="0001">1044</Item>
+			<Item score="0001">1066</Item>
+			<Item score="0001">1070</Item>
+			<Item score="0001">1072</Item>
+			<Item score="0001">1076</Item>
+			<Item score="0100">1096</Item>
+			<Item score="1011">1127</Item>
+			<Item score="0001">1135</Item>
+			<Item score="1000">1136</Item>
+			<Item score="1221">1137</Item>
+			<Item score="1222">1139</Item>
+			<Item score="0010">1140</Item>
+			<Item score="1122">1141</Item>
+			<Item score="0011">1146</Item>
+			<Item score="0011">1148</Item>
+			<Item score="0010">1160</Item>
+			<Item score="0001">1161</Item>
+			<Item score="0001">1185</Item>
+			<Item score="0001">1194</Item>
+			<Item score="0001">1209</Item>
+			<Item score="0001">1210</Item>
+			<Item score="1002">1211</Item>
+			<Item score="0001">1222</Item>
+			<Item score="0001">1224</Item>
+			<Item score="1112">1225</Item>
+			<Item score="1002">1230</Item>
+			<Item score="1211">1234</Item>
+			<Item score="0001">1236</Item>
+			<Item score="0002">1238</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00040</QueryNumber>
+		<QueryText>Other than the sweat test, what techniques may be useful (beyond the
+   neonatal period) for the diagnosis of CF?
+</QueryText>
+		<Results>00146</Results>
+		<Records>
+			<Item score="0100">2</Item>
+			<Item score="2122">3</Item>
+			<Item score="2122">4</Item>
+			<Item score="0100">5</Item>
+			<Item score="0001">9</Item>
+			<Item score="0001">10</Item>
+			<Item score="0001">17</Item>
+			<Item score="2212">28</Item>
+			<Item score="0001">32</Item>
+			<Item score="0100">35</Item>
+			<Item score="0001">76</Item>
+			<Item score="1122">77</Item>
+			<Item score="2110">95</Item>
+			<Item score="0010">103</Item>
+			<Item score="0010">105</Item>
+			<Item score="0010">108</Item>
+			<Item score="1010">109</Item>
+			<Item score="0010">112</Item>
+			<Item score="0010">115</Item>
+			<Item score="1122">116</Item>
+			<Item score="1001">119</Item>
+			<Item score="0001">120</Item>
+			<Item score="0001">132</Item>
+			<Item score="0001">142</Item>
+			<Item score="0001">144</Item>
+			<Item score="0102">150</Item>
+			<Item score="0002">151</Item>
+			<Item score="1000">169</Item>
+			<Item score="0001">173</Item>
+			<Item score="0001">189</Item>
+			<Item score="0010">198</Item>
+			<Item score="0001">210</Item>
+			<Item score="2122">225</Item>
+			<Item score="2122">231</Item>
+			<Item score="2222">233</Item>
+			<Item score="0010">235</Item>
+			<Item score="0010">236</Item>
+			<Item score="2110">240</Item>
+			<Item score="1000">248</Item>
+			<Item score="0010">249</Item>
+			<Item score="1002">252</Item>
+			<Item score="1122">254</Item>
+			<Item score="0010">261</Item>
+			<Item score="0001">263</Item>
+			<Item score="1122">277</Item>
+			<Item score="0010">279</Item>
+			<Item score="0010">289</Item>
+			<Item score="0001">291</Item>
+			<Item score="0011">293</Item>
+			<Item score="1011">294</Item>
+			<Item score="0001">297</Item>
+			<Item score="0001">298</Item>
+			<Item score="0010">304</Item>
+			<Item score="0010">308</Item>
+			<Item score="0001">333</Item>
+			<Item score="0001">338</Item>
+			<Item score="0011">344</Item>
+			<Item score="0001">345</Item>
+			<Item score="1000">351</Item>
+			<Item score="1000">352</Item>
+			<Item score="1001">370</Item>
+			<Item score="0001">392</Item>
+			<Item score="2122">404</Item>
+			<Item score="2122">405</Item>
+			<Item score="0010">407</Item>
+			<Item score="0001">413</Item>
+			<Item score="0102">417</Item>
+			<Item score="0012">420</Item>
+			<Item score="0001">434</Item>
+			<Item score="2222">465</Item>
+			<Item score="0001">478</Item>
+			<Item score="2111">479</Item>
+			<Item score="0002">508</Item>
+			<Item score="0010">510</Item>
+			<Item score="0001">515</Item>
+			<Item score="0010">526</Item>
+			<Item score="0010">529</Item>
+			<Item score="0010">532</Item>
+			<Item score="0001">535</Item>
+			<Item score="0010">553</Item>
+			<Item score="1010">560</Item>
+			<Item score="0010">571</Item>
+			<Item score="0010">572</Item>
+			<Item score="1010">573</Item>
+			<Item score="1000">576</Item>
+			<Item score="0001">583</Item>
+			<Item score="0001">613</Item>
+			<Item score="0001">616</Item>
+			<Item score="0010">619</Item>
+			<Item score="0010">645</Item>
+			<Item score="0010">646</Item>
+			<Item score="0010">654</Item>
+			<Item score="0001">673</Item>
+			<Item score="0001">677</Item>
+			<Item score="0001">731</Item>
+			<Item score="0001">735</Item>
+			<Item score="0001">763</Item>
+			<Item score="0010">780</Item>
+			<Item score="2122">785</Item>
+			<Item score="2122">786</Item>
+			<Item score="1221">815</Item>
+			<Item score="0100">849</Item>
+			<Item score="0001">851</Item>
+			<Item score="0001">852</Item>
+			<Item score="1000">869</Item>
+			<Item score="0001">882</Item>
+			<Item score="0100">888</Item>
+			<Item score="1210">899</Item>
+			<Item score="0010">931</Item>
+			<Item score="1111">941</Item>
+			<Item score="0001">942</Item>
+			<Item score="1000">949</Item>
+			<Item score="0101">954</Item>
+			<Item score="0100">956</Item>
+			<Item score="0100">959</Item>
+			<Item score="0001">1000</Item>
+			<Item score="1222">1008</Item>
+			<Item score="1000">1024</Item>
+			<Item score="0001">1027</Item>
+			<Item score="0001">1029</Item>
+			<Item score="0011">1052</Item>
+			<Item score="0101">1080</Item>
+			<Item score="1212">1100</Item>
+			<Item score="0002">1105</Item>
+			<Item score="0010">1109</Item>
+			<Item score="1212">1117</Item>
+			<Item score="2210">1124</Item>
+			<Item score="0010">1126</Item>
+			<Item score="0012">1127</Item>
+			<Item score="0010">1128</Item>
+			<Item score="0001">1130</Item>
+			<Item score="0002">1131</Item>
+			<Item score="0001">1132</Item>
+			<Item score="0011">1133</Item>
+			<Item score="1122">1135</Item>
+			<Item score="1121">1137</Item>
+			<Item score="1220">1139</Item>
+			<Item score="1120">1141</Item>
+			<Item score="0010">1146</Item>
+			<Item score="0010">1148</Item>
+			<Item score="0011">1160</Item>
+			<Item score="0010">1161</Item>
+			<Item score="0001">1192</Item>
+			<Item score="1121">1193</Item>
+			<Item score="1120">1230</Item>
+			<Item score="2222">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00041</QueryNumber>
+		<QueryText>Is Vitamin D metabolism normal in CF patients?
+</QueryText>
+		<Results>00015</Results>
+		<Records>
+			<Item score="0100">46</Item>
+			<Item score="0100">296</Item>
+			<Item score="0100">301</Item>
+			<Item score="0010">322</Item>
+			<Item score="0100">370</Item>
+			<Item score="1000">392</Item>
+			<Item score="2221">603</Item>
+			<Item score="0001">941</Item>
+			<Item score="1010">998</Item>
+			<Item score="2222">1106</Item>
+			<Item score="2222">1107</Item>
+			<Item score="2222">1108</Item>
+			<Item score="1122">1115</Item>
+			<Item score="0010">1184</Item>
+			<Item score="2222">1190</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00042</QueryNumber>
+		<QueryText>What abnormalities of insulin secretion or insulin metabolism occur in
+   CF patients?
+</QueryText>
+		<Results>00047</Results>
+		<Records>
+			<Item score="0001">5</Item>
+			<Item score="0100">46</Item>
+			<Item score="2222">57</Item>
+			<Item score="2212">92</Item>
+			<Item score="0001">135</Item>
+			<Item score="2222">209</Item>
+			<Item score="1011">245</Item>
+			<Item score="0001">297</Item>
+			<Item score="1112">301</Item>
+			<Item score="0100">314</Item>
+			<Item score="2222">317</Item>
+			<Item score="0001">322</Item>
+			<Item score="1212">337</Item>
+			<Item score="0100">339</Item>
+			<Item score="0011">370</Item>
+			<Item score="2212">416</Item>
+			<Item score="0001">434</Item>
+			<Item score="2220">443</Item>
+			<Item score="0001">489</Item>
+			<Item score="2221">505</Item>
+			<Item score="1000">509</Item>
+			<Item score="0001">550</Item>
+			<Item score="2222">585</Item>
+			<Item score="0001">586</Item>
+			<Item score="0001">601</Item>
+			<Item score="2222">695</Item>
+			<Item score="0001">719</Item>
+			<Item score="0002">722</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">731</Item>
+			<Item score="0001">763</Item>
+			<Item score="0001">764</Item>
+			<Item score="0001">770</Item>
+			<Item score="0001">822</Item>
+			<Item score="0001">837</Item>
+			<Item score="0001">888</Item>
+			<Item score="1011">931</Item>
+			<Item score="0001">944</Item>
+			<Item score="0001">1000</Item>
+			<Item score="0001">1033</Item>
+			<Item score="0001">1040</Item>
+			<Item score="1011">1085</Item>
+			<Item score="0001">1093</Item>
+			<Item score="0001">1187</Item>
+			<Item score="0001">1192</Item>
+			<Item score="0001">1232</Item>
+			<Item score="1001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00043</QueryNumber>
+		<QueryText>Is salt (sodium and/or chloride) transport/permeability abnormal in CF?
+</QueryText>
+		<Results>00098</Results>
+		<Records>
+			<Item score="0100">3</Item>
+			<Item score="0100">4</Item>
+			<Item score="0100">28</Item>
+			<Item score="1121">54</Item>
+			<Item score="0100">65</Item>
+			<Item score="2221">66</Item>
+			<Item score="0100">91</Item>
+			<Item score="0100">94</Item>
+			<Item score="0012">119</Item>
+			<Item score="1212">124</Item>
+			<Item score="2222">125</Item>
+			<Item score="0001">135</Item>
+			<Item score="0002">137</Item>
+			<Item score="2222">140</Item>
+			<Item score="0010">147</Item>
+			<Item score="2222">172</Item>
+			<Item score="1220">173</Item>
+			<Item score="0001">199</Item>
+			<Item score="0001">221</Item>
+			<Item score="1100">261</Item>
+			<Item score="0100">294</Item>
+			<Item score="0001">301</Item>
+			<Item score="1100">302</Item>
+			<Item score="2120">303</Item>
+			<Item score="0001">307</Item>
+			<Item score="0100">308</Item>
+			<Item score="0100">311</Item>
+			<Item score="0100">324</Item>
+			<Item score="0100">334</Item>
+			<Item score="0100">361</Item>
+			<Item score="1112">370</Item>
+			<Item score="1000">386</Item>
+			<Item score="0011">392</Item>
+			<Item score="0100">404</Item>
+			<Item score="2212">418</Item>
+			<Item score="0001">430</Item>
+			<Item score="2222">440</Item>
+			<Item score="2222">441</Item>
+			<Item score="1210">461</Item>
+			<Item score="0001">471</Item>
+			<Item score="0110">484</Item>
+			<Item score="0001">490</Item>
+			<Item score="0001">493</Item>
+			<Item score="2222">504</Item>
+			<Item score="0001">505</Item>
+			<Item score="0101">522</Item>
+			<Item score="1100">526</Item>
+			<Item score="0100">527</Item>
+			<Item score="0100">560</Item>
+			<Item score="0100">562</Item>
+			<Item score="0001">563</Item>
+			<Item score="2222">568</Item>
+			<Item score="0001">570</Item>
+			<Item score="0001">571</Item>
+			<Item score="0001">575</Item>
+			<Item score="1000">636</Item>
+			<Item score="0010">655</Item>
+			<Item score="0001">693</Item>
+			<Item score="0100">694</Item>
+			<Item score="0001">707</Item>
+			<Item score="1100">714</Item>
+			<Item score="0001">733</Item>
+			<Item score="0001">737</Item>
+			<Item score="0001">741</Item>
+			<Item score="0001">758</Item>
+			<Item score="0100">793</Item>
+			<Item score="0100">795</Item>
+			<Item score="0100">817</Item>
+			<Item score="0100">818</Item>
+			<Item score="0001">864</Item>
+			<Item score="0001">889</Item>
+			<Item score="0011">891</Item>
+			<Item score="0100">913</Item>
+			<Item score="0100">916</Item>
+			<Item score="1011">918</Item>
+			<Item score="1102">921</Item>
+			<Item score="0001">944</Item>
+			<Item score="1002">958</Item>
+			<Item score="2222">960</Item>
+			<Item score="1001">966</Item>
+			<Item score="1001">967</Item>
+			<Item score="0002">975</Item>
+			<Item score="0001">982</Item>
+			<Item score="0010">997</Item>
+			<Item score="0002">1000</Item>
+			<Item score="0001">1080</Item>
+			<Item score="0001">1093</Item>
+			<Item score="0001">1094</Item>
+			<Item score="0001">1121</Item>
+			<Item score="0001">1156</Item>
+			<Item score="0011">1167</Item>
+			<Item score="0011">1172</Item>
+			<Item score="0010">1184</Item>
+			<Item score="0001">1185</Item>
+			<Item score="1002">1199</Item>
+			<Item score="2211">1200</Item>
+			<Item score="0001">1209</Item>
+			<Item score="0010">1216</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00044</QueryNumber>
+		<QueryText>What structural or enzymatic differences are there between fibroblasts
+   from CF patients and non-CF patients?
+</QueryText>
+		<Results>00140</Results>
+		<Records>
+			<Item score="2222">44</Item>
+			<Item score="1000">45</Item>
+			<Item score="2222">53</Item>
+			<Item score="1211">67</Item>
+			<Item score="2112">72</Item>
+			<Item score="2222">74</Item>
+			<Item score="1001">83</Item>
+			<Item score="1112">84</Item>
+			<Item score="1001">106</Item>
+			<Item score="1000">108</Item>
+			<Item score="1000">118</Item>
+			<Item score="1000">121</Item>
+			<Item score="0011">122</Item>
+			<Item score="2222">124</Item>
+			<Item score="0100">125</Item>
+			<Item score="0001">135</Item>
+			<Item score="0002">138</Item>
+			<Item score="0010">142</Item>
+			<Item score="2212">143</Item>
+			<Item score="2212">154</Item>
+			<Item score="1000">166</Item>
+			<Item score="2212">171</Item>
+			<Item score="1000">172</Item>
+			<Item score="2222">190</Item>
+			<Item score="2210">235</Item>
+			<Item score="2211">236</Item>
+			<Item score="2210">242</Item>
+			<Item score="2210">243</Item>
+			<Item score="2220">244</Item>
+			<Item score="1001">257</Item>
+			<Item score="2110">264</Item>
+			<Item score="2212">269</Item>
+			<Item score="0001">276</Item>
+			<Item score="0001">297</Item>
+			<Item score="0100">310</Item>
+			<Item score="2222">312</Item>
+			<Item score="1111">325</Item>
+			<Item score="2111">336</Item>
+			<Item score="1001">360</Item>
+			<Item score="1000">370</Item>
+			<Item score="0001">371</Item>
+			<Item score="0001">381</Item>
+			<Item score="2212">386</Item>
+			<Item score="2212">390</Item>
+			<Item score="0001">392</Item>
+			<Item score="1211">399</Item>
+			<Item score="0001">409</Item>
+			<Item score="2222">411</Item>
+			<Item score="2120">415</Item>
+			<Item score="1001">430</Item>
+			<Item score="0001">435</Item>
+			<Item score="2220">436</Item>
+			<Item score="2222">453</Item>
+			<Item score="0001">465</Item>
+			<Item score="0101">493</Item>
+			<Item score="2222">495</Item>
+			<Item score="0001">503</Item>
+			<Item score="2222">504</Item>
+			<Item score="1001">523</Item>
+			<Item score="2212">528</Item>
+			<Item score="0001">538</Item>
+			<Item score="2222">548</Item>
+			<Item score="2212">561</Item>
+			<Item score="0001">563</Item>
+			<Item score="2222">566</Item>
+			<Item score="2222">567</Item>
+			<Item score="2222">568</Item>
+			<Item score="2220">569</Item>
+			<Item score="1120">570</Item>
+			<Item score="1210">572</Item>
+			<Item score="2222">574</Item>
+			<Item score="2222">575</Item>
+			<Item score="0010">576</Item>
+			<Item score="0001">590</Item>
+			<Item score="0001">608</Item>
+			<Item score="2222">621</Item>
+			<Item score="2222">622</Item>
+			<Item score="2222">623</Item>
+			<Item score="2212">624</Item>
+			<Item score="2222">625</Item>
+			<Item score="2222">634</Item>
+			<Item score="2222">636</Item>
+			<Item score="0101">645</Item>
+			<Item score="1212">647</Item>
+			<Item score="2222">655</Item>
+			<Item score="1211">666</Item>
+			<Item score="2222">691</Item>
+			<Item score="2222">702</Item>
+			<Item score="2222">737</Item>
+			<Item score="2222">743</Item>
+			<Item score="0001">747</Item>
+			<Item score="2222">750</Item>
+			<Item score="2222">765</Item>
+			<Item score="2222">766</Item>
+			<Item score="0001">767</Item>
+			<Item score="2222">786</Item>
+			<Item score="2222">840</Item>
+			<Item score="1101">841</Item>
+			<Item score="2222">847</Item>
+			<Item score="2222">850</Item>
+			<Item score="0001">856</Item>
+			<Item score="2121">858</Item>
+			<Item score="0001">862</Item>
+			<Item score="2222">873</Item>
+			<Item score="0001">875</Item>
+			<Item score="2222">951</Item>
+			<Item score="2222">953</Item>
+			<Item score="1000">961</Item>
+			<Item score="2222">967</Item>
+			<Item score="1221">971</Item>
+			<Item score="2222">973</Item>
+			<Item score="2222">1024</Item>
+			<Item score="2222">1029</Item>
+			<Item score="2222">1030</Item>
+			<Item score="2222">1053</Item>
+			<Item score="0001">1054</Item>
+			<Item score="2222">1055</Item>
+			<Item score="1012">1057</Item>
+			<Item score="2222">1059</Item>
+			<Item score="0001">1070</Item>
+			<Item score="1212">1072</Item>
+			<Item score="0002">1130</Item>
+			<Item score="0001">1136</Item>
+			<Item score="0001">1139</Item>
+			<Item score="1002">1142</Item>
+			<Item score="0001">1144</Item>
+			<Item score="1220">1146</Item>
+			<Item score="1222">1148</Item>
+			<Item score="1221">1156</Item>
+			<Item score="0001">1157</Item>
+			<Item score="2122">1160</Item>
+			<Item score="2221">1185</Item>
+			<Item score="0001">1196</Item>
+			<Item score="2222">1201</Item>
+			<Item score="2222">1202</Item>
+			<Item score="0001">1210</Item>
+			<Item score="0001">1212</Item>
+			<Item score="2222">1222</Item>
+			<Item score="2211">1230</Item>
+			<Item score="1101">1231</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00045</QueryNumber>
+		<QueryText>What abnormalities of prostaglandin metabolism have been described in
+   CF patients?
+</QueryText>
+		<Results>00020</Results>
+		<Records>
+			<Item score="0100">278</Item>
+			<Item score="0100">283</Item>
+			<Item score="0100">286</Item>
+			<Item score="0101">287</Item>
+			<Item score="0100">288</Item>
+			<Item score="1220">289</Item>
+			<Item score="1110">290</Item>
+			<Item score="2210">292</Item>
+			<Item score="1220">293</Item>
+			<Item score="1212">338</Item>
+			<Item score="2210">538</Item>
+			<Item score="1000">540</Item>
+			<Item score="0100">715</Item>
+			<Item score="1010">758</Item>
+			<Item score="2212">803</Item>
+			<Item score="2212">919</Item>
+			<Item score="2212">924</Item>
+			<Item score="0010">1050</Item>
+			<Item score="2222">1159</Item>
+			<Item score="0010">1168</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00046</QueryNumber>
+		<QueryText>What are the properties and activity of galactosyltransferase enzymes
+   from CF patients?
+</QueryText>
+		<Results>00018</Results>
+		<Records>
+			<Item score="2222">51</Item>
+			<Item score="2222">53</Item>
+			<Item score="0010">370</Item>
+			<Item score="0011">410</Item>
+			<Item score="0001">430</Item>
+			<Item score="0100">500</Item>
+			<Item score="2221">503</Item>
+			<Item score="2111">516</Item>
+			<Item score="1002">553</Item>
+			<Item score="1000">568</Item>
+			<Item score="0010">623</Item>
+			<Item score="2122">702</Item>
+			<Item score="2222">737</Item>
+			<Item score="1111">854</Item>
+			<Item score="2111">856</Item>
+			<Item score="0002">857</Item>
+			<Item score="0001">1196</Item>
+			<Item score="1121">1212</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00047</QueryNumber>
+		<QueryText>What differences between normal subjects and CF patients have been
+   described in the function or metabolism of hormones?
+</QueryText>
+		<Results>00060</Results>
+		<Records>
+			<Item score="0002">15</Item>
+			<Item score="1000">57</Item>
+			<Item score="2220">92</Item>
+			<Item score="0010">118</Item>
+			<Item score="0010">121</Item>
+			<Item score="0001">125</Item>
+			<Item score="2222">163</Item>
+			<Item score="0002">165</Item>
+			<Item score="0012">172</Item>
+			<Item score="0010">183</Item>
+			<Item score="0001">208</Item>
+			<Item score="2220">209</Item>
+			<Item score="1000">245</Item>
+			<Item score="0010">259</Item>
+			<Item score="0010">278</Item>
+			<Item score="0010">279</Item>
+			<Item score="0010">283</Item>
+			<Item score="0010">286</Item>
+			<Item score="0010">287</Item>
+			<Item score="2211">295</Item>
+			<Item score="0100">296</Item>
+			<Item score="1210">301</Item>
+			<Item score="0100">302</Item>
+			<Item score="2220">317</Item>
+			<Item score="1000">337</Item>
+			<Item score="1000">361</Item>
+			<Item score="1000">370</Item>
+			<Item score="2212">406</Item>
+			<Item score="1000">416</Item>
+			<Item score="0001">436</Item>
+			<Item score="2221">505</Item>
+			<Item score="2210">508</Item>
+			<Item score="0010">525</Item>
+			<Item score="2220">585</Item>
+			<Item score="2210">613</Item>
+			<Item score="2222">684</Item>
+			<Item score="2212">694</Item>
+			<Item score="2210">695</Item>
+			<Item score="0110">707</Item>
+			<Item score="0001">781</Item>
+			<Item score="0010">862</Item>
+			<Item score="0010">868</Item>
+			<Item score="2221">906</Item>
+			<Item score="0010">928</Item>
+			<Item score="1000">931</Item>
+			<Item score="0100">971</Item>
+			<Item score="1010">998</Item>
+			<Item score="1001">1000</Item>
+			<Item score="1000">1013</Item>
+			<Item score="2220">1058</Item>
+			<Item score="0010">1075</Item>
+			<Item score="1000">1106</Item>
+			<Item score="1000">1107</Item>
+			<Item score="1000">1108</Item>
+			<Item score="0010">1129</Item>
+			<Item score="0010">1132</Item>
+			<Item score="2222">1165</Item>
+			<Item score="1000">1192</Item>
+			<Item score="0010">1194</Item>
+			<Item score="0010">1206</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00048</QueryNumber>
+		<QueryText>Do fibroblasts from CF patients grow at a normal rate?
+</QueryText>
+		<Results>00030</Results>
+		<Records>
+			<Item score="0110">44</Item>
+			<Item score="0100">72</Item>
+			<Item score="0100">74</Item>
+			<Item score="2220">124</Item>
+			<Item score="0002">143</Item>
+			<Item score="2222">154</Item>
+			<Item score="0010">190</Item>
+			<Item score="0011">257</Item>
+			<Item score="0100">312</Item>
+			<Item score="2222">336</Item>
+			<Item score="0100">386</Item>
+			<Item score="0001">422</Item>
+			<Item score="2222">436</Item>
+			<Item score="2222">453</Item>
+			<Item score="0101">493</Item>
+			<Item score="2220">495</Item>
+			<Item score="2220">523</Item>
+			<Item score="2220">548</Item>
+			<Item score="1000">566</Item>
+			<Item score="2222">568</Item>
+			<Item score="2222">576</Item>
+			<Item score="0001">691</Item>
+			<Item score="0010">765</Item>
+			<Item score="0010">766</Item>
+			<Item score="0010">786</Item>
+			<Item score="2222">850</Item>
+			<Item score="0011">967</Item>
+			<Item score="2220">1142</Item>
+			<Item score="0001">1201</Item>
+			<Item score="2122">1231</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00049</QueryNumber>
+		<QueryText>Is RNA methylation or polyamine metabolism normal in CF patients?
+</QueryText>
+		<Results>00036</Results>
+		<Records>
+			<Item score="0100">72</Item>
+			<Item score="0010">84</Item>
+			<Item score="2222">138</Item>
+			<Item score="2222">143</Item>
+			<Item score="2220">230</Item>
+			<Item score="2222">313</Item>
+			<Item score="0010">370</Item>
+			<Item score="1010">392</Item>
+			<Item score="2220">393</Item>
+			<Item score="0010">430</Item>
+			<Item score="2222">436</Item>
+			<Item score="1000">440</Item>
+			<Item score="0001">465</Item>
+			<Item score="2222">493</Item>
+			<Item score="0001">503</Item>
+			<Item score="1222">504</Item>
+			<Item score="0001">505</Item>
+			<Item score="2220">523</Item>
+			<Item score="0001">530</Item>
+			<Item score="0010">553</Item>
+			<Item score="2220">562</Item>
+			<Item score="2220">563</Item>
+			<Item score="1000">566</Item>
+			<Item score="1212">568</Item>
+			<Item score="1001">570</Item>
+			<Item score="0001">586</Item>
+			<Item score="0001">608</Item>
+			<Item score="2222">624</Item>
+			<Item score="1221">625</Item>
+			<Item score="2220">691</Item>
+			<Item score="0100">726</Item>
+			<Item score="2220">743</Item>
+			<Item score="0011">749</Item>
+			<Item score="1222">953</Item>
+			<Item score="2222">972</Item>
+			<Item score="2222">1198</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00050</QueryNumber>
+		<QueryText>What defects in the synthesis or metabolism of cyclic nucleotides have
+   been described in CF patients?
+</QueryText>
+		<Results>00025</Results>
+		<Records>
+			<Item score="0100">44</Item>
+			<Item score="2222">259</Item>
+			<Item score="0100">309</Item>
+			<Item score="0001">347</Item>
+			<Item score="2222">435</Item>
+			<Item score="1001">440</Item>
+			<Item score="2222">495</Item>
+			<Item score="0001">505</Item>
+			<Item score="0100">543</Item>
+			<Item score="2222">548</Item>
+			<Item score="1001">568</Item>
+			<Item score="0001">570</Item>
+			<Item score="0001">575</Item>
+			<Item score="0001">601</Item>
+			<Item score="0001">634</Item>
+			<Item score="0001">829</Item>
+			<Item score="2222">848</Item>
+			<Item score="1222">953</Item>
+			<Item score="2222">961</Item>
+			<Item score="1220">973</Item>
+			<Item score="0100">1058</Item>
+			<Item score="1121">1156</Item>
+			<Item score="2222">1157</Item>
+			<Item score="1121">1159</Item>
+			<Item score="0001">1160</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00051</QueryNumber>
+		<QueryText>What circulating or secreted "factors" have been described in CF
+   patients? ("Factors" are unidentified biologically active molecules
+   thought to play some pathogenetic role in cystic fibrosis).
+</QueryText>
+		<Results>00241</Results>
+		<Records>
+			<Item score="0100">1</Item>
+			<Item score="0100">11</Item>
+			<Item score="0100">14</Item>
+			<Item score="1120">18</Item>
+			<Item score="1210">19</Item>
+			<Item score="2221">26</Item>
+			<Item score="1120">44</Item>
+			<Item score="0100">51</Item>
+			<Item score="0100">55</Item>
+			<Item score="0100">62</Item>
+			<Item score="0100">63</Item>
+			<Item score="0001">66</Item>
+			<Item score="1112">67</Item>
+			<Item score="1112">72</Item>
+			<Item score="0001">83</Item>
+			<Item score="1112">84</Item>
+			<Item score="2222">85</Item>
+			<Item score="1100">102</Item>
+			<Item score="1102">107</Item>
+			<Item score="0001">108</Item>
+			<Item score="2212">112</Item>
+			<Item score="2211">114</Item>
+			<Item score="2222">122</Item>
+			<Item score="0002">124</Item>
+			<Item score="0001">135</Item>
+			<Item score="2221">137</Item>
+			<Item score="2222">141</Item>
+			<Item score="2212">142</Item>
+			<Item score="0001">177</Item>
+			<Item score="0001">190</Item>
+			<Item score="2121">191</Item>
+			<Item score="0011">196</Item>
+			<Item score="0001">200</Item>
+			<Item score="2222">201</Item>
+			<Item score="2222">214</Item>
+			<Item score="0100">216</Item>
+			<Item score="0100">217</Item>
+			<Item score="0100">218</Item>
+			<Item score="0100">219</Item>
+			<Item score="0100">221</Item>
+			<Item score="0100">222</Item>
+			<Item score="2222">225</Item>
+			<Item score="0001">230</Item>
+			<Item score="2212">235</Item>
+			<Item score="2211">236</Item>
+			<Item score="0100">245</Item>
+			<Item score="2222">249</Item>
+			<Item score="0100">252</Item>
+			<Item score="2111">254</Item>
+			<Item score="0100">263</Item>
+			<Item score="1100">264</Item>
+			<Item score="2212">270</Item>
+			<Item score="0001">276</Item>
+			<Item score="2210">277</Item>
+			<Item score="0012">279</Item>
+			<Item score="0011">281</Item>
+			<Item score="0100">289</Item>
+			<Item score="1001">297</Item>
+			<Item score="2212">302</Item>
+			<Item score="2212">303</Item>
+			<Item score="2221">304</Item>
+			<Item score="2212">305</Item>
+			<Item score="2222">306</Item>
+			<Item score="0102">307</Item>
+			<Item score="2111">308</Item>
+			<Item score="0001">311</Item>
+			<Item score="0001">322</Item>
+			<Item score="1211">325</Item>
+			<Item score="1101">333</Item>
+			<Item score="1001">337</Item>
+			<Item score="0001">343</Item>
+			<Item score="0100">345</Item>
+			<Item score="0100">355</Item>
+			<Item score="1002">360</Item>
+			<Item score="1212">365</Item>
+			<Item score="1211">366</Item>
+			<Item score="1112">370</Item>
+			<Item score="0001">382</Item>
+			<Item score="1012">383</Item>
+			<Item score="1222">386</Item>
+			<Item score="0011">391</Item>
+			<Item score="1122">392</Item>
+			<Item score="2112">400</Item>
+			<Item score="0001">402</Item>
+			<Item score="2221">407</Item>
+			<Item score="1101">415</Item>
+			<Item score="0002">417</Item>
+			<Item score="1211">418</Item>
+			<Item score="2111">419</Item>
+			<Item score="1011">430</Item>
+			<Item score="0001">435</Item>
+			<Item score="0001">437</Item>
+			<Item score="0001">440</Item>
+			<Item score="2122">442</Item>
+			<Item score="2222">444</Item>
+			<Item score="2222">445</Item>
+			<Item score="1222">465</Item>
+			<Item score="2222">481</Item>
+			<Item score="2211">484</Item>
+			<Item score="0001">488</Item>
+			<Item score="2222">490</Item>
+			<Item score="0101">493</Item>
+			<Item score="2122">494</Item>
+			<Item score="0001">495</Item>
+			<Item score="1122">498</Item>
+			<Item score="2221">501</Item>
+			<Item score="0001">502</Item>
+			<Item score="0011">503</Item>
+			<Item score="2222">504</Item>
+			<Item score="0001">505</Item>
+			<Item score="0001">510</Item>
+			<Item score="1011">511</Item>
+			<Item score="0011">517</Item>
+			<Item score="1210">521</Item>
+			<Item score="0001">526</Item>
+			<Item score="2211">528</Item>
+			<Item score="2211">529</Item>
+			<Item score="2211">530</Item>
+			<Item score="2211">531</Item>
+			<Item score="2221">532</Item>
+			<Item score="2211">534</Item>
+			<Item score="2222">535</Item>
+			<Item score="0001">548</Item>
+			<Item score="2211">553</Item>
+			<Item score="2222">560</Item>
+			<Item score="0102">562</Item>
+			<Item score="2211">563</Item>
+			<Item score="2222">564</Item>
+			<Item score="2222">565</Item>
+			<Item score="2221">566</Item>
+			<Item score="1222">568</Item>
+			<Item score="2222">569</Item>
+			<Item score="1222">570</Item>
+			<Item score="1000">571</Item>
+			<Item score="2222">572</Item>
+			<Item score="2222">573</Item>
+			<Item score="2222">574</Item>
+			<Item score="2222">575</Item>
+			<Item score="0001">576</Item>
+			<Item score="0010">589</Item>
+			<Item score="0101">590</Item>
+			<Item score="1122">605</Item>
+			<Item score="1222">608</Item>
+			<Item score="0001">625</Item>
+			<Item score="0001">627</Item>
+			<Item score="1002">636</Item>
+			<Item score="1100">639</Item>
+			<Item score="0001">643</Item>
+			<Item score="2222">646</Item>
+			<Item score="1100">675</Item>
+			<Item score="2112">681</Item>
+			<Item score="2222">685</Item>
+			<Item score="1000">707</Item>
+			<Item score="2222">726</Item>
+			<Item score="0001">733</Item>
+			<Item score="0010">737</Item>
+			<Item score="2222">738</Item>
+			<Item score="2222">739</Item>
+			<Item score="2222">740</Item>
+			<Item score="2222">741</Item>
+			<Item score="2222">744</Item>
+			<Item score="0001">745</Item>
+			<Item score="2222">746</Item>
+			<Item score="0001">747</Item>
+			<Item score="2222">748</Item>
+			<Item score="2222">749</Item>
+			<Item score="1001">779</Item>
+			<Item score="2210">789</Item>
+			<Item score="0100">790</Item>
+			<Item score="0001">793</Item>
+			<Item score="2222">827</Item>
+			<Item score="0100">828</Item>
+			<Item score="2211">829</Item>
+			<Item score="0001">847</Item>
+			<Item score="0100">852</Item>
+			<Item score="0101">856</Item>
+			<Item score="0100">857</Item>
+			<Item score="0001">858</Item>
+			<Item score="0001">861</Item>
+			<Item score="1211">864</Item>
+			<Item score="0002">865</Item>
+			<Item score="0001">866</Item>
+			<Item score="1000">868</Item>
+			<Item score="2112">869</Item>
+			<Item score="0001">875</Item>
+			<Item score="0001">881</Item>
+			<Item score="0001">889</Item>
+			<Item score="1001">891</Item>
+			<Item score="2212">892</Item>
+			<Item score="0001">905</Item>
+			<Item score="2222">918</Item>
+			<Item score="2222">921</Item>
+			<Item score="1001">925</Item>
+			<Item score="1000">926</Item>
+			<Item score="0001">933</Item>
+			<Item score="0100">936</Item>
+			<Item score="2222">949</Item>
+			<Item score="2222">950</Item>
+			<Item score="1220">954</Item>
+			<Item score="1001">956</Item>
+			<Item score="2222">957</Item>
+			<Item score="2211">958</Item>
+			<Item score="2221">966</Item>
+			<Item score="0001">990</Item>
+			<Item score="0001">991</Item>
+			<Item score="0001">1001</Item>
+			<Item score="1210">1024</Item>
+			<Item score="2222">1026</Item>
+			<Item score="0100">1027</Item>
+			<Item score="1221">1044</Item>
+			<Item score="0100">1057</Item>
+			<Item score="0001">1065</Item>
+			<Item score="1100">1070</Item>
+			<Item score="0102">1074</Item>
+			<Item score="2222">1076</Item>
+			<Item score="0001">1079</Item>
+			<Item score="0002">1091</Item>
+			<Item score="1112">1120</Item>
+			<Item score="0100">1127</Item>
+			<Item score="0100">1135</Item>
+			<Item score="0100">1137</Item>
+			<Item score="0100">1139</Item>
+			<Item score="0100">1141</Item>
+			<Item score="1221">1156</Item>
+			<Item score="1222">1167</Item>
+			<Item score="1211">1196</Item>
+			<Item score="0001">1198</Item>
+			<Item score="1000">1199</Item>
+			<Item score="2221">1200</Item>
+			<Item score="0010">1202</Item>
+			<Item score="2122">1203</Item>
+			<Item score="2221">1204</Item>
+			<Item score="2122">1207</Item>
+			<Item score="2222">1208</Item>
+			<Item score="2222">1209</Item>
+			<Item score="1121">1210</Item>
+			<Item score="1222">1211</Item>
+			<Item score="2122">1212</Item>
+			<Item score="0002">1234</Item>
+			<Item score="1222">1236</Item>
+			<Item score="1220">1238</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00052</QueryNumber>
+		<QueryText>What is known about prolactin in CF patients?
+</QueryText>
+		<Results>00002</Results>
+		<Records>
+			<Item score="2222">406</Item>
+			<Item score="0010">505</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00053</QueryNumber>
+		<QueryText>Does secretory IgA protect CF patients against bacterial colonization
+   or infection?
+</QueryText>
+		<Results>00023</Results>
+		<Records>
+			<Item score="1000">1</Item>
+			<Item score="0002">11</Item>
+			<Item score="1000">55</Item>
+			<Item score="1000">81</Item>
+			<Item score="0001">160</Item>
+			<Item score="1000">188</Item>
+			<Item score="1000">223</Item>
+			<Item score="1000">228</Item>
+			<Item score="1100">347</Item>
+			<Item score="0010">370</Item>
+			<Item score="2210">401</Item>
+			<Item score="1212">432</Item>
+			<Item score="2220">447</Item>
+			<Item score="1000">505</Item>
+			<Item score="1000">509</Item>
+			<Item score="1110">577</Item>
+			<Item score="1010">590</Item>
+			<Item score="1001">767</Item>
+			<Item score="0100">917</Item>
+			<Item score="2221">987</Item>
+			<Item score="1210">1170</Item>
+			<Item score="0111">1228</Item>
+			<Item score="0111">1229</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00054</QueryNumber>
+		<QueryText>What is the relationship of allergy or hypersensitivity to lung disease
+   in CF patients?
+</QueryText>
+		<Results>00062</Results>
+		<Records>
+			<Item score="2222">11</Item>
+			<Item score="0100">23</Item>
+			<Item score="1010">55</Item>
+			<Item score="1011">187</Item>
+			<Item score="0100">206</Item>
+			<Item score="2222">211</Item>
+			<Item score="1122">223</Item>
+			<Item score="2222">228</Item>
+			<Item score="2222">229</Item>
+			<Item score="0011">333</Item>
+			<Item score="0012">341</Item>
+			<Item score="0012">347</Item>
+			<Item score="2222">358</Item>
+			<Item score="2121">369</Item>
+			<Item score="2222">382</Item>
+			<Item score="2120">394</Item>
+			<Item score="2111">401</Item>
+			<Item score="2122">402</Item>
+			<Item score="2222">432</Item>
+			<Item score="2121">485</Item>
+			<Item score="2120">488</Item>
+			<Item score="0011">505</Item>
+			<Item score="1002">513</Item>
+			<Item score="0001">547</Item>
+			<Item score="0001">550</Item>
+			<Item score="0101">552</Item>
+			<Item score="2110">577</Item>
+			<Item score="0011">590</Item>
+			<Item score="0100">607</Item>
+			<Item score="1000">613</Item>
+			<Item score="0101">626</Item>
+			<Item score="2212">631</Item>
+			<Item score="1122">632</Item>
+			<Item score="1101">716</Item>
+			<Item score="1001">767</Item>
+			<Item score="0100">771</Item>
+			<Item score="0001">790</Item>
+			<Item score="0001">793</Item>
+			<Item score="0001">806</Item>
+			<Item score="2122">812</Item>
+			<Item score="2222">819</Item>
+			<Item score="0002">860</Item>
+			<Item score="2212">904</Item>
+			<Item score="0100">905</Item>
+			<Item score="2210">917</Item>
+			<Item score="1001">941</Item>
+			<Item score="2222">964</Item>
+			<Item score="1001">990</Item>
+			<Item score="0002">1003</Item>
+			<Item score="2221">1005</Item>
+			<Item score="2122">1007</Item>
+			<Item score="1001">1013</Item>
+			<Item score="2122">1048</Item>
+			<Item score="2222">1060</Item>
+			<Item score="0100">1099</Item>
+			<Item score="2112">1134</Item>
+			<Item score="2212">1163</Item>
+			<Item score="0112">1164</Item>
+			<Item score="1222">1169</Item>
+			<Item score="0100">1171</Item>
+			<Item score="0001">1192</Item>
+			<Item score="0100">1237</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00055</QueryNumber>
+		<QueryText>What are the interactions between proteases (endogenous or bacterial
+   origin) and antiproteases in the lungs of CF patients?
+</QueryText>
+		<Results>00024</Results>
+		<Records>
+			<Item score="0100">70</Item>
+			<Item score="1100">232</Item>
+			<Item score="0100">305</Item>
+			<Item score="1000">347</Item>
+			<Item score="0002">358</Item>
+			<Item score="2110">391</Item>
+			<Item score="0001">430</Item>
+			<Item score="2122">432</Item>
+			<Item score="1100">463</Item>
+			<Item score="1001">505</Item>
+			<Item score="2222">521</Item>
+			<Item score="2122">530</Item>
+			<Item score="1010">640</Item>
+			<Item score="1000">675</Item>
+			<Item score="0010">749</Item>
+			<Item score="1010">779</Item>
+			<Item score="1122">820</Item>
+			<Item score="1210">828</Item>
+			<Item score="0010">847</Item>
+			<Item score="1001">890</Item>
+			<Item score="1000">1056</Item>
+			<Item score="1100">1070</Item>
+			<Item score="0001">1156</Item>
+			<Item score="2110">1205</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00056</QueryNumber>
+		<QueryText>What is the relationship between nutrition and pulmonary host defenses
+   against bacterial infection in CF patients?
+</QueryText>
+		<Results>00032</Results>
+		<Records>
+			<Item score="1000">55</Item>
+			<Item score="0110">89</Item>
+			<Item score="0001">123</Item>
+			<Item score="0001">135</Item>
+			<Item score="1012">181</Item>
+			<Item score="1001">185</Item>
+			<Item score="1012">212</Item>
+			<Item score="0110">288</Item>
+			<Item score="0110">290</Item>
+			<Item score="0110">292</Item>
+			<Item score="0100">414</Item>
+			<Item score="0100">424</Item>
+			<Item score="0100">432</Item>
+			<Item score="0100">443</Item>
+			<Item score="0002">450</Item>
+			<Item score="0100">758</Item>
+			<Item score="2222">767</Item>
+			<Item score="1000">783</Item>
+			<Item score="0100">794</Item>
+			<Item score="0100">919</Item>
+			<Item score="0100">924</Item>
+			<Item score="0100">925</Item>
+			<Item score="0100">928</Item>
+			<Item score="0100">970</Item>
+			<Item score="0100">972</Item>
+			<Item score="0100">1066</Item>
+			<Item score="0012">1091</Item>
+			<Item score="0001">1093</Item>
+			<Item score="0100">1102</Item>
+			<Item score="0100">1115</Item>
+			<Item score="0001">1234</Item>
+			<Item score="0100">1239</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00057</QueryNumber>
+		<QueryText>What is the pathophysiologic role of circulating antibodies to
+   Pseudomonas aeruginosa in CF patients?
+</QueryText>
+		<Results>00051</Results>
+		<Records>
+			<Item score="1222">1</Item>
+			<Item score="0001">6</Item>
+			<Item score="0100">8</Item>
+			<Item score="0001">11</Item>
+			<Item score="0010">62</Item>
+			<Item score="0100">79</Item>
+			<Item score="0010">80</Item>
+			<Item score="0010">81</Item>
+			<Item score="1001">160</Item>
+			<Item score="0100">177</Item>
+			<Item score="1110">178</Item>
+			<Item score="1010">188</Item>
+			<Item score="0100">200</Item>
+			<Item score="2211">223</Item>
+			<Item score="1000">228</Item>
+			<Item score="0012">282</Item>
+			<Item score="2120">346</Item>
+			<Item score="1000">369</Item>
+			<Item score="1110">370</Item>
+			<Item score="1220">394</Item>
+			<Item score="0100">397</Item>
+			<Item score="1000">415</Item>
+			<Item score="2120">432</Item>
+			<Item score="0100">447</Item>
+			<Item score="1000">513</Item>
+			<Item score="0010">577</Item>
+			<Item score="2220">588</Item>
+			<Item score="2222">590</Item>
+			<Item score="0010">668</Item>
+			<Item score="1210">778</Item>
+			<Item score="1000">784</Item>
+			<Item score="2220">790</Item>
+			<Item score="0101">812</Item>
+			<Item score="1000">833</Item>
+			<Item score="1120">860</Item>
+			<Item score="2110">865</Item>
+			<Item score="0101">890</Item>
+			<Item score="1210">905</Item>
+			<Item score="1220">983</Item>
+			<Item score="1120">986</Item>
+			<Item score="1121">987</Item>
+			<Item score="2220">988</Item>
+			<Item score="1010">989</Item>
+			<Item score="0100">1086</Item>
+			<Item score="0100">1090</Item>
+			<Item score="0011">1091</Item>
+			<Item score="2110">1095</Item>
+			<Item score="0002">1170</Item>
+			<Item score="0002">1171</Item>
+			<Item score="1120">1173</Item>
+			<Item score="1100">1203</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00058</QueryNumber>
+		<QueryText>What is the immunologic response to pulmonary infection in CF patients?
+</QueryText>
+		<Results>00095</Results>
+		<Records>
+			<Item score="2222">1</Item>
+			<Item score="2222">6</Item>
+			<Item score="2222">7</Item>
+			<Item score="0100">43</Item>
+			<Item score="1010">48</Item>
+			<Item score="2210">55</Item>
+			<Item score="0100">60</Item>
+			<Item score="2112">62</Item>
+			<Item score="2110">63</Item>
+			<Item score="2212">80</Item>
+			<Item score="0002">81</Item>
+			<Item score="2210">82</Item>
+			<Item score="0001">102</Item>
+			<Item score="0010">111</Item>
+			<Item score="2222">160</Item>
+			<Item score="0001">164</Item>
+			<Item score="2122">178</Item>
+			<Item score="2110">179</Item>
+			<Item score="2120">187</Item>
+			<Item score="2121">188</Item>
+			<Item score="1002">200</Item>
+			<Item score="2221">223</Item>
+			<Item score="2120">228</Item>
+			<Item score="1220">229</Item>
+			<Item score="2210">271</Item>
+			<Item score="1001">282</Item>
+			<Item score="1001">335</Item>
+			<Item score="2122">346</Item>
+			<Item score="2121">347</Item>
+			<Item score="0010">366</Item>
+			<Item score="2220">369</Item>
+			<Item score="1100">370</Item>
+			<Item score="1000">384</Item>
+			<Item score="0010">392</Item>
+			<Item score="2211">394</Item>
+			<Item score="0100">397</Item>
+			<Item score="0001">402</Item>
+			<Item score="1001">415</Item>
+			<Item score="0001">427</Item>
+			<Item score="0100">429</Item>
+			<Item score="2122">432</Item>
+			<Item score="2122">447</Item>
+			<Item score="0001">457</Item>
+			<Item score="0010">463</Item>
+			<Item score="0001">485</Item>
+			<Item score="1120">505</Item>
+			<Item score="0100">511</Item>
+			<Item score="0111">513</Item>
+			<Item score="0010">517</Item>
+			<Item score="0001">550</Item>
+			<Item score="2122">577</Item>
+			<Item score="2122">588</Item>
+			<Item score="2110">589</Item>
+			<Item score="2222">590</Item>
+			<Item score="2222">591</Item>
+			<Item score="0010">609</Item>
+			<Item score="2121">614</Item>
+			<Item score="2120">631</Item>
+			<Item score="1021">668</Item>
+			<Item score="0010">748</Item>
+			<Item score="0010">749</Item>
+			<Item score="1121">769</Item>
+			<Item score="2212">778</Item>
+			<Item score="1002">784</Item>
+			<Item score="2222">790</Item>
+			<Item score="0001">805</Item>
+			<Item score="2212">812</Item>
+			<Item score="0001">820</Item>
+			<Item score="2222">860</Item>
+			<Item score="2122">865</Item>
+			<Item score="1112">874</Item>
+			<Item score="2122">890</Item>
+			<Item score="0110">903</Item>
+			<Item score="2220">905</Item>
+			<Item score="0001">912</Item>
+			<Item score="2211">917</Item>
+			<Item score="0100">964</Item>
+			<Item score="2222">983</Item>
+			<Item score="2222">986</Item>
+			<Item score="2222">987</Item>
+			<Item score="2222">988</Item>
+			<Item score="2222">989</Item>
+			<Item score="0001">990</Item>
+			<Item score="0001">1005</Item>
+			<Item score="1100">1025</Item>
+			<Item score="2220">1077</Item>
+			<Item score="0100">1086</Item>
+			<Item score="0100">1090</Item>
+			<Item score="0011">1091</Item>
+			<Item score="0002">1134</Item>
+			<Item score="2221">1170</Item>
+			<Item score="1122">1171</Item>
+			<Item score="2222">1173</Item>
+			<Item score="1000">1228</Item>
+			<Item score="0001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00059</QueryNumber>
+		<QueryText>What immunologic abnormalities have been found in CF patients?
+</QueryText>
+		<Results>00145</Results>
+		<Records>
+			<Item score="0002">1</Item>
+			<Item score="0001">6</Item>
+			<Item score="0001">11</Item>
+			<Item score="0101">18</Item>
+			<Item score="0010">45</Item>
+			<Item score="0112">48</Item>
+			<Item score="2222">55</Item>
+			<Item score="0002">62</Item>
+			<Item score="0002">63</Item>
+			<Item score="0001">67</Item>
+			<Item score="1000">79</Item>
+			<Item score="0002">80</Item>
+			<Item score="1002">81</Item>
+			<Item score="1012">84</Item>
+			<Item score="2111">102</Item>
+			<Item score="1012">107</Item>
+			<Item score="0001">110</Item>
+			<Item score="0100">111</Item>
+			<Item score="1100">122</Item>
+			<Item score="0101">160</Item>
+			<Item score="0001">164</Item>
+			<Item score="0110">166</Item>
+			<Item score="0001">177</Item>
+			<Item score="0001">179</Item>
+			<Item score="0002">187</Item>
+			<Item score="0001">188</Item>
+			<Item score="1102">191</Item>
+			<Item score="0001">200</Item>
+			<Item score="2111">214</Item>
+			<Item score="2222">223</Item>
+			<Item score="1112">228</Item>
+			<Item score="1222">229</Item>
+			<Item score="0010">245</Item>
+			<Item score="1011">275</Item>
+			<Item score="2111">279</Item>
+			<Item score="0001">281</Item>
+			<Item score="2112">284</Item>
+			<Item score="0001">306</Item>
+			<Item score="0001">333</Item>
+			<Item score="0111">335</Item>
+			<Item score="0101">346</Item>
+			<Item score="1002">347</Item>
+			<Item score="2111">365</Item>
+			<Item score="2111">366</Item>
+			<Item score="0001">369</Item>
+			<Item score="1011">370</Item>
+			<Item score="0001">382</Item>
+			<Item score="1001">386</Item>
+			<Item score="0011">392</Item>
+			<Item score="2212">394</Item>
+			<Item score="2121">397</Item>
+			<Item score="2122">401</Item>
+			<Item score="2222">402</Item>
+			<Item score="0002">415</Item>
+			<Item score="0010">425</Item>
+			<Item score="0001">427</Item>
+			<Item score="0001">430</Item>
+			<Item score="2122">432</Item>
+			<Item score="0001">442</Item>
+			<Item score="0001">444</Item>
+			<Item score="0002">447</Item>
+			<Item score="0001">452</Item>
+			<Item score="0001">465</Item>
+			<Item score="1001">485</Item>
+			<Item score="0001">504</Item>
+			<Item score="1122">505</Item>
+			<Item score="2112">509</Item>
+			<Item score="1112">513</Item>
+			<Item score="0002">521</Item>
+			<Item score="0001">524</Item>
+			<Item score="0002">530</Item>
+			<Item score="1121">565</Item>
+			<Item score="1011">572</Item>
+			<Item score="1011">574</Item>
+			<Item score="2222">577</Item>
+			<Item score="0112">588</Item>
+			<Item score="1012">590</Item>
+			<Item score="0002">591</Item>
+			<Item score="0001">607</Item>
+			<Item score="1220">608</Item>
+			<Item score="0100">609</Item>
+			<Item score="0002">614</Item>
+			<Item score="0101">631</Item>
+			<Item score="2222">668</Item>
+			<Item score="1122">670</Item>
+			<Item score="0001">678</Item>
+			<Item score="0001">679</Item>
+			<Item score="0010">685</Item>
+			<Item score="2111">689</Item>
+			<Item score="0001">738</Item>
+			<Item score="0001">748</Item>
+			<Item score="2212">767</Item>
+			<Item score="0001">769</Item>
+			<Item score="0101">778</Item>
+			<Item score="2122">784</Item>
+			<Item score="2120">790</Item>
+			<Item score="2222">812</Item>
+			<Item score="0001">820</Item>
+			<Item score="1001">827</Item>
+			<Item score="0001">828</Item>
+			<Item score="2121">833</Item>
+			<Item score="0102">860</Item>
+			<Item score="2122">865</Item>
+			<Item score="0100">869</Item>
+			<Item score="0102">874</Item>
+			<Item score="0001">882</Item>
+			<Item score="1111">903</Item>
+			<Item score="2221">905</Item>
+			<Item score="0001">912</Item>
+			<Item score="0101">917</Item>
+			<Item score="2112">936</Item>
+			<Item score="0001">937</Item>
+			<Item score="0100">964</Item>
+			<Item score="0010">977</Item>
+			<Item score="0102">983</Item>
+			<Item score="0102">986</Item>
+			<Item score="0002">987</Item>
+			<Item score="0102">988</Item>
+			<Item score="2222">989</Item>
+			<Item score="0001">990</Item>
+			<Item score="0001">1005</Item>
+			<Item score="0001">1007</Item>
+			<Item score="2121">1025</Item>
+			<Item score="1100">1044</Item>
+			<Item score="0010">1056</Item>
+			<Item score="0012">1060</Item>
+			<Item score="0001">1071</Item>
+			<Item score="2122">1074</Item>
+			<Item score="0001">1075</Item>
+			<Item score="2222">1077</Item>
+			<Item score="0011">1091</Item>
+			<Item score="1122">1095</Item>
+			<Item score="0001">1097</Item>
+			<Item score="2121">1102</Item>
+			<Item score="0002">1134</Item>
+			<Item score="0010">1143</Item>
+			<Item score="1121">1163</Item>
+			<Item score="0001">1170</Item>
+			<Item score="1112">1171</Item>
+			<Item score="0012">1172</Item>
+			<Item score="1210">1173</Item>
+			<Item score="1000">1203</Item>
+			<Item score="1111">1205</Item>
+			<Item score="0002">1228</Item>
+			<Item score="0001">1232</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00060</QueryNumber>
+		<QueryText>What are the effects of CF on the pulmonary circulation?
+</QueryText>
+		<Results>00034</Results>
+		<Records>
+			<Item score="0101">17</Item>
+			<Item score="0100">87</Item>
+			<Item score="2222">100</Item>
+			<Item score="1220">155</Item>
+			<Item score="2112">241</Item>
+			<Item score="0111">267</Item>
+			<Item score="1210">322</Item>
+			<Item score="0002">340</Item>
+			<Item score="2222">348</Item>
+			<Item score="1000">354</Item>
+			<Item score="1000">370</Item>
+			<Item score="2220">446</Item>
+			<Item score="1010">519</Item>
+			<Item score="1000">550</Item>
+			<Item score="2120">587</Item>
+			<Item score="2120">597</Item>
+			<Item score="1010">653</Item>
+			<Item score="2122">698</Item>
+			<Item score="0001">722</Item>
+			<Item score="0001">724</Item>
+			<Item score="0010">751</Item>
+			<Item score="0001">764</Item>
+			<Item score="1002">990</Item>
+			<Item score="0001">1000</Item>
+			<Item score="2222">1004</Item>
+			<Item score="0001">1040</Item>
+			<Item score="1110">1041</Item>
+			<Item score="1110">1043</Item>
+			<Item score="0002">1046</Item>
+			<Item score="1110">1047</Item>
+			<Item score="0001">1104</Item>
+			<Item score="0012">1110</Item>
+			<Item score="1100">1192</Item>
+			<Item score="0001">1194</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00061</QueryNumber>
+		<QueryText>Is there a defect in mucociliary transport (clearance) in the
+   respiratory tract of CF patients?
+</QueryText>
+		<Results>00070</Results>
+		<Records>
+			<Item score="1010">10</Item>
+			<Item score="0001">56</Item>
+			<Item score="0100">62</Item>
+			<Item score="0100">63</Item>
+			<Item score="0100">114</Item>
+			<Item score="0001">132</Item>
+			<Item score="0001">187</Item>
+			<Item score="2222">195</Item>
+			<Item score="2222">196</Item>
+			<Item score="0100">197</Item>
+			<Item score="0002">200</Item>
+			<Item score="0001">226</Item>
+			<Item score="0001">298</Item>
+			<Item score="0001">347</Item>
+			<Item score="0100">358</Item>
+			<Item score="1012">370</Item>
+			<Item score="2222">383</Item>
+			<Item score="0001">427</Item>
+			<Item score="1002">432</Item>
+			<Item score="0001">434</Item>
+			<Item score="2222">437</Item>
+			<Item score="0100">439</Item>
+			<Item score="0112">465</Item>
+			<Item score="1101">481</Item>
+			<Item score="1120">490</Item>
+			<Item score="0102">498</Item>
+			<Item score="0100">500</Item>
+			<Item score="2222">501</Item>
+			<Item score="2222">502</Item>
+			<Item score="2222">505</Item>
+			<Item score="1001">511</Item>
+			<Item score="0001">517</Item>
+			<Item score="2121">531</Item>
+			<Item score="0010">532</Item>
+			<Item score="0010">535</Item>
+			<Item score="0010">565</Item>
+			<Item score="1001">570</Item>
+			<Item score="1001">590</Item>
+			<Item score="2222">605</Item>
+			<Item score="0001">668</Item>
+			<Item score="2222">685</Item>
+			<Item score="0010">726</Item>
+			<Item score="0001">735</Item>
+			<Item score="0010">738</Item>
+			<Item score="0010">739</Item>
+			<Item score="0010">741</Item>
+			<Item score="2212">754</Item>
+			<Item score="0001">763</Item>
+			<Item score="0001">767</Item>
+			<Item score="0100">827</Item>
+			<Item score="0010">847</Item>
+			<Item score="0001">864</Item>
+			<Item score="0001">865</Item>
+			<Item score="0100">875</Item>
+			<Item score="0002">882</Item>
+			<Item score="0001">912</Item>
+			<Item score="0001">944</Item>
+			<Item score="2122">969</Item>
+			<Item score="0100">980</Item>
+			<Item score="0002">990</Item>
+			<Item score="0001">1040</Item>
+			<Item score="1122">1079</Item>
+			<Item score="0002">1092</Item>
+			<Item score="0002">1093</Item>
+			<Item score="0001">1098</Item>
+			<Item score="0001">1188</Item>
+			<Item score="0010">1207</Item>
+			<Item score="0010">1208</Item>
+			<Item score="0001">1234</Item>
+			<Item score="0001">1236</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00062</QueryNumber>
+		<QueryText>What are the clinical features of lung disease in CF patients?
+</QueryText>
+		<Results>00144</Results>
+		<Records>
+			<Item score="0001">10</Item>
+			<Item score="2211">17</Item>
+			<Item score="0001">24</Item>
+			<Item score="0100">43</Item>
+			<Item score="1010">56</Item>
+			<Item score="0010">60</Item>
+			<Item score="0100">62</Item>
+			<Item score="1101">63</Item>
+			<Item score="1220">64</Item>
+			<Item score="1000">69</Item>
+			<Item score="0001">72</Item>
+			<Item score="0010">88</Item>
+			<Item score="0001">94</Item>
+			<Item score="0100">110</Item>
+			<Item score="1001">144</Item>
+			<Item score="2222">148</Item>
+			<Item score="2111">155</Item>
+			<Item score="0001">160</Item>
+			<Item score="0100">182</Item>
+			<Item score="2210">192</Item>
+			<Item score="2211">193</Item>
+			<Item score="2210">194</Item>
+			<Item score="1110">197</Item>
+			<Item score="1001">200</Item>
+			<Item score="0100">211</Item>
+			<Item score="0100">224</Item>
+			<Item score="1112">226</Item>
+			<Item score="0001">237</Item>
+			<Item score="0011">238</Item>
+			<Item score="1000">244</Item>
+			<Item score="0002">267</Item>
+			<Item score="1001">297</Item>
+			<Item score="1000">321</Item>
+			<Item score="0001">322</Item>
+			<Item score="1000">330</Item>
+			<Item score="1011">331</Item>
+			<Item score="1001">333</Item>
+			<Item score="1000">340</Item>
+			<Item score="1002">348</Item>
+			<Item score="1000">349</Item>
+			<Item score="1001">354</Item>
+			<Item score="1000">358</Item>
+			<Item score="0012">359</Item>
+			<Item score="2212">370</Item>
+			<Item score="1000">372</Item>
+			<Item score="1001">382</Item>
+			<Item score="1000">383</Item>
+			<Item score="1000">427</Item>
+			<Item score="1000">429</Item>
+			<Item score="0001">434</Item>
+			<Item score="2220">437</Item>
+			<Item score="2221">438</Item>
+			<Item score="1000">446</Item>
+			<Item score="0100">458</Item>
+			<Item score="0100">459</Item>
+			<Item score="0100">460</Item>
+			<Item score="0100">465</Item>
+			<Item score="1000">472</Item>
+			<Item score="1210">473</Item>
+			<Item score="0100">479</Item>
+			<Item score="0010">486</Item>
+			<Item score="0100">505</Item>
+			<Item score="1000">537</Item>
+			<Item score="0100">539</Item>
+			<Item score="2112">550</Item>
+			<Item score="0001">551</Item>
+			<Item score="1010">558</Item>
+			<Item score="0001">559</Item>
+			<Item score="0001">580</Item>
+			<Item score="0001">586</Item>
+			<Item score="0010">590</Item>
+			<Item score="2220">607</Item>
+			<Item score="0001">643</Item>
+			<Item score="1010">663</Item>
+			<Item score="0010">677</Item>
+			<Item score="1101">698</Item>
+			<Item score="1100">703</Item>
+			<Item score="0001">704</Item>
+			<Item score="1122">722</Item>
+			<Item score="1002">724</Item>
+			<Item score="0001">729</Item>
+			<Item score="0001">731</Item>
+			<Item score="1000">734</Item>
+			<Item score="0001">735</Item>
+			<Item score="1120">736</Item>
+			<Item score="1001">761</Item>
+			<Item score="1102">763</Item>
+			<Item score="1001">764</Item>
+			<Item score="0001">767</Item>
+			<Item score="1011">768</Item>
+			<Item score="0010">783</Item>
+			<Item score="1000">787</Item>
+			<Item score="0111">803</Item>
+			<Item score="0100">804</Item>
+			<Item score="2122">806</Item>
+			<Item score="1000">819</Item>
+			<Item score="0001">821</Item>
+			<Item score="0002">822</Item>
+			<Item score="1120">837</Item>
+			<Item score="2221">842</Item>
+			<Item score="0001">843</Item>
+			<Item score="0002">844</Item>
+			<Item score="0002">845</Item>
+			<Item score="0001">870</Item>
+			<Item score="1000">879</Item>
+			<Item score="0001">880</Item>
+			<Item score="1002">882</Item>
+			<Item score="1000">885</Item>
+			<Item score="1000">886</Item>
+			<Item score="1002">888</Item>
+			<Item score="0002">889</Item>
+			<Item score="1101">904</Item>
+			<Item score="2110">907</Item>
+			<Item score="1000">912</Item>
+			<Item score="1000">913</Item>
+			<Item score="0100">914</Item>
+			<Item score="0001">920</Item>
+			<Item score="1000">937</Item>
+			<Item score="1011">941</Item>
+			<Item score="1000">944</Item>
+			<Item score="0001">945</Item>
+			<Item score="1000">964</Item>
+			<Item score="0100">969</Item>
+			<Item score="1002">990</Item>
+			<Item score="1002">1000</Item>
+			<Item score="0001">1022</Item>
+			<Item score="1002">1023</Item>
+			<Item score="1000">1032</Item>
+			<Item score="0001">1033</Item>
+			<Item score="1000">1038</Item>
+			<Item score="1000">1039</Item>
+			<Item score="0002">1040</Item>
+			<Item score="0001">1042</Item>
+			<Item score="1000">1071</Item>
+			<Item score="2122">1073</Item>
+			<Item score="0002">1080</Item>
+			<Item score="0001">1093</Item>
+			<Item score="0001">1104</Item>
+			<Item score="1121">1151</Item>
+			<Item score="0001">1192</Item>
+			<Item score="1000">1195</Item>
+			<Item score="1210">1214</Item>
+			<Item score="0001">1232</Item>
+			<Item score="0101">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00063</QueryNumber>
+		<QueryText>What are the biochemical or microscopic characteristics of airway
+   inflammation in CF patients?
+</QueryText>
+		<Results>00039</Results>
+		<Records>
+			<Item score="0001">1</Item>
+			<Item score="0100">23</Item>
+			<Item score="0100">62</Item>
+			<Item score="0100">63</Item>
+			<Item score="0001">166</Item>
+			<Item score="1010">322</Item>
+			<Item score="2220">347</Item>
+			<Item score="0010">370</Item>
+			<Item score="0100">374</Item>
+			<Item score="2222">429</Item>
+			<Item score="2110">434</Item>
+			<Item score="0100">437</Item>
+			<Item score="0001">438</Item>
+			<Item score="2222">463</Item>
+			<Item score="0100">490</Item>
+			<Item score="2220">499</Item>
+			<Item score="0100">500</Item>
+			<Item score="0100">501</Item>
+			<Item score="0100">502</Item>
+			<Item score="0100">505</Item>
+			<Item score="1100">592</Item>
+			<Item score="0100">669</Item>
+			<Item score="1000">698</Item>
+			<Item score="0001">704</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">763</Item>
+			<Item score="0100">803</Item>
+			<Item score="0101">805</Item>
+			<Item score="0010">821</Item>
+			<Item score="1000">922</Item>
+			<Item score="2210">976</Item>
+			<Item score="0100">980</Item>
+			<Item score="0001">1040</Item>
+			<Item score="0010">1091</Item>
+			<Item score="2222">1155</Item>
+			<Item score="2110">1171</Item>
+			<Item score="1210">1192</Item>
+			<Item score="2120">1228</Item>
+			<Item score="2120">1229</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00064</QueryNumber>
+		<QueryText>How does lung function change with time in CF patients? (time periods
+   greater than a day)
+</QueryText>
+		<Results>00050</Results>
+		<Records>
+			<Item score="0012">17</Item>
+			<Item score="0002">20</Item>
+			<Item score="2222">22</Item>
+			<Item score="0001">24</Item>
+			<Item score="1211">64</Item>
+			<Item score="0101">144</Item>
+			<Item score="0101">148</Item>
+			<Item score="0001">155</Item>
+			<Item score="0001">160</Item>
+			<Item score="0101">197</Item>
+			<Item score="0100">227</Item>
+			<Item score="0001">267</Item>
+			<Item score="0001">322</Item>
+			<Item score="0001">331</Item>
+			<Item score="1000">349</Item>
+			<Item score="1000">358</Item>
+			<Item score="1110">370</Item>
+			<Item score="2222">372</Item>
+			<Item score="0001">382</Item>
+			<Item score="0001">434</Item>
+			<Item score="2222">437</Item>
+			<Item score="0100">472</Item>
+			<Item score="0002">550</Item>
+			<Item score="0001">590</Item>
+			<Item score="0001">605</Item>
+			<Item score="0010">606</Item>
+			<Item score="0010">674</Item>
+			<Item score="0001">698</Item>
+			<Item score="0001">703</Item>
+			<Item score="0010">722</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">768</Item>
+			<Item score="2222">814</Item>
+			<Item score="2222">842</Item>
+			<Item score="0002">844</Item>
+			<Item score="0001">882</Item>
+			<Item score="0002">889</Item>
+			<Item score="0001">907</Item>
+			<Item score="0001">944</Item>
+			<Item score="1001">963</Item>
+			<Item score="0002">1000</Item>
+			<Item score="0001">1033</Item>
+			<Item score="2222">1038</Item>
+			<Item score="0001">1067</Item>
+			<Item score="0001">1071</Item>
+			<Item score="0001">1076</Item>
+			<Item score="0002">1091</Item>
+			<Item score="0002">1093</Item>
+			<Item score="0001">1188</Item>
+			<Item score="2222">1195</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00065</QueryNumber>
+		<QueryText>What are the abnormalities of pulmonary function in CF patients?
+</QueryText>
+		<Results>00094</Results>
+		<Records>
+			<Item score="0012">17</Item>
+			<Item score="2121">20</Item>
+			<Item score="0112">22</Item>
+			<Item score="2122">24</Item>
+			<Item score="2222">64</Item>
+			<Item score="1002">87</Item>
+			<Item score="0001">93</Item>
+			<Item score="0001">132</Item>
+			<Item score="0001">135</Item>
+			<Item score="2222">144</Item>
+			<Item score="0102">148</Item>
+			<Item score="2122">155</Item>
+			<Item score="2220">192</Item>
+			<Item score="2222">194</Item>
+			<Item score="0102">197</Item>
+			<Item score="1211">206</Item>
+			<Item score="2222">211</Item>
+			<Item score="0100">224</Item>
+			<Item score="0001">227</Item>
+			<Item score="0001">238</Item>
+			<Item score="0001">267</Item>
+			<Item score="0001">297</Item>
+			<Item score="0001">322</Item>
+			<Item score="0002">323</Item>
+			<Item score="0011">331</Item>
+			<Item score="0012">341</Item>
+			<Item score="2112">349</Item>
+			<Item score="1000">358</Item>
+			<Item score="2112">368</Item>
+			<Item score="1212">370</Item>
+			<Item score="2212">372</Item>
+			<Item score="0001">383</Item>
+			<Item score="0001">386</Item>
+			<Item score="2122">387</Item>
+			<Item score="2122">388</Item>
+			<Item score="2222">437</Item>
+			<Item score="0001">519</Item>
+			<Item score="0100">539</Item>
+			<Item score="0001">543</Item>
+			<Item score="0001">546</Item>
+			<Item score="0002">550</Item>
+			<Item score="2222">578</Item>
+			<Item score="0001">587</Item>
+			<Item score="0002">597</Item>
+			<Item score="0001">599</Item>
+			<Item score="1111">606</Item>
+			<Item score="0001">611</Item>
+			<Item score="0001">629</Item>
+			<Item score="0011">653</Item>
+			<Item score="2122">674</Item>
+			<Item score="2111">699</Item>
+			<Item score="1012">722</Item>
+			<Item score="1121">736</Item>
+			<Item score="0001">763</Item>
+			<Item score="0001">788</Item>
+			<Item score="0001">803</Item>
+			<Item score="1002">814</Item>
+			<Item score="0100">819</Item>
+			<Item score="1010">821</Item>
+			<Item score="0001">833</Item>
+			<Item score="2222">842</Item>
+			<Item score="0001">882</Item>
+			<Item score="2112">885</Item>
+			<Item score="2112">886</Item>
+			<Item score="0001">889</Item>
+			<Item score="2220">904</Item>
+			<Item score="0001">913</Item>
+			<Item score="0001">963</Item>
+			<Item score="1210">964</Item>
+			<Item score="0002">990</Item>
+			<Item score="0002">1000</Item>
+			<Item score="1000">1006</Item>
+			<Item score="1220">1007</Item>
+			<Item score="2222">1038</Item>
+			<Item score="0001">1042</Item>
+			<Item score="1012">1045</Item>
+			<Item score="2221">1046</Item>
+			<Item score="0101">1048</Item>
+			<Item score="1012">1067</Item>
+			<Item score="2222">1073</Item>
+			<Item score="0002">1092</Item>
+			<Item score="0001">1093</Item>
+			<Item score="1121">1099</Item>
+			<Item score="0001">1149</Item>
+			<Item score="0001">1150</Item>
+			<Item score="1122">1151</Item>
+			<Item score="0001">1153</Item>
+			<Item score="0001">1164</Item>
+			<Item score="0001">1188</Item>
+			<Item score="1122">1195</Item>
+			<Item score="0001">1214</Item>
+			<Item score="0001">1232</Item>
+			<Item score="0002">1234</Item>
+			<Item score="2122">1237</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00066</QueryNumber>
+		<QueryText>What are the pathologic features of lung disease in CF patients?
+</QueryText>
+		<Results>00063</Results>
+		<Records>
+			<Item score="0001">1</Item>
+			<Item score="0001">10</Item>
+			<Item score="0001">11</Item>
+			<Item score="0001">13</Item>
+			<Item score="0012">17</Item>
+			<Item score="0002">22</Item>
+			<Item score="0100">63</Item>
+			<Item score="2210">100</Item>
+			<Item score="0012">148</Item>
+			<Item score="0001">155</Item>
+			<Item score="0001">160</Item>
+			<Item score="0001">166</Item>
+			<Item score="0100">187</Item>
+			<Item score="1101">200</Item>
+			<Item score="0001">267</Item>
+			<Item score="2222">322</Item>
+			<Item score="2110">340</Item>
+			<Item score="2212">348</Item>
+			<Item score="1012">350</Item>
+			<Item score="2212">370</Item>
+			<Item score="0001">385</Item>
+			<Item score="0001">427</Item>
+			<Item score="2222">429</Item>
+			<Item score="2212">434</Item>
+			<Item score="1000">446</Item>
+			<Item score="1220">463</Item>
+			<Item score="1000">498</Item>
+			<Item score="0011">558</Item>
+			<Item score="0001">590</Item>
+			<Item score="0001">605</Item>
+			<Item score="0010">607</Item>
+			<Item score="0001">630</Item>
+			<Item score="1102">698</Item>
+			<Item score="0002">722</Item>
+			<Item score="0002">724</Item>
+			<Item score="0001">731</Item>
+			<Item score="0002">736</Item>
+			<Item score="1002">763</Item>
+			<Item score="0001">767</Item>
+			<Item score="0010">771</Item>
+			<Item score="1000">788</Item>
+			<Item score="1011">821</Item>
+			<Item score="0100">837</Item>
+			<Item score="0002">882</Item>
+			<Item score="1000">907</Item>
+			<Item score="1000">912</Item>
+			<Item score="0001">913</Item>
+			<Item score="1002">944</Item>
+			<Item score="0100">969</Item>
+			<Item score="0100">976</Item>
+			<Item score="0100">980</Item>
+			<Item score="0002">990</Item>
+			<Item score="0100">1004</Item>
+			<Item score="0001">1098</Item>
+			<Item score="0001">1104</Item>
+			<Item score="0001">1109</Item>
+			<Item score="0001">1134</Item>
+			<Item score="2120">1155</Item>
+			<Item score="2222">1192</Item>
+			<Item score="0011">1194</Item>
+			<Item score="0001">1195</Item>
+			<Item score="0010">1214</Item>
+			<Item score="0001">1226</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00067</QueryNumber>
+		<QueryText>What is the prognosis for patients who have had an episode of
+   respiratory failure?
+</QueryText>
+		<Results>00014</Results>
+		<Records>
+			<Item score="0100">43</Item>
+			<Item score="0001">61</Item>
+			<Item score="2212">148</Item>
+			<Item score="1000">354</Item>
+			<Item score="1012">370</Item>
+			<Item score="1220">472</Item>
+			<Item score="0100">473</Item>
+			<Item score="0100">519</Item>
+			<Item score="1001">724</Item>
+			<Item score="0001">764</Item>
+			<Item score="0011">842</Item>
+			<Item score="2120">910</Item>
+			<Item score="2220">914</Item>
+			<Item score="0002">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00068</QueryNumber>
+		<QueryText>What are the effects of bronchodilators in CF patients?
+</QueryText>
+		<Results>00045</Results>
+		<Records>
+			<Item score="0100">11</Item>
+			<Item score="1000">64</Item>
+			<Item score="1112">90</Item>
+			<Item score="0001">135</Item>
+			<Item score="2220">195</Item>
+			<Item score="2121">206</Item>
+			<Item score="0001">297</Item>
+			<Item score="0001">327</Item>
+			<Item score="0001">331</Item>
+			<Item score="1100">341</Item>
+			<Item score="2212">349</Item>
+			<Item score="1000">358</Item>
+			<Item score="0001">359</Item>
+			<Item score="1000">370</Item>
+			<Item score="0010">437</Item>
+			<Item score="1220">438</Item>
+			<Item score="2222">543</Item>
+			<Item score="1002">546</Item>
+			<Item score="0001">550</Item>
+			<Item score="0001">607</Item>
+			<Item score="0001">632</Item>
+			<Item score="1002">734</Item>
+			<Item score="1000">819</Item>
+			<Item score="0001">826</Item>
+			<Item score="0001">838</Item>
+			<Item score="0001">882</Item>
+			<Item score="0002">889</Item>
+			<Item score="1111">904</Item>
+			<Item score="1000">913</Item>
+			<Item score="0001">944</Item>
+			<Item score="2120">964</Item>
+			<Item score="0001">969</Item>
+			<Item score="0001">1000</Item>
+			<Item score="2222">1003</Item>
+			<Item score="0001">1040</Item>
+			<Item score="0002">1046</Item>
+			<Item score="1100">1048</Item>
+			<Item score="0002">1093</Item>
+			<Item score="2120">1099</Item>
+			<Item score="0100">1134</Item>
+			<Item score="0010">1149</Item>
+			<Item score="0010">1150</Item>
+			<Item score="1110">1164</Item>
+			<Item score="1000">1172</Item>
+			<Item score="0001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00069</QueryNumber>
+		<QueryText>What is the best way to treat pneumothorax in CF patients?
+</QueryText>
+		<Results>00015</Results>
+		<Records>
+			<Item score="2222">193</Item>
+			<Item score="0001">326</Item>
+			<Item score="1001">327</Item>
+			<Item score="2112">359</Item>
+			<Item score="2122">363</Item>
+			<Item score="1112">370</Item>
+			<Item score="2122">438</Item>
+			<Item score="0001">550</Item>
+			<Item score="2222">703</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">837</Item>
+			<Item score="2222">907</Item>
+			<Item score="1101">944</Item>
+			<Item score="1102">1000</Item>
+			<Item score="1101">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00070</QueryNumber>
+		<QueryText>What is the treatment for and prognosis of hemoptysis in CF patients?
+</QueryText>
+		<Results>00017</Results>
+		<Records>
+			<Item score="0100">17</Item>
+			<Item score="1001">327</Item>
+			<Item score="2222">340</Item>
+			<Item score="1112">370</Item>
+			<Item score="1122">438</Item>
+			<Item score="2222">698</Item>
+			<Item score="0100">722</Item>
+			<Item score="2222">804</Item>
+			<Item score="0001">837</Item>
+			<Item score="1101">944</Item>
+			<Item score="0100">952</Item>
+			<Item score="1102">1000</Item>
+			<Item score="2222">1009</Item>
+			<Item score="2222">1032</Item>
+			<Item score="2222">1104</Item>
+			<Item score="0001">1232</Item>
+			<Item score="1102">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00071</QueryNumber>
+		<QueryText>What is the prognosis for infants with wheezing and cystic fibrosis?
+</QueryText>
+		<Results>00006</Results>
+		<Records>
+			<Item score="0010">11</Item>
+			<Item score="1000">56</Item>
+			<Item score="2222">148</Item>
+			<Item score="1000">327</Item>
+			<Item score="0001">370</Item>
+			<Item score="0001">547</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00072</QueryNumber>
+		<QueryText>What is the best treatment for nasal polyps in CF patients?
+</QueryText>
+		<Results>00013</Results>
+		<Records>
+			<Item score="1011">58</Item>
+			<Item score="1000">250</Item>
+			<Item score="2220">323</Item>
+			<Item score="0001">333</Item>
+			<Item score="2122">682</Item>
+			<Item score="2120">683</Item>
+			<Item score="2222">732</Item>
+			<Item score="0002">733</Item>
+			<Item score="0001">837</Item>
+			<Item score="0001">941</Item>
+			<Item score="0001">1000</Item>
+			<Item score="0001">1019</Item>
+			<Item score="0001">1125</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00073</QueryNumber>
+		<QueryText>How effective is bronchial lavage in CF patients?
+</QueryText>
+		<Results>00018</Results>
+		<Records>
+			<Item score="2222">50</Item>
+			<Item score="1122">224</Item>
+			<Item score="2222">227</Item>
+			<Item score="2112">359</Item>
+			<Item score="1111">370</Item>
+			<Item score="1122">438</Item>
+			<Item score="2220">629</Item>
+			<Item score="2222">630</Item>
+			<Item score="0001">724</Item>
+			<Item score="2110">806</Item>
+			<Item score="2222">843</Item>
+			<Item score="2222">844</Item>
+			<Item score="0001">990</Item>
+			<Item score="0001">1000</Item>
+			<Item score="0002">1093</Item>
+			<Item score="0010">1228</Item>
+			<Item score="0010">1229</Item>
+			<Item score="0001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00074</QueryNumber>
+		<QueryText>What are the results of mechanical ventilation in CF patients with
+   respiratory failure?
+</QueryText>
+		<Results>00007</Results>
+		<Records>
+			<Item score="2220">148</Item>
+			<Item score="1000">370</Item>
+			<Item score="1001">724</Item>
+			<Item score="2122">910</Item>
+			<Item score="2222">914</Item>
+			<Item score="0001">1000</Item>
+			<Item score="0002">1093</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00075</QueryNumber>
+		<QueryText>What is the best treatment for pulmonary hypertension and/or cor
+   pulmonale in CF patients?
+</QueryText>
+		<Results>00021</Results>
+		<Records>
+			<Item score="1000">100</Item>
+			<Item score="0102">241</Item>
+			<Item score="0011">273</Item>
+			<Item score="2222">316</Item>
+			<Item score="1010">348</Item>
+			<Item score="1010">354</Item>
+			<Item score="2110">359</Item>
+			<Item score="1112">370</Item>
+			<Item score="2222">446</Item>
+			<Item score="1001">519</Item>
+			<Item score="1010">587</Item>
+			<Item score="1000">597</Item>
+			<Item score="0110">751</Item>
+			<Item score="0010">757</Item>
+			<Item score="0001">837</Item>
+			<Item score="1101">944</Item>
+			<Item score="1000">1043</Item>
+			<Item score="1000">1047</Item>
+			<Item score="1012">1110</Item>
+			<Item score="0002">1234</Item>
+			<Item score="0100">1235</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00076</QueryNumber>
+		<QueryText>What are the effects of exercise training programs on lung function in
+   CF patients?
+</QueryText>
+		<Results>00017</Results>
+		<Records>
+			<Item score="0001">329</Item>
+			<Item score="0100">330</Item>
+			<Item score="0101">359</Item>
+			<Item score="0110">370</Item>
+			<Item score="2212">437</Item>
+			<Item score="1011">438</Item>
+			<Item score="2222">606</Item>
+			<Item score="0001">731</Item>
+			<Item score="0001">882</Item>
+			<Item score="0001">889</Item>
+			<Item score="1012">1007</Item>
+			<Item score="0001">1023</Item>
+			<Item score="0001">1039</Item>
+			<Item score="1010">1048</Item>
+			<Item score="0001">1080</Item>
+			<Item score="0001">1134</Item>
+			<Item score="1222">1188</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00077</QueryNumber>
+		<QueryText>What techniques are effective in promoting clearance of mucus from the
+   lungs of CF patients?
+</QueryText>
+		<Results>00082</Results>
+		<Records>
+			<Item score="0101">25</Item>
+			<Item score="2222">27</Item>
+			<Item score="0010">31</Item>
+			<Item score="0001">50</Item>
+			<Item score="1212">90</Item>
+			<Item score="0012">128</Item>
+			<Item score="0101">135</Item>
+			<Item score="0001">148</Item>
+			<Item score="0001">168</Item>
+			<Item score="2221">195</Item>
+			<Item score="0001">197</Item>
+			<Item score="1122">224</Item>
+			<Item score="0001">226</Item>
+			<Item score="1220">227</Item>
+			<Item score="0001">267</Item>
+			<Item score="0001">297</Item>
+			<Item score="0001">298</Item>
+			<Item score="0010">321</Item>
+			<Item score="2222">323</Item>
+			<Item score="0010">326</Item>
+			<Item score="1212">327</Item>
+			<Item score="1012">329</Item>
+			<Item score="0102">330</Item>
+			<Item score="0001">333</Item>
+			<Item score="2112">359</Item>
+			<Item score="1112">370</Item>
+			<Item score="0001">428</Item>
+			<Item score="1222">437</Item>
+			<Item score="1222">438</Item>
+			<Item score="1010">542</Item>
+			<Item score="2222">546</Item>
+			<Item score="0001">550</Item>
+			<Item score="0001">551</Item>
+			<Item score="0001">558</Item>
+			<Item score="0001">586</Item>
+			<Item score="0110">592</Item>
+			<Item score="2222">629</Item>
+			<Item score="2221">630</Item>
+			<Item score="0001">663</Item>
+			<Item score="0002">722</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">729</Item>
+			<Item score="0002">731</Item>
+			<Item score="2222">734</Item>
+			<Item score="0002">735</Item>
+			<Item score="2222">754</Item>
+			<Item score="1000">806</Item>
+			<Item score="0001">826</Item>
+			<Item score="0001">837</Item>
+			<Item score="0001">839</Item>
+			<Item score="2122">843</Item>
+			<Item score="2122">844</Item>
+			<Item score="0002">845</Item>
+			<Item score="0001">879</Item>
+			<Item score="0002">882</Item>
+			<Item score="0002">889</Item>
+			<Item score="0001">912</Item>
+			<Item score="0001">937</Item>
+			<Item score="1112">939</Item>
+			<Item score="0001">941</Item>
+			<Item score="0002">944</Item>
+			<Item score="1211">963</Item>
+			<Item score="0002">990</Item>
+			<Item score="2222">1006</Item>
+			<Item score="2222">1012</Item>
+			<Item score="0001">1023</Item>
+			<Item score="2222">1034</Item>
+			<Item score="2222">1035</Item>
+			<Item score="0001">1040</Item>
+			<Item score="0001">1080</Item>
+			<Item score="0002">1092</Item>
+			<Item score="0002">1093</Item>
+			<Item score="0001">1134</Item>
+			<Item score="1122">1138</Item>
+			<Item score="1112">1149</Item>
+			<Item score="0112">1150</Item>
+			<Item score="2122">1152</Item>
+			<Item score="2122">1153</Item>
+			<Item score="0001">1188</Item>
+			<Item score="2222">1220</Item>
+			<Item score="0001">1232</Item>
+			<Item score="1102">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00078</QueryNumber>
+		<QueryText>What special considerations are there for treatment of CF patients with
+   antibiotics (ie, are the pharmacodynamics of antibiotics different in
+   CF patients, or are there other special problems peculiar to CF)?
+</QueryText>
+		<Results>00077</Results>
+		<Records>
+			<Item score="0112">61</Item>
+			<Item score="0100">65</Item>
+			<Item score="0001">82</Item>
+			<Item score="0100">90</Item>
+			<Item score="0100">93</Item>
+			<Item score="0010">135</Item>
+			<Item score="1002">146</Item>
+			<Item score="0011">152</Item>
+			<Item score="1122">159</Item>
+			<Item score="0010">161</Item>
+			<Item score="0011">179</Item>
+			<Item score="1000">184</Item>
+			<Item score="0001">188</Item>
+			<Item score="0100">238</Item>
+			<Item score="1211">253</Item>
+			<Item score="2212">255</Item>
+			<Item score="0001">265</Item>
+			<Item score="0002">282</Item>
+			<Item score="0100">315</Item>
+			<Item score="2222">320</Item>
+			<Item score="0100">321</Item>
+			<Item score="0100">326</Item>
+			<Item score="0100">330</Item>
+			<Item score="0100">333</Item>
+			<Item score="0001">359</Item>
+			<Item score="1011">370</Item>
+			<Item score="2212">373</Item>
+			<Item score="0101">427</Item>
+			<Item score="0102">438</Item>
+			<Item score="0001">451</Item>
+			<Item score="1122">452</Item>
+			<Item score="1220">459</Item>
+			<Item score="1000">460</Item>
+			<Item score="0100">479</Item>
+			<Item score="0101">556</Item>
+			<Item score="0010">648</Item>
+			<Item score="0100">663</Item>
+			<Item score="2222">680</Item>
+			<Item score="1111">686</Item>
+			<Item score="0001">696</Item>
+			<Item score="0001">718</Item>
+			<Item score="0001">722</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">731</Item>
+			<Item score="0001">734</Item>
+			<Item score="0100">753</Item>
+			<Item score="0010">800</Item>
+			<Item score="2221">802</Item>
+			<Item score="0100">838</Item>
+			<Item score="0001">884</Item>
+			<Item score="0001">889</Item>
+			<Item score="0100">912</Item>
+			<Item score="0001">944</Item>
+			<Item score="0100">945</Item>
+			<Item score="0011">1010</Item>
+			<Item score="0001">1015</Item>
+			<Item score="0100">1019</Item>
+			<Item score="2222">1021</Item>
+			<Item score="0002">1042</Item>
+			<Item score="0100">1065</Item>
+			<Item score="0001">1069</Item>
+			<Item score="0012">1071</Item>
+			<Item score="0002">1078</Item>
+			<Item score="0011">1081</Item>
+			<Item score="0002">1086</Item>
+			<Item score="0002">1089</Item>
+			<Item score="0002">1090</Item>
+			<Item score="0112">1091</Item>
+			<Item score="0002">1093</Item>
+			<Item score="2222">1111</Item>
+			<Item score="0100">1112</Item>
+			<Item score="0001">1118</Item>
+			<Item score="0111">1179</Item>
+			<Item score="0111">1180</Item>
+			<Item score="2222">1181</Item>
+			<Item score="1010">1227</Item>
+			<Item score="0101">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00079</QueryNumber>
+		<QueryText>What is the role of orally administered antibiotics in the treatment of
+   CF patients?
+</QueryText>
+		<Results>00043</Results>
+		<Records>
+			<Item score="0100">65</Item>
+			<Item score="1000">75</Item>
+			<Item score="1121">123</Item>
+			<Item score="0001">132</Item>
+			<Item score="0101">135</Item>
+			<Item score="0002">146</Item>
+			<Item score="0001">148</Item>
+			<Item score="1000">179</Item>
+			<Item score="1000">184</Item>
+			<Item score="0100">255</Item>
+			<Item score="0010">315</Item>
+			<Item score="2220">320</Item>
+			<Item score="0101">330</Item>
+			<Item score="0001">333</Item>
+			<Item score="1011">359</Item>
+			<Item score="1000">370</Item>
+			<Item score="1210">373</Item>
+			<Item score="2210">384</Item>
+			<Item score="0100">427</Item>
+			<Item score="1121">438</Item>
+			<Item score="0100">452</Item>
+			<Item score="1211">648</Item>
+			<Item score="2221">650</Item>
+			<Item score="0100">663</Item>
+			<Item score="1001">826</Item>
+			<Item score="0001">829</Item>
+			<Item score="0100">838</Item>
+			<Item score="0001">882</Item>
+			<Item score="0100">912</Item>
+			<Item score="1210">923</Item>
+			<Item score="1001">944</Item>
+			<Item score="2210">945</Item>
+			<Item score="0001">1000</Item>
+			<Item score="1000">1010</Item>
+			<Item score="0001">1023</Item>
+			<Item score="0100">1065</Item>
+			<Item score="2120">1082</Item>
+			<Item score="0001">1089</Item>
+			<Item score="0101">1091</Item>
+			<Item score="2222">1112</Item>
+			<Item score="1100">1179</Item>
+			<Item score="2222">1181</Item>
+			<Item score="1100">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00080</QueryNumber>
+		<QueryText>What is the evidence that combination therapy with aminoglycosides and
+   semisynthetic penicillins is more effective than therapy with either
+   alone?
+</QueryText>
+		<Results>00034</Results>
+		<Records>
+			<Item score="1000">61</Item>
+			<Item score="0100">135</Item>
+			<Item score="0100">152</Item>
+			<Item score="1100">159</Item>
+			<Item score="1010">238</Item>
+			<Item score="0001">330</Item>
+			<Item score="0101">333</Item>
+			<Item score="0100">427</Item>
+			<Item score="0100">438</Item>
+			<Item score="1000">451</Item>
+			<Item score="0100">452</Item>
+			<Item score="0100">453</Item>
+			<Item score="2122">458</Item>
+			<Item score="0100">459</Item>
+			<Item score="2222">460</Item>
+			<Item score="1000">612</Item>
+			<Item score="0100">663</Item>
+			<Item score="2220">696</Item>
+			<Item score="0001">722</Item>
+			<Item score="1212">753</Item>
+			<Item score="1111">800</Item>
+			<Item score="1000">884</Item>
+			<Item score="0001">912</Item>
+			<Item score="1101">945</Item>
+			<Item score="1000">1010</Item>
+			<Item score="1101">1042</Item>
+			<Item score="0100">1065</Item>
+			<Item score="0101">1071</Item>
+			<Item score="2122">1078</Item>
+			<Item score="0100">1091</Item>
+			<Item score="0100">1179</Item>
+			<Item score="0100">1180</Item>
+			<Item score="2222">1227</Item>
+			<Item score="1101">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00081</QueryNumber>
+		<QueryText>How effective are inhalations of mucolytic agents in the treatment of
+   CF patients?
+</QueryText>
+		<Results>00028</Results>
+		<Records>
+			<Item score="0010">31</Item>
+			<Item score="1011">90</Item>
+			<Item score="0010">93</Item>
+			<Item score="0001">132</Item>
+			<Item score="0001">135</Item>
+			<Item score="0001">195</Item>
+			<Item score="0010">253</Item>
+			<Item score="2222">321</Item>
+			<Item score="1011">326</Item>
+			<Item score="0001">359</Item>
+			<Item score="1111">370</Item>
+			<Item score="1121">438</Item>
+			<Item score="2120">542</Item>
+			<Item score="2212">546</Item>
+			<Item score="0001">550</Item>
+			<Item score="0001">551</Item>
+			<Item score="0001">586</Item>
+			<Item score="0010">592</Item>
+			<Item score="0001">729</Item>
+			<Item score="0001">731</Item>
+			<Item score="2222">734</Item>
+			<Item score="1001">941</Item>
+			<Item score="0001">944</Item>
+			<Item score="0002">990</Item>
+			<Item score="2220">1092</Item>
+			<Item score="0001">1134</Item>
+			<Item score="0001">1232</Item>
+			<Item score="0001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00082</QueryNumber>
+		<QueryText>What is the role of aerosols in the treatment of lung disease in CF
+   patients?
+</QueryText>
+		<Results>00062</Results>
+		<Records>
+			<Item score="2222">25</Item>
+			<Item score="0002">31</Item>
+			<Item score="2222">90</Item>
+			<Item score="2222">93</Item>
+			<Item score="0001">132</Item>
+			<Item score="2122">135</Item>
+			<Item score="0001">148</Item>
+			<Item score="0002">152</Item>
+			<Item score="1002">159</Item>
+			<Item score="0001">189</Item>
+			<Item score="0001">195</Item>
+			<Item score="0001">197</Item>
+			<Item score="0001">238</Item>
+			<Item score="2112">253</Item>
+			<Item score="0001">297</Item>
+			<Item score="2222">321</Item>
+			<Item score="2222">326</Item>
+			<Item score="1012">327</Item>
+			<Item score="0001">330</Item>
+			<Item score="0001">331</Item>
+			<Item score="0001">333</Item>
+			<Item score="2112">359</Item>
+			<Item score="1112">370</Item>
+			<Item score="0001">427</Item>
+			<Item score="2222">438</Item>
+			<Item score="1010">458</Item>
+			<Item score="2120">542</Item>
+			<Item score="0012">543</Item>
+			<Item score="2122">546</Item>
+			<Item score="0001">550</Item>
+			<Item score="0001">551</Item>
+			<Item score="0001">586</Item>
+			<Item score="0010">592</Item>
+			<Item score="0001">722</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">729</Item>
+			<Item score="0001">731</Item>
+			<Item score="2122">734</Item>
+			<Item score="1000">826</Item>
+			<Item score="0001">837</Item>
+			<Item score="0001">845</Item>
+			<Item score="0001">879</Item>
+			<Item score="0001">882</Item>
+			<Item score="0001">889</Item>
+			<Item score="0001">904</Item>
+			<Item score="0001">912</Item>
+			<Item score="0001">937</Item>
+			<Item score="0011">941</Item>
+			<Item score="0101">944</Item>
+			<Item score="0001">952</Item>
+			<Item score="2221">963</Item>
+			<Item score="0001">990</Item>
+			<Item score="0001">1000</Item>
+			<Item score="2220">1003</Item>
+			<Item score="0001">1040</Item>
+			<Item score="1000">1078</Item>
+			<Item score="0001">1092</Item>
+			<Item score="0001">1150</Item>
+			<Item score="0001">1188</Item>
+			<Item score="0001">1227</Item>
+			<Item score="0001">1232</Item>
+			<Item score="1102">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00083</QueryNumber>
+		<QueryText>What is the role of bacterial phagocytosis (by alveolar macrophages or
+   polymorphonuclear leukocytes) in lung disease in CF patients?
+</QueryText>
+		<Results>00032</Results>
+		<Records>
+			<Item score="2121">18</Item>
+			<Item score="2221">166</Item>
+			<Item score="0001">187</Item>
+			<Item score="0100">238</Item>
+			<Item score="0100">366</Item>
+			<Item score="1011">370</Item>
+			<Item score="0100">394</Item>
+			<Item score="0100">427</Item>
+			<Item score="0001">430</Item>
+			<Item score="1212">432</Item>
+			<Item score="1100">447</Item>
+			<Item score="0001">463</Item>
+			<Item score="0001">501</Item>
+			<Item score="0101">505</Item>
+			<Item score="0001">517</Item>
+			<Item score="0001">550</Item>
+			<Item score="0011">590</Item>
+			<Item score="1000">609</Item>
+			<Item score="0001">668</Item>
+			<Item score="0002">767</Item>
+			<Item score="0001">905</Item>
+			<Item score="0001">912</Item>
+			<Item score="0100">988</Item>
+			<Item score="0100">989</Item>
+			<Item score="0100">1074</Item>
+			<Item score="0101">1077</Item>
+			<Item score="0100">1091</Item>
+			<Item score="1120">1102</Item>
+			<Item score="1220">1143</Item>
+			<Item score="0100">1170</Item>
+			<Item score="0100">1171</Item>
+			<Item score="1212">1203</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00084</QueryNumber>
+		<QueryText>What is the relationship between Haemophilus influenzae and Pseudomonas
+   aeruginosa in CF patients?
+</QueryText>
+		<Results>00016</Results>
+		<Records>
+			<Item score="0102">8</Item>
+			<Item score="2221">160</Item>
+			<Item score="0100">333</Item>
+			<Item score="1000">346</Item>
+			<Item score="1000">384</Item>
+			<Item score="1000">555</Item>
+			<Item score="0010">590</Item>
+			<Item score="0010">778</Item>
+			<Item score="0001">837</Item>
+			<Item score="0001">912</Item>
+			<Item score="1001">922</Item>
+			<Item score="0100">952</Item>
+			<Item score="1100">986</Item>
+			<Item score="0001">1086</Item>
+			<Item score="1001">1112</Item>
+			<Item score="0001">1179</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00085</QueryNumber>
+		<QueryText>Do CF patients ever develop infection in organs other than the lung? If
+   so, in what organs?
+</QueryText>
+		<Results>00031</Results>
+		<Records>
+			<Item score="1212">29</Item>
+			<Item score="0112">58</Item>
+			<Item score="1000">88</Item>
+			<Item score="0001">98</Item>
+			<Item score="0002">179</Item>
+			<Item score="1002">200</Item>
+			<Item score="1121">202</Item>
+			<Item score="0100">250</Item>
+			<Item score="1001">370</Item>
+			<Item score="0002">427</Item>
+			<Item score="1000">432</Item>
+			<Item score="0001">438</Item>
+			<Item score="0001">469</Item>
+			<Item score="2120">475</Item>
+			<Item score="1000">589</Item>
+			<Item score="0001">590</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">732</Item>
+			<Item score="0001">733</Item>
+			<Item score="0001">888</Item>
+			<Item score="0001">912</Item>
+			<Item score="0001">941</Item>
+			<Item score="0001">969</Item>
+			<Item score="2120">982</Item>
+			<Item score="0100">983</Item>
+			<Item score="2222">1018</Item>
+			<Item score="0100">1019</Item>
+			<Item score="0001">1022</Item>
+			<Item score="0001">1036</Item>
+			<Item score="0001">1065</Item>
+			<Item score="2222">1118</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00086</QueryNumber>
+		<QueryText>What is the role of bacteria other than Pseudomonas aeruginosa,
+   Staphylococcus aureus, or Haemophilus influenzae in the pathogenesis
+   of lung disease in CF patients?
+</QueryText>
+		<Results>00047</Results>
+		<Records>
+			<Item score="2221">8</Item>
+			<Item score="0002">61</Item>
+			<Item score="0100">85</Item>
+			<Item score="1211">110</Item>
+			<Item score="0101">135</Item>
+			<Item score="1212">148</Item>
+			<Item score="1002">152</Item>
+			<Item score="0112">160</Item>
+			<Item score="0001">200</Item>
+			<Item score="0110">238</Item>
+			<Item score="2212">271</Item>
+			<Item score="0011">330</Item>
+			<Item score="2111">346</Item>
+			<Item score="1011">370</Item>
+			<Item score="1000">384</Item>
+			<Item score="0001">427</Item>
+			<Item score="0101">505</Item>
+			<Item score="2222">554</Item>
+			<Item score="0001">555</Item>
+			<Item score="1000">577</Item>
+			<Item score="0001">586</Item>
+			<Item score="2211">590</Item>
+			<Item score="1011">722</Item>
+			<Item score="0001">731</Item>
+			<Item score="0101">763</Item>
+			<Item score="1110">769</Item>
+			<Item score="0001">922</Item>
+			<Item score="0101">944</Item>
+			<Item score="0101">945</Item>
+			<Item score="0001">952</Item>
+			<Item score="2110">983</Item>
+			<Item score="0002">990</Item>
+			<Item score="0101">1000</Item>
+			<Item score="0001">1015</Item>
+			<Item score="0001">1033</Item>
+			<Item score="0001">1071</Item>
+			<Item score="0100">1077</Item>
+			<Item score="0001">1086</Item>
+			<Item score="0001">1090</Item>
+			<Item score="0011">1091</Item>
+			<Item score="0001">1112</Item>
+			<Item score="0001">1118</Item>
+			<Item score="1100">1173</Item>
+			<Item score="0001">1181</Item>
+			<Item score="0001">1227</Item>
+			<Item score="0001">1232</Item>
+			<Item score="0001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00087</QueryNumber>
+		<QueryText>What is the role of fungi in the pathogenesis of lung disease in CF
+   patients?
+</QueryText>
+		<Results>00038</Results>
+		<Records>
+			<Item score="2222">187</Item>
+			<Item score="1001">223</Item>
+			<Item score="2222">228</Item>
+			<Item score="2222">229</Item>
+			<Item score="0101">333</Item>
+			<Item score="2222">369</Item>
+			<Item score="1111">370</Item>
+			<Item score="0100">382</Item>
+			<Item score="0001">394</Item>
+			<Item score="1100">401</Item>
+			<Item score="2122">432</Item>
+			<Item score="1102">438</Item>
+			<Item score="0001">485</Item>
+			<Item score="0101">513</Item>
+			<Item score="0101">550</Item>
+			<Item score="1012">590</Item>
+			<Item score="1001">631</Item>
+			<Item score="0001">632</Item>
+			<Item score="0001">668</Item>
+			<Item score="0001">722</Item>
+			<Item score="0101">812</Item>
+			<Item score="1001">819</Item>
+			<Item score="0001">833</Item>
+			<Item score="1210">860</Item>
+			<Item score="0100">945</Item>
+			<Item score="0001">990</Item>
+			<Item score="2222">1005</Item>
+			<Item score="0100">1007</Item>
+			<Item score="2221">1015</Item>
+			<Item score="0100">1025</Item>
+			<Item score="0100">1032</Item>
+			<Item score="2120">1060</Item>
+			<Item score="0101">1071</Item>
+			<Item score="0101">1134</Item>
+			<Item score="0001">1163</Item>
+			<Item score="0001">1169</Item>
+			<Item score="0001">1180</Item>
+			<Item score="0001">1234</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00088</QueryNumber>
+		<QueryText>What is the role of viral infection in the lung disease of CF patients?
+</QueryText>
+		<Results>00014</Results>
+		<Records>
+			<Item score="1011">370</Item>
+			<Item score="0002">443</Item>
+			<Item score="2222">457</Item>
+			<Item score="1012">590</Item>
+			<Item score="2220">614</Item>
+			<Item score="0001">668</Item>
+			<Item score="0110">678</Item>
+			<Item score="0110">679</Item>
+			<Item score="0100">702</Item>
+			<Item score="0100">945</Item>
+			<Item score="0001">990</Item>
+			<Item score="1211">1091</Item>
+			<Item score="0001">1134</Item>
+			<Item score="0100">1144</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00089</QueryNumber>
+		<QueryText>What is the epidemiology of Pseudomonas aeruginosa in CF patients?
+   Specifically, do CF patients spread Pseudomonas aeruginosa to other
+   patients or to other individuals (family)?
+</QueryText>
+		<Results>00017</Results>
+		<Records>
+			<Item score="1210">79</Item>
+			<Item score="0002">152</Item>
+			<Item score="2221">176</Item>
+			<Item score="0110">177</Item>
+			<Item score="0001">179</Item>
+			<Item score="2212">260</Item>
+			<Item score="0002">265</Item>
+			<Item score="1000">370</Item>
+			<Item score="2222">469</Item>
+			<Item score="1000">479</Item>
+			<Item score="0010">590</Item>
+			<Item score="1100">706</Item>
+			<Item score="0100">778</Item>
+			<Item score="1210">905</Item>
+			<Item score="1101">912</Item>
+			<Item score="0100">1065</Item>
+			<Item score="0001">1086</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00090</QueryNumber>
+		<QueryText>What factors are responsible for the appearance of mucoid strains of
+   Pseudomonas aeruginosa in CF patients?
+</QueryText>
+		<Results>00028</Results>
+		<Records>
+			<Item score="1222">7</Item>
+			<Item score="0001">160</Item>
+			<Item score="0001">161</Item>
+			<Item score="1222">176</Item>
+			<Item score="2212">177</Item>
+			<Item score="1122">200</Item>
+			<Item score="1012">260</Item>
+			<Item score="2212">265</Item>
+			<Item score="1000">370</Item>
+			<Item score="2122">451</Item>
+			<Item score="1120">479</Item>
+			<Item score="0001">505</Item>
+			<Item score="0001">589</Item>
+			<Item score="2222">590</Item>
+			<Item score="0001">763</Item>
+			<Item score="0110">778</Item>
+			<Item score="0001">874</Item>
+			<Item score="2222">884</Item>
+			<Item score="1212">912</Item>
+			<Item score="0100">987</Item>
+			<Item score="0100">1065</Item>
+			<Item score="0001">1071</Item>
+			<Item score="1211">1086</Item>
+			<Item score="0001">1089</Item>
+			<Item score="1210">1090</Item>
+			<Item score="0112">1091</Item>
+			<Item score="0001">1234</Item>
+			<Item score="0010">1238</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00091</QueryNumber>
+		<QueryText>What are the unusual manifestations of CF (other than lung disease or
+   exocrine pancreatic insufficiency)?
+</QueryText>
+		<Results>00304</Results>
+		<Records>
+			<Item score="0001">1</Item>
+			<Item score="0002">3</Item>
+			<Item score="0002">4</Item>
+			<Item score="0001">8</Item>
+			<Item score="0001">9</Item>
+			<Item score="0101">11</Item>
+			<Item score="0001">13</Item>
+			<Item score="0102">15</Item>
+			<Item score="0101">17</Item>
+			<Item score="0100">21</Item>
+			<Item score="1211">29</Item>
+			<Item score="0100">30</Item>
+			<Item score="0001">32</Item>
+			<Item score="0001">33</Item>
+			<Item score="0002">40</Item>
+			<Item score="0001">41</Item>
+			<Item score="0001">45</Item>
+			<Item score="0101">46</Item>
+			<Item score="0001">50</Item>
+			<Item score="0001">56</Item>
+			<Item score="2212">57</Item>
+			<Item score="1212">58</Item>
+			<Item score="1211">59</Item>
+			<Item score="0001">60</Item>
+			<Item score="2111">69</Item>
+			<Item score="0001">78</Item>
+			<Item score="2221">88</Item>
+			<Item score="0001">92</Item>
+			<Item score="0001">94</Item>
+			<Item score="2222">95</Item>
+			<Item score="2222">97</Item>
+			<Item score="2211">98</Item>
+			<Item score="0002">100</Item>
+			<Item score="1012">103</Item>
+			<Item score="1012">105</Item>
+			<Item score="1012">109</Item>
+			<Item score="1002">115</Item>
+			<Item score="1012">116</Item>
+			<Item score="0002">118</Item>
+			<Item score="1012">119</Item>
+			<Item score="0001">121</Item>
+			<Item score="0001">122</Item>
+			<Item score="0001">124</Item>
+			<Item score="0001">128</Item>
+			<Item score="0001">134</Item>
+			<Item score="0001">135</Item>
+			<Item score="1211">139</Item>
+			<Item score="0001">147</Item>
+			<Item score="0001">163</Item>
+			<Item score="0001">166</Item>
+			<Item score="0001">170</Item>
+			<Item score="0001">173</Item>
+			<Item score="1211">174</Item>
+			<Item score="0001">181</Item>
+			<Item score="2222">182</Item>
+			<Item score="2220">183</Item>
+			<Item score="2220">186</Item>
+			<Item score="0010">189</Item>
+			<Item score="0102">199</Item>
+			<Item score="1120">202</Item>
+			<Item score="1210">204</Item>
+			<Item score="0100">211</Item>
+			<Item score="0001">226</Item>
+			<Item score="0001">237</Item>
+			<Item score="2220">240</Item>
+			<Item score="0012">241</Item>
+			<Item score="0001">242</Item>
+			<Item score="0001">243</Item>
+			<Item score="0001">244</Item>
+			<Item score="0001">248</Item>
+			<Item score="2122">250</Item>
+			<Item score="0001">256</Item>
+			<Item score="0001">259</Item>
+			<Item score="0001">261</Item>
+			<Item score="0001">263</Item>
+			<Item score="0001">264</Item>
+			<Item score="0001">265</Item>
+			<Item score="2212">266</Item>
+			<Item score="2222">267</Item>
+			<Item score="0100">268</Item>
+			<Item score="0001">272</Item>
+			<Item score="0100">274</Item>
+			<Item score="0001">275</Item>
+			<Item score="0001">276</Item>
+			<Item score="0001">278</Item>
+			<Item score="0001">279</Item>
+			<Item score="0001">281</Item>
+			<Item score="0001">283</Item>
+			<Item score="0001">286</Item>
+			<Item score="0001">287</Item>
+			<Item score="2122">294</Item>
+			<Item score="1001">297</Item>
+			<Item score="0100">300</Item>
+			<Item score="0010">301</Item>
+			<Item score="2210">314</Item>
+			<Item score="1220">317</Item>
+			<Item score="2221">322</Item>
+			<Item score="0001">331</Item>
+			<Item score="0001">333</Item>
+			<Item score="1111">339</Item>
+			<Item score="0002">348</Item>
+			<Item score="0110">351</Item>
+			<Item score="0110">352</Item>
+			<Item score="2122">353</Item>
+			<Item score="0011">354</Item>
+			<Item score="0010">355</Item>
+			<Item score="1011">359</Item>
+			<Item score="0110">361</Item>
+			<Item score="2122">362</Item>
+			<Item score="2220">364</Item>
+			<Item score="2212">370</Item>
+			<Item score="2221">376</Item>
+			<Item score="2221">381</Item>
+			<Item score="1221">385</Item>
+			<Item score="0001">392</Item>
+			<Item score="2121">395</Item>
+			<Item score="2211">396</Item>
+			<Item score="0011">398</Item>
+			<Item score="0001">405</Item>
+			<Item score="0002">412</Item>
+			<Item score="2222">413</Item>
+			<Item score="0100">416</Item>
+			<Item score="2221">422</Item>
+			<Item score="1100">423</Item>
+			<Item score="0001">426</Item>
+			<Item score="0100">428</Item>
+			<Item score="0001">431</Item>
+			<Item score="1002">434</Item>
+			<Item score="1001">443</Item>
+			<Item score="0100">454</Item>
+			<Item score="0100">455</Item>
+			<Item score="1210">466</Item>
+			<Item score="2222">468</Item>
+			<Item score="0001">473</Item>
+			<Item score="2120">474</Item>
+			<Item score="2221">475</Item>
+			<Item score="1120">478</Item>
+			<Item score="0100">485</Item>
+			<Item score="0012">486</Item>
+			<Item score="0100">489</Item>
+			<Item score="0101">508</Item>
+			<Item score="0011">512</Item>
+			<Item score="0001">538</Item>
+			<Item score="0110">545</Item>
+			<Item score="0100">549</Item>
+			<Item score="1212">550</Item>
+			<Item score="0001">551</Item>
+			<Item score="2112">552</Item>
+			<Item score="0001">553</Item>
+			<Item score="0101">559</Item>
+			<Item score="0001">562</Item>
+			<Item score="2110">579</Item>
+			<Item score="0001">582</Item>
+			<Item score="0001">586</Item>
+			<Item score="1211">594</Item>
+			<Item score="2121">598</Item>
+			<Item score="0101">601</Item>
+			<Item score="2012">603</Item>
+			<Item score="1210">611</Item>
+			<Item score="2121">615</Item>
+			<Item score="0001">626</Item>
+			<Item score="1111">641</Item>
+			<Item score="0100">642</Item>
+			<Item score="0001">643</Item>
+			<Item score="0001">648</Item>
+			<Item score="0100">659</Item>
+			<Item score="0001">667</Item>
+			<Item score="0100">673</Item>
+			<Item score="2210">682</Item>
+			<Item score="2210">683</Item>
+			<Item score="1220">684</Item>
+			<Item score="0100">688</Item>
+			<Item score="0101">690</Item>
+			<Item score="0100">694</Item>
+			<Item score="1210">695</Item>
+			<Item score="2222">700</Item>
+			<Item score="0001">704</Item>
+			<Item score="0110">714</Item>
+			<Item score="0001">719</Item>
+			<Item score="0102">720</Item>
+			<Item score="2222">722</Item>
+			<Item score="0101">724</Item>
+			<Item score="0001">725</Item>
+			<Item score="0001">727</Item>
+			<Item score="2222">728</Item>
+			<Item score="0001">729</Item>
+			<Item score="0002">731</Item>
+			<Item score="2222">732</Item>
+			<Item score="2122">733</Item>
+			<Item score="0001">735</Item>
+			<Item score="0002">751</Item>
+			<Item score="1111">752</Item>
+			<Item score="2222">756</Item>
+			<Item score="2122">759</Item>
+			<Item score="0001">762</Item>
+			<Item score="2112">763</Item>
+			<Item score="1102">764</Item>
+			<Item score="0001">767</Item>
+			<Item score="0010">768</Item>
+			<Item score="2222">770</Item>
+			<Item score="0001">771</Item>
+			<Item score="0102">772</Item>
+			<Item score="0001">773</Item>
+			<Item score="0001">779</Item>
+			<Item score="2122">781</Item>
+			<Item score="0001">782</Item>
+			<Item score="1102">784</Item>
+			<Item score="2122">787</Item>
+			<Item score="0001">788</Item>
+			<Item score="1001">791</Item>
+			<Item score="1000">794</Item>
+			<Item score="1220">796</Item>
+			<Item score="2112">797</Item>
+			<Item score="1100">798</Item>
+			<Item score="1110">799</Item>
+			<Item score="2122">801</Item>
+			<Item score="2220">803</Item>
+			<Item score="2122">808</Item>
+			<Item score="0001">809</Item>
+			<Item score="2122">822</Item>
+			<Item score="2112">833</Item>
+			<Item score="0100">834</Item>
+			<Item score="0100">835</Item>
+			<Item score="1010">836</Item>
+			<Item score="0001">838</Item>
+			<Item score="0002">844</Item>
+			<Item score="0001">854</Item>
+			<Item score="2122">859</Item>
+			<Item score="0001">866</Item>
+			<Item score="0001">867</Item>
+			<Item score="0001">868</Item>
+			<Item score="2221">870</Item>
+			<Item score="0102">872</Item>
+			<Item score="0001">875</Item>
+			<Item score="0001">880</Item>
+			<Item score="0001">882</Item>
+			<Item score="0100">883</Item>
+			<Item score="1002">888</Item>
+			<Item score="2122">893</Item>
+			<Item score="0001">894</Item>
+			<Item score="0001">896</Item>
+			<Item score="1000">897</Item>
+			<Item score="1120">900</Item>
+			<Item score="0001">906</Item>
+			<Item score="0001">913</Item>
+			<Item score="1000">914</Item>
+			<Item score="0011">935</Item>
+			<Item score="1001">941</Item>
+			<Item score="0001">944</Item>
+			<Item score="0001">947</Item>
+			<Item score="2122">965</Item>
+			<Item score="2221">974</Item>
+			<Item score="1001">982</Item>
+			<Item score="1122">985</Item>
+			<Item score="1002">990</Item>
+			<Item score="0001">992</Item>
+			<Item score="0001">993</Item>
+			<Item score="2222">997</Item>
+			<Item score="2212">998</Item>
+			<Item score="2122">1000</Item>
+			<Item score="2122">1018</Item>
+			<Item score="0002">1019</Item>
+			<Item score="0001">1023</Item>
+			<Item score="0001">1033</Item>
+			<Item score="0001">1040</Item>
+			<Item score="0001">1041</Item>
+			<Item score="0002">1043</Item>
+			<Item score="0002">1047</Item>
+			<Item score="0001">1051</Item>
+			<Item score="0002">1054</Item>
+			<Item score="0002">1056</Item>
+			<Item score="0002">1057</Item>
+			<Item score="0002">1058</Item>
+			<Item score="0001">1063</Item>
+			<Item score="0002">1080</Item>
+			<Item score="0001">1085</Item>
+			<Item score="0001">1091</Item>
+			<Item score="0002">1093</Item>
+			<Item score="2222">1095</Item>
+			<Item score="2220">1097</Item>
+			<Item score="1221">1098</Item>
+			<Item score="1000">1103</Item>
+			<Item score="0100">1106</Item>
+			<Item score="0100">1107</Item>
+			<Item score="0100">1108</Item>
+			<Item score="0001">1115</Item>
+			<Item score="0001">1116</Item>
+			<Item score="2212">1118</Item>
+			<Item score="0002">1119</Item>
+			<Item score="1210">1125</Item>
+			<Item score="0100">1134</Item>
+			<Item score="2122">1177</Item>
+			<Item score="2221">1184</Item>
+			<Item score="0001">1186</Item>
+			<Item score="2222">1189</Item>
+			<Item score="0101">1191</Item>
+			<Item score="0001">1192</Item>
+			<Item score="2222">1216</Item>
+			<Item score="2222">1217</Item>
+			<Item score="2222">1219</Item>
+			<Item score="2222">1226</Item>
+			<Item score="0001">1232</Item>
+			<Item score="1001">1234</Item>
+			<Item score="0102">1235</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00092</QueryNumber>
+		<QueryText>What is the prognosis for survival of patients with CF?
+</QueryText>
+		<Results>00108</Results>
+		<Records>
+			<Item score="0001">17</Item>
+			<Item score="0001">43</Item>
+			<Item score="0001">111</Item>
+			<Item score="1000">130</Item>
+			<Item score="1102">135</Item>
+			<Item score="0001">136</Item>
+			<Item score="0002">148</Item>
+			<Item score="0001">181</Item>
+			<Item score="1000">185</Item>
+			<Item score="0001">189</Item>
+			<Item score="1000">193</Item>
+			<Item score="0001">200</Item>
+			<Item score="2111">213</Item>
+			<Item score="0012">226</Item>
+			<Item score="1012">238</Item>
+			<Item score="2222">258</Item>
+			<Item score="1002">333</Item>
+			<Item score="0100">342</Item>
+			<Item score="2110">354</Item>
+			<Item score="1102">370</Item>
+			<Item score="1010">377</Item>
+			<Item score="0001">392</Item>
+			<Item score="0001">429</Item>
+			<Item score="0100">434</Item>
+			<Item score="0001">446</Item>
+			<Item score="0011">465</Item>
+			<Item score="2222">472</Item>
+			<Item score="2221">473</Item>
+			<Item score="0100">479</Item>
+			<Item score="1121">489</Item>
+			<Item score="0001">492</Item>
+			<Item score="0001">503</Item>
+			<Item score="0001">510</Item>
+			<Item score="1010">514</Item>
+			<Item score="1100">550</Item>
+			<Item score="0011">559</Item>
+			<Item score="0002">586</Item>
+			<Item score="0001">596</Item>
+			<Item score="2111">599</Item>
+			<Item score="0001">607</Item>
+			<Item score="2110">611</Item>
+			<Item score="0001">643</Item>
+			<Item score="0001">653</Item>
+			<Item score="2222">661</Item>
+			<Item score="1000">671</Item>
+			<Item score="1000">687</Item>
+			<Item score="0010">692</Item>
+			<Item score="2210">705</Item>
+			<Item score="2222">722</Item>
+			<Item score="1111">724</Item>
+			<Item score="0001">729</Item>
+			<Item score="0002">731</Item>
+			<Item score="0001">735</Item>
+			<Item score="1001">763</Item>
+			<Item score="1001">764</Item>
+			<Item score="0001">767</Item>
+			<Item score="1011">778</Item>
+			<Item score="2122">783</Item>
+			<Item score="0100">788</Item>
+			<Item score="0001">804</Item>
+			<Item score="0001">806</Item>
+			<Item score="0100">822</Item>
+			<Item score="0001">824</Item>
+			<Item score="0010">826</Item>
+			<Item score="0001">837</Item>
+			<Item score="0001">838</Item>
+			<Item score="0001">839</Item>
+			<Item score="2111">842</Item>
+			<Item score="0002">845</Item>
+			<Item score="0001">856</Item>
+			<Item score="0011">858</Item>
+			<Item score="0001">859</Item>
+			<Item score="1122">879</Item>
+			<Item score="0001">883</Item>
+			<Item score="0001">888</Item>
+			<Item score="0001">889</Item>
+			<Item score="0100">908</Item>
+			<Item score="1100">910</Item>
+			<Item score="1210">914</Item>
+			<Item score="0100">915</Item>
+			<Item score="0100">926</Item>
+			<Item score="0101">930</Item>
+			<Item score="1110">934</Item>
+			<Item score="0001">940</Item>
+			<Item score="1001">941</Item>
+			<Item score="0001">944</Item>
+			<Item score="0001">946</Item>
+			<Item score="2222">952</Item>
+			<Item score="1002">990</Item>
+			<Item score="2122">1000</Item>
+			<Item score="0001">1014</Item>
+			<Item score="0002">1023</Item>
+			<Item score="0100">1031</Item>
+			<Item score="1111">1033</Item>
+			<Item score="0001">1040</Item>
+			<Item score="0001">1066</Item>
+			<Item score="0001">1071</Item>
+			<Item score="0002">1093</Item>
+			<Item score="2222">1147</Item>
+			<Item score="0001">1151</Item>
+			<Item score="0001">1186</Item>
+			<Item score="0001">1188</Item>
+			<Item score="1100">1192</Item>
+			<Item score="2122">1195</Item>
+			<Item score="0001">1226</Item>
+			<Item score="0001">1227</Item>
+			<Item score="1121">1232</Item>
+			<Item score="2122">1234</Item>
+			<Item score="00018">00093</Item>
+			<Item score="2212">113</Item>
+			<Item score="2222">145</Item>
+			<Item score="2122">180</Item>
+			<Item score="2222">272</Item>
+			<Item score="0001">422</Item>
+			<Item score="1010">467</Item>
+			<Item score="0011">489</Item>
+			<Item score="0001">550</Item>
+			<Item score="1002">586</Item>
+			<Item score="0001">722</Item>
+			<Item score="0001">724</Item>
+			<Item score="0001">873</Item>
+			<Item score="0002">999</Item>
+			<Item score="0002">1000</Item>
+			<Item score="0002">1020</Item>
+			<Item score="0001">1023</Item>
+			<Item score="0002">1033</Item>
+			<Item score="0001">1233</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00094</QueryNumber>
+		<QueryText>What animal models are available which are relevant to CF?
+</QueryText>
+		<Results>00043</Results>
+		<Records>
+			<Item score="0011">78</Item>
+			<Item score="0002">114</Item>
+			<Item score="0001">122</Item>
+			<Item score="0001">123</Item>
+			<Item score="0001">137</Item>
+			<Item score="0001">192</Item>
+			<Item score="0011">209</Item>
+			<Item score="0002">270</Item>
+			<Item score="0002">277</Item>
+			<Item score="0001">282</Item>
+			<Item score="2122">309</Item>
+			<Item score="2122">311</Item>
+			<Item score="0001">322</Item>
+			<Item score="0001">359</Item>
+			<Item score="1010">370</Item>
+			<Item score="0001">400</Item>
+			<Item score="0001">435</Item>
+			<Item score="0001">436</Item>
+			<Item score="2222">440</Item>
+			<Item score="0001">442</Item>
+			<Item score="2222">494</Item>
+			<Item score="1212">498</Item>
+			<Item score="0001">504</Item>
+			<Item score="0001">505</Item>
+			<Item score="0001">533</Item>
+			<Item score="2222">536</Item>
+			<Item score="0002">571</Item>
+			<Item score="2222">742</Item>
+			<Item score="2222">745</Item>
+			<Item score="1010">789</Item>
+			<Item score="2122">955</Item>
+			<Item score="0002">1016</Item>
+			<Item score="0002">1091</Item>
+			<Item score="0002">1092</Item>
+			<Item score="1122">1121</Item>
+			<Item score="2122">1143</Item>
+			<Item score="1121">1156</Item>
+			<Item score="0001">1158</Item>
+			<Item score="2122">1197</Item>
+			<Item score="2122">1199</Item>
+			<Item score="0001">1200</Item>
+			<Item score="2222">1204</Item>
+			<Item score="1121">1223</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00095</QueryNumber>
+		<QueryText>What abnormalities of skeletal muscle function or structure have been
+   found in CF patients?
+</QueryText>
+		<Results>00009</Results>
+		<Records>
+			<Item score="0001">12</Item>
+			<Item score="2112">30</Item>
+			<Item score="0100">43</Item>
+			<Item score="0002">192</Item>
+			<Item score="1000">257</Item>
+			<Item score="0100">322</Item>
+			<Item score="2120">603</Item>
+			<Item score="2120">606</Item>
+			<Item score="0001">1097</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00096</QueryNumber>
+		<QueryText>Is there an increased incidence of dental problems (eg, caries or
+   periodontal disease) in CF patients?
+</QueryText>
+		<Results>00012</Results>
+		<Records>
+			<Item score="0001">9</Item>
+			<Item score="1001">40</Item>
+			<Item score="0100">43</Item>
+			<Item score="2212">75</Item>
+			<Item score="2222">454</Item>
+			<Item score="2222">455</Item>
+			<Item score="1001">520</Item>
+			<Item score="0011">526</Item>
+			<Item score="0001">527</Item>
+			<Item score="2222">673</Item>
+			<Item score="0010">883</Item>
+			<Item score="0001">1087</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00097</QueryNumber>
+		<QueryText>Is oxygen transport by red blood cells abnormal in CF patients?
+</QueryText>
+		<Results>00011</Results>
+		<Records>
+			<Item score="0100">52</Item>
+			<Item score="1000">68</Item>
+			<Item score="0001">135</Item>
+			<Item score="0101">140</Item>
+			<Item score="0001">190</Item>
+			<Item score="0001">392</Item>
+			<Item score="1001">416</Item>
+			<Item score="0001">538</Item>
+			<Item score="2222">539</Item>
+			<Item score="2210">751</Item>
+			<Item score="2222">757</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00098</QueryNumber>
+		<QueryText>What are the effects of CF on the development and/or function of the
+   brain and central nervous system?
+</QueryText>
+		<Results>00015</Results>
+		<Records>
+			<Item score="2221">145</Item>
+			<Item score="2120">180</Item>
+			<Item score="0001">270</Item>
+			<Item score="2210">272</Item>
+			<Item score="0002">362</Item>
+			<Item score="0010">467</Item>
+			<Item score="0010">595</Item>
+			<Item score="0002">667</Item>
+			<Item score="2222">728</Item>
+			<Item score="2122">782</Item>
+			<Item score="1011">787</Item>
+			<Item score="2110">985</Item>
+			<Item score="0100">1018</Item>
+			<Item score="1000">1019</Item>
+			<Item score="0101">1118</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00099</QueryNumber>
+		<QueryText>Are there abnormalities of taste in CF patients?
+</QueryText>
+		<Results>00005</Results>
+		<Records>
+			<Item score="2222">268</Item>
+			<Item score="2222">324</Item>
+			<Item score="2122">449</Item>
+			<Item score="1220">992</Item>
+			<Item score="1001">1191</Item>
+		</Records>
+	</QUERY>
+	<QUERY>
+		<QueryNumber>00100</QueryNumber>
+		<QueryText>What is the incidence of and treatment for hypertrophic
+   osteoarthropathy in CF patients?
+</QueryText>
+		<Results>00011</Results>
+		<Records>
+			<Item score="0101">59</Item>
+			<Item score="2222">183</Item>
+			<Item score="1211">370</Item>
+			<Item score="2222">579</Item>
+			<Item score="1100">803</Item>
+			<Item score="0110">833</Item>
+			<Item score="1212">1000</Item>
+			<Item score="2212">1017</Item>
+			<Item score="0001">1033</Item>
+			<Item score="1100">1097</Item>
+			<Item score="0101">1232</Item>
+		</Records>
+	</QUERY>
+</FILEQUERY>
