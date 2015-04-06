@@ -29,7 +29,7 @@ class Indexer(object):
                 raise Exception("Error parsing %s on line %d! Mal formated command." % (self.config_file_path, i))
             
             command = splited[0]
-            path = splited[1]
+            path = splited[1].replace('\n', '')
             
             if command == READ_COMMAND:
                 self.input_path = path
@@ -45,10 +45,10 @@ class Indexer(object):
             raise Exception("Error parsing %s! There's no write command." % self.config_file_path)
     
     def _rebuild_content(self):
-        config_file = open(self.input_path, "r")
+        input_file = open(self.input_path, "r")
         i = 1 
         
-        for line in config_file.readlines():
+        for line in input_file.readlines():
             splited = line.split(CSV_SEPARATOR)
             
             if len(splited) != 2:
@@ -75,8 +75,7 @@ class Indexer(object):
         
     def _build_therm_document_matrix(self):
         vec = self.vectorizer(ngram_range=(1,1))
-        self.therm_document_matrix = vec.fit_transform(self.contents.values())
-        
+        self.therm_document_matrix = vec.fit_transform(self.contents.values())    
         
     def run(self):
         self._extract_paths()
@@ -89,12 +88,3 @@ class Indexer(object):
         export["contents"] = self.contents
         with open(self.output_path, "wb") as file:
             dump(export, file)
-    
-    def import_model(self):
-        with open(self.output_path, "rb") as file:
-            imported = load(file)
-        
-        self.therm_document_matrix = imported["matrix"]
-        self.contents = imported["contents"]
-        self.document_id_array = []
-        self.document_id_array.extend(self.contents.keys())

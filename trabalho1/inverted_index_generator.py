@@ -40,7 +40,7 @@ class InvertedIndexGenerator(object):
                 raise Exception("Error parsing %s on line %d! Mal formated command." % (self.config_file_path, i))
             
             command = splited[0]
-            path = splited[1]
+            path = splited[1].replace('\n', '')
             
             if command == READ_COMMAND:
                 self.input_paths.append(path)
@@ -62,11 +62,11 @@ class InvertedIndexGenerator(object):
         self._extract_paths()
         
         for path in self.input_paths:
-            self._parse_xml_file(path.replace('\n', ''))
+            self._parse_xml_file(path)
             
     def write_output(self):
         output_file = open(self.output_path, "w")
-        output_file.write(self.inverted_index.export_cvs())
+        output_file.write(self.inverted_index.export_csv())
     
 class InvertedIndex(object):
         
@@ -84,7 +84,7 @@ class InvertedIndex(object):
             self.index[token] = []            
         self.index[token].append(document_id)
         
-    def export_cvs(self):
+    def export_csv(self):
         csv_lines = []
         for token, document_list in self.index.items():
             csv_lines.append( str(token) + CSV_SEPARATOR + str(document_list) )

@@ -12,32 +12,32 @@ class QueryProcessor(object):
         self.config_file_path = config_file_path
         self.input_paths = []
         self.queries_path = None
-        self.results_path = None
+        self.expecteds_path = None
         self.queries = {}
         
     def run(self):
         self._extract_paths()
         
         for path in self.input_paths:
-            self._parse_xml_file(path.replace('\n', ''))
+            self._parse_xml_file(path)
         
     def write_output(self):
-        queries_cvs, results_cvs = self._export_cvs()
+        queries_csv, expecteds_csv = self._export_csv()
         
         with open(self.queries_path, "w") as queries_file:
-            queries_file.write(queries_cvs)
+            queries_file.write(queries_csv)
             
-        with open(self.results_path, "w") as results_file:
-            results_file.write(results_cvs)
+        with open(self.expecteds_path, "w") as expecteds_file:
+            expecteds_file.write(expecteds_csv)
         
-    def _export_cvs(self):
+    def _export_csv(self):
         queries_lines = []
-        results_lines = []
+        expecteds_lines = []
         for query_number, query_attr in self.queries.items():
             queries_lines.append( str(query_number) + CSV_SEPARATOR + str(query_attr['content']) )
-            results_lines.append( str(query_number) + CSV_SEPARATOR + str(query_attr['results']) )
+            expecteds_lines.append( str(query_number) + CSV_SEPARATOR + str(query_attr['expecteds']) )
             
-        return "\n".join(queries_lines), "\n".join(results_lines)
+        return "\n".join(queries_lines), "\n".join(expecteds_lines)
            
     def _parse_query(self, query_content):
         normalized_content = unicodedata.normalize('NFKD', query_content).encode('ascii','ignore').upper().decode('utf-8')
@@ -53,8 +53,9 @@ class QueryProcessor(object):
         
     def _compute_score(self, score):
         integer_score = 0
+        # if a source score is more than 1, sum a vote
         for source_score in score:
-            integer_score += int(source_score)
+            integer_score += (int(source_score) > 0)
         
         return integer_score
         
@@ -68,16 +69,16 @@ class QueryProcessor(object):
             
             self.queries[query_number] = {}
             self.queries[query_number]['content'] = query_content
-            self.queries[query_number]['results'] = []
+            self.queries[query_number]['expecteds'] = []
             
             records_items = query.find('Records').findall('Item')
             for item in records_items:
                 item_recordnum = int(item.text.strip())
                 item_score = self._compute_score(item.get('score'))
                 
-                self.queries[query_number]['results'].append( (item_recordnum, item_score) )
+                self.queries[query_number]['expecteds'].append( (item_recordnum, item_score) )
             
-            self.queries[query_number]['results'].sort(key=lambda tup: tup[1], reverse=True) 
+            self.queries[query_number]['expecteds'].sort(key=lambda tup: tup[1], reverse=True) 
             
                     
     def _extract_paths(self):
@@ -91,14 +92,14 @@ class QueryProcessor(object):
                 raise Exception("Error parsing %s on line %d! Mal formated command." % (self.config_file_path, i))
             
             command = splited[0]
-            path = splited[1]
+            path = splited[1].replace('\n', '')
             
             if self.queries_path is None and command == READ_COMMAND:
                 self.input_paths.append(path)
             elif command == QUERIES_COMMAND:
                 self.queries_path = path
-            elif command == RESULTS_COMMAND:
-                self.results_path = path
+            elif command == EXPECTEDS_COMMAND:
+                self.expecteds_path = path
                 break
             else:
                 raise Exception("Error parsing %s on line %d! Unknow command \'%s\'" % (self.config_file_path, i, command))
@@ -109,5 +110,5 @@ class QueryProcessor(object):
         if self.queries_path is None:
             raise Exception("Error parsing %s! There's no queries command." % self.config_file_path)
 
-        if self.results_path is None:
-            raise Exception("Error parsing %s! There's no results command." % self.config_file_path)
+        if self.expecteds_path is None:
+            raise Exception("Error parsing %s! There's no expcteds command." % self.config_file_path)
