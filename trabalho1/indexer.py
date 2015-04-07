@@ -16,6 +16,7 @@ class Indexer(object):
         self.document_id_array = None
         self.therm_document_matrix = None
         self.vectorizer = vectorizer
+        self.logger = logging.getLogger(__name__)
         
     def _extract_paths(self):
         config_file = open(self.config_file_path, "r")
@@ -72,17 +73,27 @@ class Indexer(object):
             
             self.document_id_array = []
             self.document_id_array.extend(self.contents.keys())
+            
+            i += 1
+            
+        self.logger.info("Rebuild %d documents from %d tokens" % (len(self.document_id_array), i) )
         
     def _build_therm_document_matrix(self):
         vec = self.vectorizer(ngram_range=(1,1))
         self.therm_document_matrix = vec.fit_transform(self.contents.values())    
         
     def run(self):
+        self.logger.info("Module starting...")
+        self.logger.info("Reading configuration file: " + self.config_file_path)
         self._extract_paths()
+        self.logger.info("Rebuilding content from inverted index: " + self.input_path)
         self._rebuild_content()
+        self.logger.info("Building vector model")
         self._build_therm_document_matrix()
+        self.logger.info("Building vector model done")
     
     def write_output(self):
+        self.logger.info("Writing vector model: " + self.output_path)
         export = {}
         export["matrix"] = self.therm_document_matrix
         export["contents"] = self.contents

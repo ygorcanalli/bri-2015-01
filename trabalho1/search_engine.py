@@ -23,8 +23,10 @@ class SearchEngine(object):
         self.distances = None
         self.ranking = None
         self.vectorizer = vectorizer
+        self.logger = logging.getLogger(__name__)
         
     def write_output(self):
+        self.logger.info("Writing retrieval results: " + self.results_path)
         with open(self.results_path, "w") as results_file:
             results_file.write(self._export_csv())
         
@@ -46,11 +48,18 @@ class SearchEngine(object):
         return  "\n".join(results_lines)
 
     def run(self):
+        self.logger.info("Module starting...")
+        self.logger.info("Reading configuration file: " + self.config_file_path)
         self._extract_paths()
+        self.logger.info("Reading vector model: " + self.model_path)
         self._import_model()
+        self.logger.info("Reading queries: " + self.queries_path)
         self._import_queries()
+        self.logger.info("Building queries matrix")
         self._build_queries_matrix()
+        self.logger.info("Executing retrieval")
         self._execute_retrieval()
+        self.logger.info("Executing retrieval done")
         
     def _execute_retrieval(self):
         self.distances = pairwise_distances(self.queries_matrix, self.therm_document_matrix, metric="cosine", n_jobs=4)
@@ -81,6 +90,8 @@ class SearchEngine(object):
         
         self.queries_id_array = []
         self.queries_id_array.extend(self.queries.keys())
+        
+        self.logger.info("Reading queries: %d queries" % len(self.queries_id_array) ) 
 
     def _import_model(self):
         with open(self.model_path, "rb") as file:
@@ -90,6 +101,8 @@ class SearchEngine(object):
         self.contents = imported["contents"]
         self.document_id_array = []
         self.document_id_array.extend(self.contents.keys())
+        
+        self.logger.info("Reading vector model: %d documents" % len(self.document_id_array) ) 
         
     def _extract_paths(self):
         config_file = open(self.config_file_path, "r")

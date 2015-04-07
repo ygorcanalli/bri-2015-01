@@ -12,6 +12,9 @@ from nltk import word_tokenize
 from pickle import dump, load
 import xml.etree.ElementTree as ET
 import re
+import logging
+
+logging.basicConfig(format='[%(levelname)s %(asctime)s %(name)s]\t%(message)s',filename='application.log',level=logging.INFO)
 
 GLI_CONFIG_FILE = 'GLI.CFG'
 PC_CONFIG_FILE = 'PC.CFG'

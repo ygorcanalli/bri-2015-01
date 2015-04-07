@@ -13,10 +13,12 @@ class InvertedIndexGenerator(object):
         self.config_file_path = config_file_path
         self.input_paths = []
         self.output_path = None
+        self.logger = logging.getLogger(__name__)
     
     def _parse_xml_file(self, file_name):
         xml_file = ET.parse(file_name).getroot()
         records = xml_file.findall('RECORD')
+        n_records = 0
         
         for record in records:
             recordnum = int(record.find('RECORDNUM').text.strip())
@@ -24,10 +26,15 @@ class InvertedIndexGenerator(object):
             extract = record.find('EXTRACT')
             if abstract is not None:
                 self.inverted_index.parse_document(recordnum, abstract.text)
+                n_records += 1
             elif extract is not None:
                 self.inverted_index.parse_document(recordnum, extract.text)
+                n_records + 1
             else:
-                print("%s: recordnum %s has no abstract or extract!" % (file_name, recordnum))
+                self.logger.warning("Parsing XML %s: recordnum %s has no abstract or extract!" % (file_name, recordnum))
+        
+        self.logger.info("Parsing XML " + file_name + ": %d records" % n_records )        
+        
     
     def _extract_paths(self):
         config_file = open(self.config_file_path, "r")
@@ -59,12 +66,16 @@ class InvertedIndexGenerator(object):
             raise Exception("Error parsing %s! There's no write command." % self.config_file_path)
         
     def run(self):
+        self.logger.info("Module starting...")
+        self.logger.info("Reading configuration file: " + self.config_file_path)
         self._extract_paths()
         
+        self.logger.info("Start parsing XML files")
         for path in self.input_paths:
             self._parse_xml_file(path)
             
     def write_output(self):
+        self.logger.info("Writing inverted index: " + self.output_path)
         output_file = open(self.output_path, "w")
         output_file.write(self.inverted_index.export_csv())
     

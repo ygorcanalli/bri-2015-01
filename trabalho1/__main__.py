@@ -8,6 +8,9 @@ from search_engine import SearchEngine
 
 def __main__(argv):
     
+    logger = logging.getLogger(__name__)
+    logger.info("VECTOR MODEL INFORMATION RETRIEVAL SYSTEM START")    
+    
     gli = InvertedIndexGenerator(GLI_CONFIG_FILE)
     gli.run()
     gli.write_output()
@@ -23,6 +26,7 @@ def __main__(argv):
     buscador = SearchEngine(BUSCA_CONFIG_FILE, TfidfVectorizer)
     buscador.run()
     buscador.write_output()
+    logger.info("VECTOR MODEL INFORMATION RETRIEVAL SYSTEM DONE")     
 
 if __name__ == "__main__":
     __main__(sys.argv[1:])

@@ -14,19 +14,26 @@ class QueryProcessor(object):
         self.queries_path = None
         self.expecteds_path = None
         self.queries = {}
+        self.logger = logging.getLogger(__name__)
         
     def run(self):
+        self.logger.info("Module starting...")
+        self.logger.info("Reading configuration file: " + self.config_file_path)
         self._extract_paths()
         
+        self.logger.info("Start parsing XML files")
         for path in self.input_paths:
             self._parse_xml_file(path)
         
     def write_output(self):
+        
         queries_csv, expecteds_csv = self._export_csv()
         
+        self.logger.info("Writing queries: " + self.queries_path)
         with open(self.queries_path, "w") as queries_file:
             queries_file.write(queries_csv)
-            
+         
+        self.logger.info("Writing expecteds: " + self.expecteds_path)
         with open(self.expecteds_path, "w") as expecteds_file:
             expecteds_file.write(expecteds_csv)
         
@@ -78,7 +85,9 @@ class QueryProcessor(object):
                 
                 self.queries[query_number]['expecteds'].append( (item_recordnum, item_score) )
             
-            self.queries[query_number]['expecteds'].sort(key=lambda tup: tup[1], reverse=True) 
+            self.queries[query_number]['expecteds'].sort(key=lambda tup: tup[1], reverse=True)
+            
+        self.logger.info("Parsing XML " + file_name + ": %d queries" % len(xml_queries) )  
             
                     
     def _extract_paths(self):
