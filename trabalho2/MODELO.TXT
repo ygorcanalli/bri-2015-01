@@ -1,0 +1,39 @@
+Implementação de um Sistema de Recuperação em Memória Segundo o Modelo Vetorial
+
+O sistema está dividido em quatro arquivos python principais, relativos aos quatro módulos especificados, cada qual com suas respectivas classes. As classes principais de cada módulo possuem dois apenas métodos públicos cada:
+	* run(): realiza a leitura dos arquivos de configuração, dos dados e realiza o processamento
+	* write_output(): grava os dados processados no(s) arquivo(s) de saída
+
+Módulo "Gerador Lista Invertida": inverted_index_generator.py
+
+	Classe InvertedIndex: Índice invertido utilizado pela classe InvertedIndexGenerator
+		* parse_document(document_id, document): processa o conteúdo do documento e o divide em tokens, adicionando a entrada "document_id" para cada um dos tokens
+		* export_csv(): exporta o índice invertido para uma string no formato csv
+
+	Classe InvertedIndexGenerator:
+		* run(): lê o arquivo de configuração "GLI.CFG" e extrai os documentos de cada um dos XML indicados, processando seu conteúdo através da chamada "parse_document" da classe acima descrita
+		* write_output(): escreve o conteúdo gerado pelo método "export_csv" da classe acima no arquivo indicado
+
+Módulo "Gerar Modelo": indexer.py
+
+	Classe Indexer:
+		* run(): lê o arquivo de configuração "INDEX.CFG", o índice invertido gerado pelo "InvertedIndexGenerator" e constrói a matriz termo documento relativa ao modelo vetorial
+		* write_output(): escreve o modelo vetorial em formato binário (python pickle) no arquivo indicado
+
+	Obs.: O cálculo da matriz termo documento é feito através do "TfidfVectorizer", fornecido pelo SciKit-Learn
+
+Módulo "Processador de Consultas": query_processor.py
+
+	Classe QueryProcessor:
+		* run(): lê o arquivo de configuração "PC.CFG" e extrai as consultas de cada um dos XML indicados
+		* write_outputs(): escreve as consultas e os resultados esperados em formato csv, nos arquivos indicados
+
+	Obs.: O cálculo da matriz de consultas é feito através do "TfidfVectorizer", fornecido pelo SciKit-Learn
+
+Módulo "Realizar Consulta": search_engine.py
+
+	Classe SearchEngine:
+		* run(): lê o arquivo de configuração "BUSCA.CFG", o modelo vetorial gerado pelo "Indexer", as consultas geradas pelo "QueryProcessor", gera a matriz de consultas, realiza a comparação vetorial entre a matriz de consulas e a matriz de documentos (modelo vetorial), armazena as ditâncias e calcula o ranking de cada documento em cada consulta por ordem de similaridade
+		* write_outputs(): escreve os resultados em formato csv no arquivo indicado
+
+	Obs.: O cálculo das distâncias do cosseno entre os documentos e consultas é feito através do método "pairwise_distances", fornecido pelo SciKit-Learn
