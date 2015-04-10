@@ -62,7 +62,7 @@ class QueryProcessor(object):
         integer_score = 0
         # if a source score is more than 1, sum a vote
         for source_score in score:
-            integer_score += int(source_score)
+            integer_score += (int(source_score) > 0)
         
         return integer_score
         

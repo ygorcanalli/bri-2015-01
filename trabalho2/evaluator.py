@@ -14,6 +14,7 @@ class Evaluator(object):
         self.expecteds_paths = []
         self.results_paths = []
         self.expecteds_documents = []
+        self.expecteds_relevances = []
         self.results_matrix = []
         self.precisions_at_k = []
         self.recalls_at_k = []
@@ -29,7 +30,28 @@ class Evaluator(object):
         print(self._get_map())
         for interpolated in self._interpolated_precision_recall():
             print(i, interpolated)
+        for dcg in self._discounted_cumulative_gain():
+            print(i, dcg[0:10])
     
+    def _discounted_cumulative_gain(self):
+        i = 0        
+        discounted_cumulative_gains = []
+        for i in range(len(self.expecteds_relevances)):
+            n_queries = len(self.expecteds_relevances[i])
+            j = 0
+            dcg = np.zeros(n_queries)
+            for r in self.expecteds_relevances[i].values():
+                relevances = np.array(r)
+                from_two = np.arange(2, len(relevances) + 2)
+                logs = np.log2(from_two)
+                powers = np.power(2, relevances) - 1
+                dcg[j] = np.sum(powers/logs)
+                j += 1
+        
+            discounted_cumulative_gains.append(dcg)
+        
+        return discounted_cumulative_gains
+        
     def _interpolated_precision_recall(self):
         i = 0
         interpolated_precision_recalls = []
@@ -50,12 +72,6 @@ class Evaluator(object):
             interpolated_precision_recalls.append(interpolated_precision_recall)
             
         return interpolated_precision_recalls
-                
-                
-            
-            
-            
-        return pak
         
     def _get_precisions_at_k(self, k):
         pak = []
@@ -135,6 +151,7 @@ class Evaluator(object):
     def _parse_csv_files(self, expecteds_file_name, results_file_name):
         expecteds_csv_file = open(expecteds_file_name, "r")
         relevants = {}
+        relevances = {}
         
         for line in expecteds_csv_file.readlines():
             splited = line.split(CSV_SEPARATOR)
@@ -144,15 +161,17 @@ class Evaluator(object):
             
             query_number = int(splited[0])
             relevants[query_number] = []
+            relevances[query_number] = []
              
             # Extract the list values
             list_string = re.sub('[^0-9 ]+', '', splited[1])   
             values_list = list_string.split(" ")
             for i in range(0, len(values_list) - 1, 2):
-                if int(values_list[i+1]) != 0:
-                    relevants[query_number].append(int(values_list[i]))
+                relevants[query_number].append(int(values_list[i]))
+                relevances[query_number].append(int(values_list[i+1]))
                     
         self.expecteds_documents.append(relevants)
+        self.expecteds_relevances.append(relevances)
         
         results_csv_file = open(results_file_name, "r")
         
