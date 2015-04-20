@@ -6,7 +6,6 @@ Created on Thu Apr  9 06:56:19 2015
 """
 
 from __init__ import *
-from pprint import pprint
 
 class Evaluator(object):
     
@@ -24,7 +23,7 @@ class Evaluator(object):
         self.precisions_at_10 = None
         self.maps = None
         self.precision_recall_curves = None
-        self.dgcs = None
+        self.dcgs = None
         self.ndcgs = None
         self.f1s = None
         
@@ -38,7 +37,7 @@ class Evaluator(object):
         self.precisions_at_10 = self._get_precisions_at_k(10)
         self.maps = self._get_MAP()
         self.precision_recall_curves = self._get_interpolated_precision_recall()
-        self.dgcs, self.ndcgs = self._get_discounted_cumulative_gain()   
+        self.dcgs, self.ndcgs = self._get_discounted_cumulative_gain()   
         self.f1s = self._get_f1()
         
         
@@ -46,7 +45,7 @@ class Evaluator(object):
         self._plot_pat10(self.precisions_at_10)
         self._plot_MAP(self.maps)
         self._plot_precision_recall_curve(self.precision_recall_curves)
-        self._plot_dcg(self.dgcs)
+        self._plot_dcg(self.dcgs)
         self._plot_ndcg(self.ndcgs)
         self._plot_f1(self.f1s)
         
@@ -67,6 +66,48 @@ class Evaluator(object):
                 file.write(ngcd_csv[i])
             with open("data/f1-%s-%d.csv" % (models[i], i), "w") as file:
                 file.write(f1_csv[i])
+                
+        with open("RELATORIO.TXT", "w") as file:
+            file.write(self._export_report())
+                
+    def _export_report(self):
+        report = "============MAP============\n"
+        for i in range(len(models)):
+            report += "---------%s---------\n" % models[i]
+            report += str(self.maps[i]) + "\n"
+            
+        report += "\n============11 Points precision recall curve============\n"
+        for i in range(len(models)):
+            report += "\n---------%s---------\n" % models[i]
+            report += str(self.precision_recall_curves[i]) + "\n"
+            
+        report += "\n============Precision@10============\n"
+        for i in range(len(models)):
+            report += "\n---------%s---------\n" % models[i]
+            for j in range(np.shape(self.precisions_at_10[i])[0]):
+                report += str(self.queries_number[j]) + CSV_SEPARATOR + str(self.precisions_at_10[i][j]) + "\n"
+                
+        report += "\n============DCG============\n"
+        for i in range(len(models)):
+            report += "\n---------%s---------\n" % models[i]
+            for j in range(np.shape(self.dcgs[i])[0]):
+                report += str(self.queries_number[j]) + CSV_SEPARATOR + str(self.dcgs[i][j][-1]) + "\n"
+
+        report += "\n============nDCG============\n"
+        for i in range(len(models)):
+            report += "\n---------%s---------\n" % models[i]
+            for j in range(np.shape(self.ndcgs[i])[0]):
+                report += str(self.queries_number[j]) + CSV_SEPARATOR + str(self.ndcgs[i][j][-1]) + "\n"
+                
+        report += "\n============F1============\n"
+        for i in range(len(models)):
+            report += "\n---------%s---------\n" % models[i]
+            for j in range(np.shape(self.f1s[i])[0]):
+                report += str(self.queries_number[j]) + CSV_SEPARATOR + str(self.f1s[i][j][-1]) + "\n"
+                
+        return report
+        
+        
 
     def _export_precisions_at_10_csv(self):
         csvs = []
@@ -95,8 +136,8 @@ class Evaluator(object):
         for i in range(len(models)):
             lines = []
             
-            for j in range(np.shape(self.dgcs[i])[0]):
-                lines.append( str(self.queries_number[j]) + CSV_SEPARATOR + str(self.dgcs[i][j].tolist()) )
+            for j in range(np.shape(self.dcgs[i])[0]):
+                lines.append( str(self.queries_number[j]) + CSV_SEPARATOR + str(self.dcgs[i][j].tolist()) )
 
             csvs.append("\n".join(lines))
         return csvs
