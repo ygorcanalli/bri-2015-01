@@ -13,8 +13,9 @@ class QueryProcessor(object):
         self.input_paths = []
         self.queries_path = None
         self.expecteds_path = None
-        self.queries = {}
+        self.queries = []
         self.logger = logging.getLogger(__name__)
+        self.stemmer = PorterStemmer()
         
     def run(self):
         self.logger.info("Module starting...")
@@ -28,35 +29,59 @@ class QueryProcessor(object):
     def write_output(self):
         
         queries_csv, expecteds_csv = self._export_csv()
-        
-        self.logger.info("Writing queries: " + self.queries_path)
-        with open(self.queries_path, "w") as queries_file:
-            queries_file.write(queries_csv)
-         
-        self.logger.info("Writing expecteds: " + self.expecteds_path)
-        with open(self.expecteds_path, "w") as expecteds_file:
-            expecteds_file.write(expecteds_csv)
+
+        for i in range(len(models)):
+            splited_queries_path = self.queries_path.split(".")
+            q_path = ""
+            if len(splited_queries_path) > 1:
+                q_path = "%s-%s-%d.%s" % (splited_queries_path[0], models[i], i, ".".join(splited_queries_path[1:]) )
+            else:
+                q_path = "%s-%s-%d" % (splited_queries_path[0], models[i], i)
+            
+            self.logger.info("Writing queries: " + q_path)
+            with open(q_path, "w") as queries_file:
+                queries_file.write(queries_csv[i])
+                
+            splited_expecteds_path = self.expecteds_path.split(".")
+            e_path = ""
+            if len(splited_expecteds_path) > 1:
+                e_path = "%s-%s-%d.%s" % (splited_expecteds_path[0], models[i], i, ".".join(splited_expecteds_path[1:]) )
+            else:
+                e_path = "%s-%s-%d" % (splited_expecteds_path[0], models[i], i)
+             
+            self.logger.info("Writing expecteds: " + e_path)
+            with open(e_path, "w") as expecteds_file:
+                expecteds_file.write(expecteds_csv[i])
         
     def _export_csv(self):
-        queries_lines = []
-        expecteds_lines = []
-        for query_number, query_attr in self.queries.items():
-            queries_lines.append( str(query_number) + CSV_SEPARATOR + str(query_attr['content']) )
-            expecteds_lines.append( str(query_number) + CSV_SEPARATOR + str(query_attr['expecteds']) )
+        queries_csvs = []
+        expecteds_csvs = []
+        for i in range(len(models)):
             
-        return "\n".join(queries_lines), "\n".join(expecteds_lines)
+            queries_lines = []
+            expecteds_lines = []
+            for query_number, query_attr in self.queries[i].items():
+                queries_lines.append( str(query_number) + CSV_SEPARATOR + str(query_attr['content']) )
+                expecteds_lines.append( str(query_number) + CSV_SEPARATOR + str(query_attr['expecteds']) )
+            
+            queries_csvs.append("\n".join(queries_lines))
+            expecteds_csvs.append("\n".join(expecteds_lines))
+        return queries_csvs, expecteds_csvs 
            
     def _parse_query(self, query_content):
         normalized_content = unicodedata.normalize('NFKD', query_content).encode('ascii','ignore').upper().decode('utf-8')
         
         # Remove duplicated tokens (pound 1 for each term) and tokens with less than 2 characters    
-        tokens = set()
+        tokens = []
+        tokens.append( set() )
+        tokens.append( set() )
         for token in word_tokenize(normalized_content):
             if len(token) > 1:
-                tokens.add(token)
+                tokens[0].add(self.stemmer.stem(token))
+                tokens[1].add(token)
                 
-        # Rebuild query string
-        return " ".join(tokens)
+        # Rebuild query string stemmed and no-stemmed
+        return " ".join(tokens[0]), " ".join(tokens[1])
         
     def _compute_score(self, score):
         integer_score = 0
@@ -70,22 +95,32 @@ class QueryProcessor(object):
         xml_file = ET.parse(file_name).getroot()
         xml_queries = xml_file.findall('QUERY')
         
+        # stemming
+        self.queries.append( {} )
+        # no stemming
+        self.queries.append( {} )
+        
         for query in xml_queries:
             query_number = int(query.find('QueryNumber').text.strip())
-            query_content = self._parse_query(query.find('QueryText').text)
+            stemmed_query_content, nostemmed_query_content = self._parse_query(query.find('QueryText').text)
             
-            self.queries[query_number] = {}
-            self.queries[query_number]['content'] = query_content
-            self.queries[query_number]['expecteds'] = []
+            self.queries[0][query_number] = {}
+            self.queries[1][query_number] = {}
             
+            self.queries[0][query_number]['content'] = stemmed_query_content
+            self.queries[1][query_number]['content'] = nostemmed_query_content
+            
+            self.queries[0][query_number]['expecteds'] = []
+             
             records_items = query.find('Records').findall('Item')
             for item in records_items:
                 item_recordnum = int(item.text.strip())
                 item_score = self._compute_score(item.get('score'))
                 
-                self.queries[query_number]['expecteds'].append( (item_recordnum, item_score) )
-            
-            self.queries[query_number]['expecteds'].sort(key=lambda tup: tup[1], reverse=True)
+                self.queries[0][query_number]['expecteds'].append( (item_recordnum, item_score) )
+          
+            self.queries[0][query_number]['expecteds'].sort(key=lambda tup: tup[1], reverse=True)  
+            self.queries[1][query_number]['expecteds'] = self.queries[0][query_number]['expecteds']
             
         self.logger.info("Parsing XML " + file_name + ": %d queries" % len(xml_queries) )  
             

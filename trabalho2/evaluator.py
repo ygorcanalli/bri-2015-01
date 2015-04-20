@@ -6,6 +6,7 @@ Created on Thu Apr  9 06:56:19 2015
 """
 
 from __init__ import *
+from pprint import pprint
 
 class Evaluator(object):
     
@@ -18,6 +19,14 @@ class Evaluator(object):
         self.results_matrix = []
         self.precisions_at_k = []
         self.recalls_at_k = []
+        self.queries_number = []
+        
+        self.precisions_at_10 = None
+        self.maps = None
+        self.precision_recall_curves = None
+        self.dgcs = None
+        self.ndcgs = None
+        self.f1s = None
         
     def run(self):
         self._extract_paths()
@@ -25,34 +34,141 @@ class Evaluator(object):
         for i in range(len(self.results_paths)):
             self._parse_csv_files(self.expecteds_paths[i], self.results_paths[i])
         
-        self._mesure_precision_recall()
-        print(self._get_precisions_at_k(10))
-        print(self._get_map())
-        for interpolated in self._interpolated_precision_recall():
-            print(i, interpolated)
-        for dcg in self._discounted_cumulative_gain():
-            print(i, dcg[0:10])
+        self._mesure_precision_recall()    
+        self.precisions_at_10 = self._get_precisions_at_k(10)
+        self.maps = self._get_MAP()
+        self.precision_recall_curves = self._get_interpolated_precision_recall()
+        self.dgcs, self.ndcgs = self._get_discounted_cumulative_gain()   
+        self.f1s = self._get_f1()
+        
+        
+    def write_output(self):
+        self._plot_pat10(self.precisions_at_10)
+        self._plot_MAP(self.maps)
+        self._plot_precision_recall_curve(self.precision_recall_curves)
+        self._plot_dcg(self.dgcs)
+        self._plot_ndcg(self.ndcgs)
+        self._plot_f1(self.f1s)
+        
+        precisions_at_10_csvs = self._export_precisions_at_10_csv()
+        precision_recall_curves_csv = self._export_precision_recall_curves_csv()
+        gcd_csvs = self._export_gcd_csv()
+        ngcd_csv = self._export_ngcd_csv()
+        f1_csv = self._export_f1_csv()
+        
+        for i in range(len(models)):
+            with open("data/pat10-%s-%d.csv" % (models[i], i), "w") as file:
+                file.write(precisions_at_10_csvs[i])
+            with open("data/interpolated_precision_recall-%s-%d.csv" % (models[i], i), "w") as file:
+                file.write(precision_recall_curves_csv[i])
+            with open("data/dcg-%s-%d.csv" % (models[i], i), "w") as file:
+                file.write(gcd_csvs[i])
+            with open("data/ndcg-%s-%d.csv" % (models[i], i), "w") as file:
+                file.write(ngcd_csv[i])
+            with open("data/f1-%s-%d.csv" % (models[i], i), "w") as file:
+                file.write(f1_csv[i])
+
+    def _export_precisions_at_10_csv(self):
+        csvs = []
+        for i in range(len(models)):
+            lines = []
+            
+            for j in range(np.shape(self.precisions_at_10[i])[0]):
+                lines.append( str(self.queries_number[j]) + CSV_SEPARATOR + str(self.precisions_at_10[i][j]) )
+
+            csvs.append("\n".join(lines))
+        return csvs
+
+    def _export_precision_recall_curves_csv(self):
+        csvs = []
+        for i in range(len(models)):
+            lines = []
+            
+            for j in range(np.shape(self.precision_recall_curves[i])[0]):
+                lines.append( str(j/10)  + CSV_SEPARATOR + str(self.precision_recall_curves[i][j].tolist()) )
+
+            csvs.append("\n".join(lines))
+        return csvs
+
+    def _export_gcd_csv(self):
+        csvs = []
+        for i in range(len(models)):
+            lines = []
+            
+            for j in range(np.shape(self.dgcs[i])[0]):
+                lines.append( str(self.queries_number[j]) + CSV_SEPARATOR + str(self.dgcs[i][j].tolist()) )
+
+            csvs.append("\n".join(lines))
+        return csvs
+        
+    def _export_ngcd_csv(self):
+        csvs = []
+        for i in range(len(models)):
+            lines = []
+            
+            for j in range(np.shape(self.ndcgs[i])[0]):
+                lines.append( str(self.queries_number[j]) + CSV_SEPARATOR + str(self.ndcgs[i][j].tolist()) )
+
+            csvs.append("\n".join(lines))
+        return csvs
+        
+    def _export_f1_csv(self):
+        csvs = []
+        for i in range(len(models)):
+            lines = []
+            
+            for j in range(np.shape(self.f1s[i])[0]):
+                lines.append( str(self.queries_number[j]) + CSV_SEPARATOR + str(self.f1s[i][j].tolist()) )
+
+            csvs.append("\n".join(lines))
+        return csvs
+        
+    def _get_f1(self):
+        f1s = []
+        i = 0
+        for i in range(len(self.precisions_at_k)):
+            f1 = (2 * self.precisions_at_k[i] * self.recalls_at_k[i]) / (self.precisions_at_k[i] + self.recalls_at_k[i])
+            f1s.append(f1)
+        return f1s
+            
     
-    def _discounted_cumulative_gain(self):
+    def _get_discounted_cumulative_gain(self):
         i = 0        
         discounted_cumulative_gains = []
+        normalized_discounted_cumulative_gains = []
         for i in range(len(self.expecteds_relevances)):
-            n_queries = len(self.expecteds_relevances[i])
+            n_queries = len(self.expecteds_relevances[i])  
+            n_documents = len(self.results_matrix[i][1])
+            dcg = np.zeros((n_queries,n_documents))
+            ndcg = np.zeros((n_queries,n_documents))
             j = 0
-            dcg = np.zeros(n_queries)
-            for r in self.expecteds_relevances[i].values():
-                relevances = np.array(r)
-                from_two = np.arange(2, len(relevances) + 2)
-                logs = np.log2(from_two)
-                powers = np.power(2, relevances) - 1
-                dcg[j] = np.sum(powers/logs)
+            for q in self.results_matrix[i].keys():
+                relevances = np.zeros(n_documents)
+                k = 0
+                for d in self.results_matrix[i][q]:
+                    if d in self.expecteds_relevances[i][q]:
+                        relevances[k] = self.expecteds_relevances[i][q][d]
+                    k += 1
+                # Sort and reverse relevances
+                sorted_relevances = np.sort(relevances)
+                sorted_relevances = sorted_relevances[::-1]
+                ideal_dcg = 0
+                for p in range(n_documents):
+                    from_two = np.arange(2, p + 3)
+                    logs = np.log2(from_two)
+                    powers = np.power(2, relevances[0:(p+1)]) - 1
+                    dcg[j][p] = np.sum(powers/logs)
+                    ideal_dcg += sorted_relevances[p]
+                    ndcg[j][p] = dcg[j][p] / ideal_dcg
+                
                 j += 1
-        
+            
             discounted_cumulative_gains.append(dcg)
+            normalized_discounted_cumulative_gains.append(ndcg)
         
-        return discounted_cumulative_gains
+        return discounted_cumulative_gains, normalized_discounted_cumulative_gains
         
-    def _interpolated_precision_recall(self):
+    def _get_interpolated_precision_recall(self):
         i = 0
         interpolated_precision_recalls = []
         for i in range(len(self.expecteds_paths)):
@@ -76,10 +192,10 @@ class Evaluator(object):
     def _get_precisions_at_k(self, k):
         pak = []
         for precisions in self.precisions_at_k:
-            pak.append(np.mean(precisions[:, (k-1)]))
+            pak.append(precisions[:, (k-1)])
         return pak
 
-    def _get_map(self):
+    def _get_MAP(self):
         maps = []
         for precisions in self.precisions_at_k:
             maps.append(np.mean(precisions))
@@ -161,14 +277,15 @@ class Evaluator(object):
             
             query_number = int(splited[0])
             relevants[query_number] = []
-            relevances[query_number] = []
+            relevances[query_number] = {}
+            self.queries_number.append(query_number)
              
             # Extract the list values
             list_string = re.sub('[^0-9 ]+', '', splited[1])   
             values_list = list_string.split(" ")
             for i in range(0, len(values_list) - 1, 2):
                 relevants[query_number].append(int(values_list[i]))
-                relevances[query_number].append(int(values_list[i+1]))
+                relevances[query_number][int(values_list[i])] = int(values_list[i+1])
                     
         self.expecteds_documents.append(relevants)
         self.expecteds_relevances.append(relevances)
@@ -194,3 +311,141 @@ class Evaluator(object):
                 queries_results[query_number].append(int(values_list[i]))
                     
         self.results_matrix.append(queries_results)
+
+    def _plot_f1(self, f1):
+        N = len(models)
+        n_docs = np.shape(f1[0])[1]
+        ind = np.arange(1, n_docs + 1) # the x locations for the groups
+        
+        fig, ax = plt.subplots()
+        for i in range(N):
+            ax.plot(ind, np.mean(f1[i], axis=0) * 100, label=models[i], color=colors[i])
+    
+        # add some text for labels, title and axes ticks
+        ax.set_ylabel("F1 (%)")
+        ax.set_xlabel("k")
+        ax.set_title("F1 (at k) Analysis")
+        ax.legend(loc='upper right')
+    
+        fig.subplots_adjust(bottom=0.2)
+        plt.xlim((1, n_docs + 1))
+        plt.ylim((0, 100))
+    
+        plt.savefig("data/f1.pdf", format="pdf", dpi=300)
+
+    def _plot_dcg(self, dcg):
+        N = len(models)
+        n_docs = np.shape(dcg[0])[1]
+        ind = np.arange(1, n_docs + 1) # the x locations for the groups
+        
+        fig, ax = plt.subplots()
+        for i in range(N):
+            ax.plot(ind, np.mean(dcg[i], axis=0), label=models[i], color=colors[i])
+    
+        # add some text for labels, title and axes ticks
+        ax.set_ylabel("DGC")
+        ax.set_xlabel("p")
+        ax.set_title("Discounted Cumulative Gain (at p) Analysis")
+        ax.legend(loc='upper right')
+    
+        fig.subplots_adjust(bottom=0.2)
+        plt.xlim((1, n_docs + 1))
+    
+        plt.savefig("data/dcg.pdf", format="pdf", dpi=300)
+
+    def _plot_ndcg(self, ndcg):
+        N = len(models)
+        n_docs = np.shape(ndcg[0])[1]
+        ind = np.arange(1, n_docs + 1) # the x locations for the groups
+        
+        fig, ax = plt.subplots()
+        for i in range(N):
+            ax.plot(ind, np.mean(ndcg[i], axis=0) * 100, label=models[i], color=colors[i])
+    
+        # add some text for labels, title and axes ticks
+        ax.set_ylabel("NDGC (%)")
+        ax.set_xlabel("p")
+        ax.set_title("Normalized Discounted Cumulative Gain (at p) Analysis")
+        ax.legend(loc='upper right')
+    
+        fig.subplots_adjust(bottom=0.2)
+        plt.xlim((1, n_docs + 1))
+        plt.ylim((0, 100))
+    
+        plt.savefig("data/ndcg.pdf", format="pdf", dpi=300)
+ 
+
+    def _plot_precision_recall_curve(self, interpolated_precision_recall):
+        N = len(models)
+        ind = np.arange(0, 110, 10) # the x locations for the groups
+        
+        fig, ax = plt.subplots()
+        for i in range(N):
+            ax.plot(ind, interpolated_precision_recall[i] * 100, label=models[i], color=colors[i])
+    
+        # add some text for labels, title and axes ticks
+        ax.set_ylabel("Precision (%)")
+        ax.set_xlabel("Recall (%)")
+        ax.set_title("11 point Interpolated Precision Recall Curve Analysis")
+        ax.legend(loc='upper right')
+    
+        fig.subplots_adjust(bottom=0.2)
+        plt.xlim((0, 100))
+        plt.ylim((0, 100))
+    
+        plt.savefig("data/interpolated_precision_recall.pdf", format="pdf", dpi=300)
+ 
+    def _plot_pat10(self, pat10):
+        N = len(models)
+        width = 0.35       # the width of the bars
+        ind = np.arange(N) # the x locations for the groups
+
+        mean_pat10 = []
+        for i in range(N):
+            mean_pat10.append(np.mean(pat10[i]) * 100)
+        
+        fig, ax = plt.subplots()
+        rects = ax.bar(ind + width, mean_pat10, width, color=colors)
+    
+        # add some text for labels, title and axes ticks
+        ax.set_ylabel("mean p@10 (%)")
+        ax.set_title("Precision at 10 Analysis")
+        ax.set_xticks(ind + (1.5*width)) 
+        ax.set_xticklabels(models , rotation=45, ha='right')
+
+        autolabel(rects, ax)
+    
+        fig.subplots_adjust(bottom=0.2)
+        plt.xlim((0, N))
+        plt.ylim((0, 100))
+    
+        plt.savefig("data/pat10.pdf", format="pdf", dpi=300)
+
+    def _plot_MAP(self, MAP):
+        N = len(models)
+        width = 0.35	   # the width of the bars
+        ind = np.arange(N) # the x locations for the groups
+        
+        fig, ax = plt.subplots()
+        rects = ax.bar(ind + width, np.array(MAP) * 100, width, color=colors)
+    
+        # add some text for labels, title and axes ticks
+        ax.set_ylabel("MAP (%)")
+        ax.set_title("Mean Average Precision Analysis")
+        ax.set_xticks(ind + (1.5*width)) 
+        ax.set_xticklabels(models , rotation=45, ha='right')
+
+        autolabel(rects, ax)
+    
+        fig.subplots_adjust(bottom=0.2)
+        plt.xlim((0, N))
+    
+        plt.savefig("data/map.pdf", format="pdf", dpi=300)
+        
+        
+def autolabel(rects, ax):
+    # attach some text labels
+    for rect in rects:
+        height = rect.get_height()
+        ax.text(rect.get_x()+rect.get_width()/2., 1.05*height, "%.3f"%float(height),
+                ha="center", va="bottom")

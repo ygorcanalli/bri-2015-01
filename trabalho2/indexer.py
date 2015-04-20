@@ -6,17 +6,19 @@ Created on Mon Apr  6 00:15:40 2015
 """
 from __init__ import *
 
+
 class Indexer(object):
     
     def __init__(self, config_file_path, vectorizer):
         self.config_file_path = config_file_path
         self.input_path = None
         self.output_path = None
-        self.contents = {}
+        self.contents = []
         self.document_id_array = None
-        self.therm_document_matrix = None
+        self.therm_document_matrix = []
         self.vectorizer = vectorizer
         self.logger = logging.getLogger(__name__)
+        self.stemmer = PorterStemmer()
         
     def _extract_paths(self):
         config_file = open(self.config_file_path, "r")
@@ -66,13 +68,19 @@ class Indexer(object):
             if len(token) > 1:
                 for did in document_ids:
                     did = int(did)
-                    if did not in self.contents:
-                        self.contents[did] = ""
+                    # Stemming
+                    self.contents.append({})
+                    # No stemming
+                    self.contents.append({})
+                    if did not in self.contents[0]:
+                        self.contents[0][did] = ""
+                        self.contents[1][did] = ""
                     
-                    self.contents[did] += token + " "
+                    self.contents[0][did] += self.stemmer.stem(token) + " "                    
+                    self.contents[1][did] += token + " "                    
             
             self.document_id_array = []
-            self.document_id_array.extend(self.contents.keys())
+            self.document_id_array.extend(self.contents[0].keys())
             
             i += 1
             
@@ -80,7 +88,10 @@ class Indexer(object):
         
     def _build_therm_document_matrix(self):
         vec = self.vectorizer(ngram_range=(1,1))
-        self.therm_document_matrix = vec.fit_transform(self.contents.values())    
+        for i in range(len(models)):
+            self.logger.info("Building vector model: %s" % models[i])
+            matrix = vec.fit_transform(self.contents[i].values())
+            self.therm_document_matrix.append(matrix)
         
     def run(self):
         self.logger.info("Module starting...")
@@ -93,9 +104,17 @@ class Indexer(object):
         self.logger.info("Building vector model done")
     
     def write_output(self):
-        self.logger.info("Writing vector model: " + self.output_path)
-        export = {}
-        export["matrix"] = self.therm_document_matrix
-        export["contents"] = self.contents
-        with open(self.output_path, "wb") as file:
-            dump(export, file)
+        for i in range(len(models)):
+            splited_path = self.output_path.split(".")
+            path = ""
+            if len(splited_path) > 1:
+                path = "%s-%s-%d.%s" % (splited_path[0], models[i], i, ".".join(splited_path[1:]) )
+            else:
+                path = "%s-%s-%d" % (splited_path[0], models[i], i)
+                
+            self.logger.info("Writing vector model: %s" % path )
+            export = {}
+            export["matrix"] = self.therm_document_matrix[i]
+            export["contents"] = self.contents[i]
+            with open(path, "wb") as file:
+                dump(export, file)

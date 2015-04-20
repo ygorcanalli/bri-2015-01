@@ -14,38 +14,49 @@ class SearchEngine(object):
         self.model_path = None
         self.queries_path = None
         self.results_path = None
-        self.contents = {}
-        self.queries = {}
+        self.contents = []
+        self.queries = []
         self.queries_id_array = None
         self.document_id_array = None
-        self.therm_document_matrix = None
-        self.queries_matrix = None
-        self.distances = None
-        self.ranking = None
+        self.therm_document_matrix = []
+        self.queries_matrix = []
+        self.distances = []
+        self.ranking = []
         self.vectorizer = vectorizer
         self.logger = logging.getLogger(__name__)
         
     def write_output(self):
         self.logger.info("Writing retrieval results: " + self.results_path)
-        with open(self.results_path, "w") as results_file:
-            results_file.write(self._export_csv())
+        csvs = self._export_csv()
+        for i in range(len(models)):
+            splited_results_path = self.results_path.split(".")
+            path = ""
+            if len(splited_results_path) > 1:
+                path = "%s-%s-%d.%s" % (splited_results_path[0], models[i], i, ".".join(splited_results_path[1:]) )
+            else:
+                path = "%s-%s-%d" % (splited_results_path[0], models[i], i)
+            with open(path, "w") as results_file:
+                results_file.write(csvs[i])
         
-    def _export_csv(self): 
-        results_lines = []
-        for i in range(self.ranking.shape[0]):
-            query_id = self.queries_id_array[i]
-            query_results = []
-            for j in range(self.ranking.shape[1]):
-                ranking = j
-                document_index = self.ranking[i][j]
-                document_id = self.document_id_array[document_index]   
-                distance = self.distances[i][document_index]
-                
-                query_results.append( (ranking, document_id, distance) )
+    def _export_csv(self):
+        csvs = []
+        for i in range(len(models)):
+            results_lines = []
+            for j in range(self.ranking[i].shape[0]):
+                query_id = self.queries_id_array[j]
+                query_results = []
+                for k in range(self.ranking[i].shape[1]):
+                    ranking = k
+                    document_index = self.ranking[i][j][k]
+                    document_id = self.document_id_array[document_index]   
+                    distance = self.distances[i][j][document_index]
+                    
+                    query_results.append( (ranking, document_id, distance) )
 
-            results_lines.append( str(query_id) + CSV_SEPARATOR + str(query_results) )
+                results_lines.append( str(query_id) + CSV_SEPARATOR + str(query_results) )
+            csvs.append("\n".join(results_lines))
             
-        return  "\n".join(results_lines)
+        return csvs
 
     def run(self):
         self.logger.info("Module starting...")
@@ -62,45 +73,62 @@ class SearchEngine(object):
         self.logger.info("Executing retrieval done")
         
     def _execute_retrieval(self):
-        self.distances = pairwise_distances(self.queries_matrix, self.therm_document_matrix, metric="cosine", n_jobs=4)
-        #similarities = np.ones(self.distances.shape) - self.distances
-        self.ranking = np.argsort(self.distances, axis=1)
-        #pprint(queries_ranking)
-        
+        for i in range(len(models)):
+            self.distances.append(pairwise_distances(self.queries_matrix[i], self.therm_document_matrix[i], metric="cosine", n_jobs=4))
+            self.ranking.append(np.argsort(self.distances[i], axis=1))
+            
     def _build_queries_matrix(self):
-        vec = self.vectorizer(ngram_range=(1,1))
-        vec.fit(self.contents.values())
-        self.queries_matrix = vec.transform(self.queries.values())
+        for i in range(len(models)):
+            vec = self.vectorizer(ngram_range=(1,1))
+            vec.fit(self.contents[i].values())
+            self.queries_matrix.append(vec.transform(self.queries[i].values()))
         
     def _import_queries(self):
-        queries_file = open(self.queries_path, "r")
-        i = 1 
-        
-        for line in queries_file.readlines():
-            splited = line.split(CSV_SEPARATOR)
+        for i in range(len(models)):
+            splited_queries_path = self.queries_path.split(".")
+            path = ""
+            if len(splited_queries_path) > 1:
+                path = "%s-%s-%d.%s" % (splited_queries_path[0], models[i], i, ".".join(splited_queries_path[1:]) )
+            else:
+                path = "%s-%s-%d" % (splited_queries_path[0], models[i], i)
+                
+            self.queries.append({})
             
-            if len(splited) != 2:
-                raise Exception("Error parsing %s on line %d! Mal formated csv." % (self.input_path, i))
-            
-            # get token upper case without numbers and special characters
-            query_id = int(splited[0])
-            query_content = splited[1]
-            
-            self.queries[query_id] = query_content
-        
+            with open(path, "r") as queries_file:
+                j = 1 
+                for line in queries_file.readlines():
+                    splited = line.split(CSV_SEPARATOR)
+                    
+                    if len(splited) != 2:
+                        raise Exception("Error parsing %s on line %d! Mal formated csv." % (path, j))
+                    
+                    # get token upper case without numbers and special characters
+                    query_id = int(splited[0])
+                    query_content = splited[1]
+                    
+                    self.queries[i][query_id] = query_content
+                
         self.queries_id_array = []
-        self.queries_id_array.extend(self.queries.keys())
+        self.queries_id_array.extend(self.queries[0].keys())
         
         self.logger.info("Reading queries: %d queries" % len(self.queries_id_array) ) 
 
     def _import_model(self):
-        with open(self.model_path, "rb") as file:
-            imported = load(file)
-        
-        self.therm_document_matrix = imported["matrix"]
-        self.contents = imported["contents"]
+        for i in range(len(models)):
+            splited_model_path = self.model_path.split(".")
+            path = ""
+            if len(splited_model_path) > 1:
+                path = "%s-%s-%d.%s" % (splited_model_path[0], models[i], i, ".".join(splited_model_path[1:]) )
+            else:
+                path = "%s-%s-%d" % (splited_model_path[0], models[i], i)
+                
+            with open(path, "rb") as file:
+                imported = load(file)
+            
+            self.therm_document_matrix.append(imported["matrix"])
+            self.contents.append(imported["contents"])
         self.document_id_array = []
-        self.document_id_array.extend(self.contents.keys())
+        self.document_id_array.extend(self.contents[0].keys())
         
         self.logger.info("Reading vector model: %d documents" % len(self.document_id_array) ) 
         

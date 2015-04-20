@@ -32,6 +32,7 @@ def __main__(argv):
     #%%
     avaliador = Evaluator(AVAL_CONFIG_FILE)
     avaliador.run()
+    avaliador.write_output()
     
     logger.info("VECTOR MODEL INFORMATION RETRIEVAL SYSTEM DONE")     
     #%%

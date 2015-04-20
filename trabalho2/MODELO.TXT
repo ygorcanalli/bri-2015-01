@@ -36,4 +36,13 @@ Módulo "Realizar Consulta": search_engine.py
 		* run(): lê o arquivo de configuração "BUSCA.CFG", o modelo vetorial gerado pelo "Indexer", as consultas geradas pelo "QueryProcessor", gera a matriz de consultas, realiza a comparação vetorial entre a matriz de consulas e a matriz de documentos (modelo vetorial), armazena as ditâncias e calcula o ranking de cada documento em cada consulta por ordem de similaridade
 		* write_outputs(): escreve os resultados em formato csv no arquivo indicado
 
-	Obs.: O cálculo das distâncias do cosseno entre os documentos e consultas é feito através do método "pairwise_distances", fornecido pelo SciKit-Learn
+Módulo "Comparar Resultados": evaluator.py
+
+	Classe Evaluator:
+		* run(): Lê os resultados gerados pela classe "SearchEngine" e os resultados esperados, gerados pela classe "QueryProcessor" e calcula as métricas de 11 pontos de precisão e recall, F1, Precision@10, MAP, Discounted Cumulative Gain, Normalized Discounted Cumulative Gain
+		* write_outputs(): escreve os resultados das métricas em formato csv bem como os respectivos gráficos
+
+	Obs.1: O cálculo das distâncias do cosseno entre os documentos e consultas é feito através do método "pairwise_distances", fornecido pelo SciKit-Learn
+	Obs.2: O Algoritmo de Stemming de Porter foi utilizado através da versão fornecida no NLTK
+	Obs.3: Ao invés de um arquivo de configuração que especiica o uso ou não de stemming, o sistema executa automaticamente as duas versões, identificando os arquivos respectivos com "Stemming" ou "NoStemming" no final
+	Obs.4: Exclusivamento nos gráficos gerados, não foram gerados um para cada opção de stemming, mas ambas versões foram colocadas num mesmo gráfico afim de fornecer um comparativo

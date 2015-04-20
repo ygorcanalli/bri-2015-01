@@ -4,16 +4,23 @@ Created on Fri Apr  3 15:54:24 2015
 
 @author: ygorcanalli
 """
+from __future__ import unicode_literals
 import unicodedata
 import numpy as np
 from sklearn.metrics.pairwise import pairwise_distances
 from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk.stem.porter import *
 from nltk import word_tokenize
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+from pylab import setp
 from pickle import dump, load
 import xml.etree.ElementTree as ET
 import re
 import logging
 
+models = ['Stemming', 'NoStemming']
+colors = ["darkgrey", 'darkgreen']
 logging.basicConfig(format='[%(levelname)s %(asctime)s %(name)s]\t%(message)s',filename='application.log',level=logging.INFO)
 
 AVAL_CONFIG_FILE = 'AVAL.CFG'
