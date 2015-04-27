@@ -45,4 +45,6 @@ Importar o projeto para o eclipse e rodar a classe InformationRetrievalSystem.ja
 Após a execução, rodar o script python para comparação dos resultados do Lucene com os do trabalho anterior:
 	na raiz do projeto execute "python3 evaluator.py"
 
-Obs.: O cálculo de métricas foi adaptado do trabalho anterior, mantendo-se os formatos de saída do Lucene compatíveis com os do Python. Foram utilizadas as métricas MAP, precision@10 e 11 pontos de precisão e cobertura
+Obs.1: O cálculo de métricas foi adaptado do trabalho anterior, mantendo-se os formatos de saída do Lucene compatíveis com os do Python. Foram utilizadas as métricas MAP, precision@10 e 11 pontos de precisão e cobertura
+Obs.2: A classe PorterAnalyzer foi feita com base no exemplo fornecido na documentação oficial do Lucene, disponível em https://lucene.apache.org/core/4_0_0/analyzers-common/org/apache/lucene/analysis/en/PorterStemFilter.html
+Obs.3: A classe InformationRetrievalSystem foi feita com base no Tuturial "Lucene in 5 minutes", disponível em http://www.lucenetutorial.com/lucene-in-5-minutes.html
