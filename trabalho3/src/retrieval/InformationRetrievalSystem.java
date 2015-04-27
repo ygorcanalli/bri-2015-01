@@ -1,7 +1,6 @@
 package retrieval;
 
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
@@ -47,7 +46,7 @@ public class InformationRetrievalSystem {
 		importInvertedIndex();
 		// 0. Specify the analyzer for tokenizing text.
 		// The same analyzer should be used for indexing and searching
-		StandardAnalyzer analyzer = new StandardAnalyzer();
+		Analyzer analyzer = new PorterAnalyzer();
 
 		// 1. create the index
 		Directory index = new RAMDirectory();
