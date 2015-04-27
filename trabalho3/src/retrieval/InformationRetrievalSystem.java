@@ -1,5 +1,6 @@
 package retrieval;
 
+import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
@@ -19,62 +20,184 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.Charset;
+import java.text.Normalizer;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class InformationRetrievalSystem {
 	
-	  public static void main(String[] args) throws IOException, ParseException {
-		    // 0. Specify the analyzer for tokenizing text.
-		    //    The same analyzer should be used for indexing and searching
-		    StandardAnalyzer analyzer = new StandardAnalyzer();
+	private static final String invertedIndexPath = "data/indice_invertido.csv";
+	private static final String queriesPath = "data/consultas.csv";
+	private static final String resultsPath = "data/resultados-StemmingLucene-1.csv";
+	private static final String csvSeparator = " ; ";
+	private static final Map<String, String> documentsContent = new HashMap<String, String>();
+	private static final Map<String, Query> queries = new HashMap<String, Query>();
 
-		    // 1. create the index
-		    Directory index = new RAMDirectory();
+	public static void main(String[] args) throws IOException, ParseException {
+		importInvertedIndex();
+		// 0. Specify the analyzer for tokenizing text.
+		// The same analyzer should be used for indexing and searching
+		StandardAnalyzer analyzer = new StandardAnalyzer();
 
-		    IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_4_10_4, analyzer);
+		// 1. create the index
+		Directory index = new RAMDirectory();
 
-		    IndexWriter w = new IndexWriter(index, config);
-		    addDoc(w, "Lucene in Action", "193398817");
-		    addDoc(w, "Lucene for Dummies", "55320055Z");
-		    addDoc(w, "Managing Gigabytes", "55063554A");
-		    addDoc(w, "The Art of Computer Science", "9900333X");
-		    w.close();
+		IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_4_10_4,
+				analyzer);
 
-		    // 2. query
-		    String querystr = args.length > 0 ? args[0] : "lucene";
+		IndexWriter w = new IndexWriter(index, config);
+		
+		for (Entry<String, String> entry: documentsContent.entrySet()) {
+			addDoc(w, entry.getKey(), entry.getValue());	
+		}
+					
+		w.close();
 
-		    // the "title" arg specifies the default field to use
-		    // when no field is explicitly specified in the query.
-		    Query q = new QueryParser("title", analyzer).parse(querystr);
+		// 2. query
+		importQueries(analyzer);
+		
 
-		    // 3. search
-		    int hitsPerPage = 10;
-		    IndexReader reader = DirectoryReader.open(index);
-		    IndexSearcher searcher = new IndexSearcher(reader);
-		    TopScoreDocCollector collector = TopScoreDocCollector.create(hitsPerPage, true);
-		    searcher.search(q, collector);
-		    ScoreDoc[] hits = collector.topDocs().scoreDocs;
-		    
-		    // 4. display results
-		    System.out.println("Found " + hits.length + " hits.");
-		    for(int i=0;i<hits.length;++i) {
-		      int docId = hits[i].doc;
-		      Document d = searcher.doc(docId);
-		      System.out.println((i + 1) + ". " + d.get("isbn") + "\t" + d.get("title"));
+		// 3. search
+		int hitsPerPage = documentsContent.size();
+		IndexReader reader = DirectoryReader.open(index);
+		IndexSearcher searcher = new IndexSearcher(reader);
+		
+		StringBuffer resultsCSV = new StringBuffer();
+		for (Entry<String, Query> entry: queries.entrySet()) {
+			Query q = entry.getValue();
+			String queryId = entry.getKey();
+			
+			TopScoreDocCollector collector = TopScoreDocCollector.create(hitsPerPage, true);
+			searcher.search(q, collector);
+			ScoreDoc[] hits = collector.topDocs().scoreDocs;
+			
+			// 4. display results
+			resultsCSV.append(queryId + csvSeparator + "[");
+			for (int i = 0; i < hits.length - 1; ++i) {
+				int docId = hits[i].doc;
+				float score = hits[i].score;
+				Document d = searcher.doc(docId);
+				
+				resultsCSV.append("(" + i + ", " + d.get("id") + ", " + score + "), ");
+			}
+			int docId = hits[hits.length - 1].doc;
+			float score = hits[hits.length - 1].score;
+			Document d = searcher.doc(docId);
+			resultsCSV.append("(" + (hits.length - 1) + ", " + d.get("id") + ", " + score + ")]\n");
+
+		}
+		
+		// reader can only be closed when there
+		// is no need to access the documents any more.
+		reader.close();
+		
+		FileWriter fw = new FileWriter(new File(resultsPath));
+		BufferedWriter bw = new BufferedWriter(fw);
+		bw.write(resultsCSV.toString());
+		bw.close();
+	}
+
+	private static void addDoc(IndexWriter w, String id, String content)
+			throws IOException {
+		Document doc = new Document();
+		doc.add(new TextField("content", content, Field.Store.YES));
+
+		// use a string field for id because it'll not be tokenized
+		doc.add(new StringField("id", id, Field.Store.YES));
+		w.addDocument(doc);
+	}
+	
+	private static void importInvertedIndex() {
+		String line;
+		try (
+		    InputStream fis = new FileInputStream(invertedIndexPath);
+		    InputStreamReader isr = new InputStreamReader(fis, Charset.forName("UTF-8"));
+		    BufferedReader br = new BufferedReader(isr);
+		) {
+		    while ((line = br.readLine()) != null) {
+		        String[] splited = line.split(csvSeparator);
+		        String token = splited[0];
+		        String[] documentIds = parsePythonFormatedList(splited[1]);
+		        String atualContent = null;
+		        
+		        // Rebuild documents contents
+		        for (int i = 0; i < documentIds.length; i++) {
+					if (documentsContent.containsKey(documentIds[i])) {
+						atualContent = documentsContent.get(documentIds[i]);
+						documentsContent.put(documentIds[i], atualContent + " " + token);
+					} else {
+						documentsContent.put(documentIds[i], token);
+					}
+				}
 		    }
-
-		    // reader can only be closed when there
-		    // is no need to access the documents any more.
-		    reader.close();
-		  }
-
-		  private static void addDoc(IndexWriter w, String title, String isbn) throws IOException {
-		    Document doc = new Document();
-		    doc.add(new TextField("title", title, Field.Store.YES));
-
-		    // use a string field for isbn because we don't want it tokenized
-		    doc.add(new StringField("isbn", isbn, Field.Store.YES));
-		    w.addDocument(doc);
-		  }
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		String normalizedContent = null;
+		// Normalize the contents
+		for (Entry<String, String> entry: documentsContent.entrySet()) {
+			normalizedContent = normalizeString(entry.getValue());
+			documentsContent.put(entry.getKey(), normalizedContent);
+			
+		}
+	}
+	
+	private static void importQueries(Analyzer analyzer) {
+		String line;
+		try (
+		    InputStream fis = new FileInputStream(queriesPath);
+		    InputStreamReader isr = new InputStreamReader(fis, Charset.forName("UTF-8"));
+		    BufferedReader br = new BufferedReader(isr);
+		) {
+		    while ((line = br.readLine()) != null) {
+		        String[] splited = line.split(csvSeparator);
+		        String queryId = splited[0];
+		        String queryContent = normalizeString(splited[1]);
+		        Query query = null;
+		        // Store queries
+				try {
+					query = new QueryParser("content", analyzer).parse(QueryParser.escape(queryContent));
+					queries.put(queryId, query);
+				} catch (ParseException e) {
+					e.printStackTrace();
+				}
+		    }
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	private static String[] parsePythonFormatedList(String pythonFormatedList) {
+		String withNoBreackets = pythonFormatedList.substring(1, pythonFormatedList.length() - 1);
+		String[] elements = withNoBreackets.split(", ");
+		return elements;
+	}
+	
+	public static String normalizeString(String s) {
+		/*
+		 * Upper case
+		 * parse accents
+		 * remove numbers
+		 * remove special characters
+		 * remove 1 char words
+		 */
+		return Normalizer
+				.normalize(s.toLowerCase(), Normalizer.Form.NFKD)
+				.replaceAll("(\\r|\\n)", "")
+				.replaceAll("[^a-z\\s]+", "")
+				.replaceAll("\\b\\w{1}\\b\\s?", " ");
+	}
 
 }
